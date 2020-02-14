@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{7ECEE7A7-05D8-665A-C558-18B63F17F14B}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_ANDROID;ENABLE_GENERICS;ENABLE_TERRAIN;ENABLE_WEBCAM;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program Files (x86)/Unity356/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program Files (x86)/Unity356/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Android\CmmBillingAndroid.cs" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\vertical\failresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\splash\horizontal\splashdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\vertical\sucresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\horizontal\sucresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\vertical\progressdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\horizontal\progressdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\horizontal\savingdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\horizontal\savingdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\vertical\purchasedialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\vertical\failresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\horizontal\savingdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\horizontal\failresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\splash\vertical\splashdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\vertical\savingdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\vertical\sucresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\horizontal\sucresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\horizontal\sucresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\vertical\savingdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\horizontal\purchasedialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\horizontal\progressdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\vertical\sucresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\vertical\progressdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\vertical\progressdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\horizontal\purchasedialog.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\vertical\failresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\vertical\savingdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\horizontal\purchasedialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\horizontal\failresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\horizontal\failresultdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\02\vertical\purchasedialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\03\horizontal\progressdialog.xml" />
+     <None Include="Assets\Plugins\Android\assets\mmiap\01\vertical\purchasedialog.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
