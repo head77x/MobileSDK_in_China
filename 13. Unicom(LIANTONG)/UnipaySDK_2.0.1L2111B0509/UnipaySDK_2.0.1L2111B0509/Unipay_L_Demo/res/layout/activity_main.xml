@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tv_output"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="5dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <Button android:id="@+id/btn_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="联网道具0.1元" />
+            <Button android:id="@+id/btn_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="联网道具30元" />
+            <Button android:id="@+id/btn_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="联网道具40元" />
+            <Button android:id="@+id/btn_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="联网道具500元" />
+            <Button android:id="@+id/btn_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="联网道具600元" />
+            <Button android:id="@+id/btn_5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="按次代缴订购" />
+            <Button android:id="@+id/btn_6" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="按次代缴退订" />
+            <Button android:id="@+id/btn_7" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="单机道具0.1元" />
+            <Button android:id="@+id/btn_8" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="单机道具30元" />
+            <Button android:id="@+id/btn_9" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="单机道具40元" />
+            <Button android:id="@+id/btn_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="联运联网支付0.1元" />
+            <Button android:id="@+id/btn_11" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="联运联网支付30元" />
+            <Button android:id="@+id/btn_12" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="联运联网支付40元" />
+            
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="登录" />
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="注销" />
+            <Button
+                android:id="@+id/btn_switchaccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="切换账户" />
+            <Button
+                android:id="@+id/btn_show_floaticon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="显示悬浮工具栏" />
+            <Button
+                android:id="@+id/btn_hide_floaticon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="隐藏悬浮工具栏" />
+            <Button
+                android:id="@+id/btn_enter_ucenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="打开用户中心" />
+            
+            <Button
+                android:id="@+id/btn_getuinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="用户信息" />
+
+            <TextView
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="5dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="输入想查询的订单业务代码，不输入则查询所有已订购业务"
+                />
+            <EditText
+                android:id="@+id/et_user_order_biz_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ems="10" >
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_query_user_order_biz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="查询用户订购业务" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
