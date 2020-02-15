@@ -1,0 +1,87 @@
+package config;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class Config {
+	public static String user;
+	public static String pass;
+	public static String partnerid = "chem";
+	public static String partnerCode = "";
+	public static int transID = 1;
+	public static String mpin = "111111";
+	public static String padding = "NOPADDING";
+	public static String url = "http://192.168.0.85:10001/CardChargingGW/services/Services?wsdl";
+	
+	public static String publickey = "11";
+	public static String privatekey = "222";
+	public static String cardlist = "0";
+	public static String inputdir = "";
+	public static String outputdir = "";
+	public static String sys_log_dir_exception = ".";
+	public static String log_dir_action = ".";
+	public static String log_dir_exception = ".";
+	public static String target = "name";
+	public static int shotdelaytime = 100;
+	
+	private static Properties properties = new Properties();
+	
+
+	public static void loadProperties() throws IOException {
+
+		String fileName = "./config/conf.cfg";
+		try
+		{
+			FileInputStream propsFile = new FileInputStream(fileName);
+			properties.load(propsFile);
+			propsFile.close();
+
+			user = properties.getProperty("user", user);
+			pass = properties.getProperty("pass", pass);
+			partnerid = properties.getProperty("partnerid", partnerid);
+			partnerCode = properties.getProperty("partnerCode", partnerCode);
+			transID = getIntProperty("transID", transID);
+			url =  properties.getProperty("url", url);
+			mpin = properties.getProperty("mpin", mpin);
+			publickey = properties.getProperty("publickey", publickey);
+			privatekey = properties.getProperty("privatekey", privatekey);
+			cardlist = properties.getProperty("cardlist", cardlist);
+			padding = properties.getProperty("padding", padding);
+			inputdir = properties.getProperty("inputdir", inputdir);
+			outputdir = properties.getProperty("outputdir", outputdir);
+			
+			sys_log_dir_exception = properties.getProperty("sys_log_dir_exception", sys_log_dir_exception);
+			log_dir_action = properties.getProperty("log_dir_action", log_dir_action);
+			log_dir_exception = properties.getProperty("log_dir_exception", log_dir_exception);
+			target = properties.getProperty("target", target);
+			
+			shotdelaytime = getIntProperty("shotdelaytime", shotdelaytime);
+		}
+		catch (Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+	static int getIntProperty(String propName, int defaultValue) {
+		return Integer.parseInt(properties.getProperty(propName, Integer
+				.toString(defaultValue)));
+	}
+	
+
+	static boolean getBoolProperty(String propName, boolean defaultValue) {
+		if (properties.getProperty(propName).equalsIgnoreCase("true")) return true;
+		else if (properties.getProperty(propName).equalsIgnoreCase("false")) return false;
+		else return defaultValue;
+	}
+
+	static {
+		try {
+			loadProperties();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/entities
+END
+ChangeResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/entities/ChangeResponse.java
+END
+ChargeReponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/entities/ChargeReponse.java
+END
+LoginResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/entities/LoginResponse.java
+END
+LogoutResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/entities/LogoutResponse.java
+END
+Error.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/entities/Error.java
+END

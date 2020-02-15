@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+	<appender name="CA" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%-4r [%t] %-5p %c %x - %m%n" />
+		</layout>
+	</appender>
+	<appender name="INF" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="D:/logs/CardCharging/CG_Synchronize/log/info.log"/>
+		<param name="Threshold" value="INFO"/>
+		<param name="DatePattern" value=".yyyy-MM-dd_HH" />		
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd MM yy HH:mm:ss,SSS} %L %-4r [%t] %-5p %c %x - %m%n" />
+		</layout>
+	</appender>
+	<appender name="FA2" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="D:/logs/CardCharging/CG_Synchronize/log/Fatal.log"/>
+		<param name="Threshold" value="FATAL"/>
+		<param name="DatePattern" value=".yyyy-MM-dd_HH" />		
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd MM yy HH:mm:ss,SSS} %L %-4r [%t] %-5p %c %x - %m%n" />
+		</layout>
+	</appender>
+	<root>
+		<level value="INFO" />
+		<appender-ref ref="CA" />
+		<appender-ref ref="INF" />		
+		<appender-ref ref="FA2" />
+	</root>
+</log4j:configuration>

@@ -1,0 +1,10 @@
+#Fri Jul 01 11:18:49 ICT 2011
+eclipse.preferences.version=1
+encoding//src/entities/ChangeResponse.java=UTF-8
+encoding//src/entities/ChargeReponse.java=UTF-8
+encoding//src/entities/LoginResponse.java=UTF-8
+encoding//src/entities/LogoutResponse.java=UTF-8
+encoding//src/interfaces/Services.java=UTF-8
+encoding//src/interfaces/ServicesService.java=UTF-8
+encoding//src/interfaces/ServicesServiceLocator.java=UTF-8
+encoding//src/interfaces/ServicesSoapBindingStub.java=UTF-8

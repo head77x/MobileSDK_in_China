@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/entities/securities
+END
+RSAEncryption.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/entities/securities/RSAEncryption.java
+END
+IEncryption.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/entities/securities/IEncryption.java
+END
+Base64Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/entities/securities/Base64Utils.java
+END
+MD5.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CardCharging/!svn/ver/895/Notification/TestCard/src/entities/securities/MD5.java
+END
+TripleDESEncryption.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/entities/securities/TripleDESEncryption.java
+END

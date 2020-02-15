@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/interfaces
+END
+ServicesSoapBindingStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/interfaces/ServicesSoapBindingStub.java
+END
+Services.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/interfaces/Services.java
+END
+ServicesService.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/interfaces/ServicesService.java
+END
+ServicesProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/interfaces/ServicesProxy.java
+END
+ServicesServiceLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/CardCharging/!svn/ver/753/Notification/TestCard/src/interfaces/ServicesServiceLocator.java
+END
