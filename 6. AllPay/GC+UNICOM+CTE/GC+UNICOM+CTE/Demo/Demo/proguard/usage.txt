@@ -1,0 +1,49 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+billingSDK.billingDemo.SmsPayBase:
+    public abstract void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener)
+    public abstract void viewMoreGames(android.content.Context)
+    public abstract boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayCMCC_GC:
+    30:30:public static billingSDK.billingDemo.SmsPayCMCC_GC getInstance()
+    41:42:public void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener)
+    47:48:public void viewMoreGames(android.content.Context)
+    53:53:public boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayFactory:
+    private static final int opMISMATCHES
+    private static final int opCMCC
+    private static final int opUNICOM
+    private static final int opTELECOM
+    107:108:protected void initFinished()
+    171:176:public void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitGameListener)
+    180:183:public void viewMoreGames(android.content.Context)
+    187:190:public boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayFactory$SmsExitGameListener
+billingSDK.billingDemo.SmsPayFactory$SmsExitListener
+billingSDK.billingDemo.SmsPayFactory$SmsPayListener:
+    206:207:public void setSmsPurchaseListener(billingSDK.billingDemo.SmsPayFactory$SmsPurchaseListener)
+billingSDK.billingDemo.SmsPayFactory$SmsPurchaseListener:
+    public abstract void onPurchaseInfo(java.lang.String)
+billingSDK.billingDemo.SmsPayTelecom_CTE:
+    49:49:public static billingSDK.billingDemo.SmsPayTelecom_CTE getInstance()
+    92:93:public void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener)
+    98:98:public void viewMoreGames(android.content.Context)
+    102:102:public boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayUnicom:
+    50:50:public static billingSDK.billingDemo.SmsPayUnicom getInstance()
+    81:82:public void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener)
+    87:87:public void viewMoreGames(android.content.Context)
+    91:91:public boolean isMusicEnabled()
+com.demo.smspay.BuildConfig
+com.demo.smspay.R
+com.demo.smspay.R$attr
+com.demo.smspay.R$color
+com.demo.smspay.R$dimen
+com.demo.smspay.R$drawable
+com.demo.smspay.R$id
+com.demo.smspay.R$layout
+com.demo.smspay.R$raw
+com.demo.smspay.R$string
+com.demo.smspay.R$style
+com.testgame.MainActivity$1$1:
+    40:41:public void onPurchaseInfo(java.lang.String)
