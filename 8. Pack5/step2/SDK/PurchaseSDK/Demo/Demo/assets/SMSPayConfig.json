@@ -1,0 +1,45 @@
+{
+	"EnableSDK" : 
+	{
+		"CMCC_GC"			: true,
+		"CMCC_MM" 			: false,
+		"UNICOM"			: false,
+		"TELECOM_CTE" 		: false,
+		"TELECOM_EGame" 	: false
+	},
+	"PurchaseCodes" :
+	{
+		"CMCC_GC" 			: ["008", "007", "006", "001", "009"],
+		"CMCC_MM" 			: ["30000769675905", "000000000000000", "000000000000000", "000000000000000"],
+		"UNICOM" 			: ["130703006610", "130605005580", "130605005580", "130605005580"],
+		"TELECOM_CTE" 		: ["EF9B588024E5116FE0430100007F3E9E", "ED29976AD670CD98E040007F01007A4F", "ED29976AD670CD98E040007F01007A4F", "ED29976AD670CD98E040007F01007A4F", "ED29976AD670CD98E040007F01007A4F"],
+		"TELECOM_EGame" 	: ["108462", "108462", "108462", "108462"]
+	},
+	"AppInformations" :
+	{
+		"CMCC_MM" :
+		{
+			"AppID" 	: "300007696759",
+			"AppKey"	: "F2874ADEC45E7911"
+		},
+		"TELECOM_CTE" :
+		{
+			"Props"		: ["购买道具二", "复活2", "复活3", "复活4", "复活5"],
+			"Price"		: ["4", "5", "2", "2", "0.1"],
+			"PriceType"	: [0, 0, 0, 0, 0],
+			"ChannelID"	: "2234"
+		}
+	},
+	"UsingSDKExitGameInterface" :
+	{
+		"CMCC_GC"			: false
+	},
+	"MoreGamesURL" :
+	{
+		"CMCC_GC"			: "",
+		"CMCC_MM" 			: "",
+		"UNICOM"			: "",
+		"TELECOM_CTE" 		: "",
+		"TELECOM_EGame" 	: ""
+	}
+}

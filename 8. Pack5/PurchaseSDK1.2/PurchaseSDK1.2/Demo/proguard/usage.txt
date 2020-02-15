@@ -1,0 +1,81 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+billingSDK.billingDemo.SmsPayBase:
+    public abstract boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayCMCC_GC:
+    32:32:public static billingSDK.billingDemo.SmsPayCMCC_GC getInstance()
+    65:65:public boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayCMCC_MM:
+    43:43:public static billingSDK.billingDemo.SmsPayCMCC_MM getInstance()
+    74:74:public boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayFactory:
+    private static final int opMISMATCHES
+    private static final int opCMCC_GC
+    private static final int opUNICOM
+    private static final int opTELECOM_CTE
+    private static final int opCMCC_MM
+    private static final int opTELECOM_EGame
+    234:237:public boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayFactory$SmsPayListener:
+    255:256:public void setSmsPurchaseListener(billingSDK.billingDemo.SmsPayFactory$SmsPurchaseListener)
+billingSDK.billingDemo.SmsPayItems
+billingSDK.billingDemo.SmsPayTelecom_CTE:
+    36:36:public static billingSDK.billingDemo.SmsPayTelecom_CTE getInstance()
+    80:80:public boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayTelecom_EGame:
+    22:22:public static billingSDK.billingDemo.SmsPayTelecom_EGame getInstance()
+    53:53:public boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayUnicom:
+    30:30:public static billingSDK.billingDemo.SmsPayUnicom getInstance()
+    61:61:public boolean isMusicEnabled()
+cn.egame.terminal.paysdk.EgamePay:
+    public static final int SMS_SENT_OK
+    public static final int SMS_SENT_ERR
+    public EgamePay()
+com.chinaMobile.MobileAgent:
+    public static final java.lang.String SDK_VERSION
+    public static final java.lang.String USER_STATUS_START
+    public static final java.lang.String USER_STATUS_ACTIVATE
+    public static final java.lang.String USER_STATUS_LOGIN
+    public static final java.lang.String USER_STATUS_REGIST
+    public static final java.lang.String USER_STATUS_CUSTOM
+    public MobileAgent()
+    public static void onPause(android.content.Context)
+    public static void onEvent(android.content.Context,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String,int)
+    public static void onEvent(android.content.Context,java.lang.String,int)
+    public static void listenUser(android.content.Context,java.lang.String,java.lang.String)
+    public static void listenCrash(android.content.Context)
+    public static void setAutoListenCrash(java.lang.Boolean)
+    private static java.lang.String createSessionBody(android.content.Context,java.lang.String,android.content.SharedPreferences)
+    protected static void sendFeedbackMessage(android.content.Context,java.lang.String,java.lang.String,java.lang.String)
+    private static boolean pushActLog(android.content.Context,java.lang.String,java.lang.String)
+    public static void updateOnlineConfig(android.content.Context)
+    public static void openFeedbackDialog(android.content.Context)
+    public static void setUpdateOnlineConfigListen(com.chinaMobile.MMOnlineConfigureListener)
+    static synthetic int access$0(android.content.Context,java.lang.String,org.json.JSONObject)
+com.chinaMobile.a
+com.chinaMobile.b
+com.chinaMobile.e
+com.chinaMobile.g:
+    public g()
+com.chinaMobile.i
+com.chinaMobile.j:
+    public j()
+com.chinaMobile.m:
+    public m()
+com.chinaMobile.n
+com.chinaMobile.o
+com.chinaMobile.p
+com.wjhe.absolutefire.BuildConfig
+com.wjhe.absolutefire.R
+com.wjhe.absolutefire.R$attr
+com.wjhe.absolutefire.R$color
+com.wjhe.absolutefire.R$dimen
+com.wjhe.absolutefire.R$drawable
+com.wjhe.absolutefire.R$id
+com.wjhe.absolutefire.R$layout
+com.wjhe.absolutefire.R$raw
+com.wjhe.absolutefire.R$string
+com.wjhe.absolutefire.R$style

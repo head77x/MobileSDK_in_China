@@ -1,0 +1,1734 @@
+billingSDK.billingDemo.SmsPayBase -> billingSDK.billingDemo.a:
+    java.lang.String[] _payCodes -> a
+    12:15:java.lang.String getPayCode(int) -> a
+    void pay(android.content.Context,int,billingSDK.billingDemo.SmsPayFactory$SmsPayListener,boolean) -> a
+    void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener) -> a
+    void viewMoreGames(android.content.Context) -> a
+billingSDK.billingDemo.SmsPayCMCC_GC -> billingSDK.billingDemo.b:
+    billingSDK.billingDemo.SmsPayCMCC_GC _singletonSmsPayCMCC -> b
+    25:28:billingSDK.billingDemo.SmsPayCMCC_GC initSingleton(android.app.Activity,billingSDK.billingDemo.SmsPayFactory$SmsPayListener) -> a
+    37:39:void pay(android.content.Context,int,billingSDK.billingDemo.SmsPayFactory$SmsPayListener,boolean) -> a
+    44:49:void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener) -> a
+    53:61:void viewMoreGames(android.content.Context) -> a
+billingSDK.billingDemo.SmsPayCMCC_MM -> billingSDK.billingDemo.c:
+    android.app.Activity _context -> b
+    java.lang.String _appid -> c
+    java.lang.String _appKey -> d
+    billingSDK.billingDemo.SmsPayCMCC_MM _singletonSmsPayCMCCMM -> e
+    47:51:billingSDK.billingDemo.SmsPayCMCC_MM initSingleton(android.app.Activity,mm.sms.purchasesdk.OnSMSPurchaseListener) -> a
+    56:58:void pay(android.content.Context,int,billingSDK.billingDemo.SmsPayFactory$SmsPayListener,boolean) -> a
+    62:63:void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener) -> a
+    67:70:void viewMoreGames(android.content.Context) -> a
+billingSDK.billingDemo.SmsPayConfigReader -> billingSDK.billingDemo.d:
+    java.lang.String _payCodesJson -> a
+    billingSDK.billingDemo.SmsPayConfigReader _singletonSmsPayCodes -> b
+    38:41:billingSDK.billingDemo.SmsPayConfigReader getInstance(android.app.Activity) -> a
+    45:48:billingSDK.billingDemo.SmsPayConfigReader getInstance() -> a
+    56:69:java.lang.String[] getCodeStringsWithKey(java.lang.String) -> a
+    71:71:java.lang.String[] getCMCC_GC_PayCodes() -> b
+    72:72:java.lang.String[] getCMCC_MM_PayCodes() -> c
+    73:73:java.lang.String[] getUNICOM_PayCodes() -> d
+    74:74:java.lang.String[] getTELECOM_CTE_PayCodes() -> e
+    75:75:java.lang.String[] getTELECOM_EGame_PayCodes() -> f
+    82:90:boolean getEnabledSDKValueWithKey(java.lang.String) -> b
+    92:92:boolean isEnabledSDK_CMCC_GC() -> g
+    93:93:boolean isEnabledSDK_CMCC_MM() -> h
+    94:94:boolean isEnabledSDK_UNICOM() -> i
+    95:95:boolean isEnabledSDK_TELECOM_CTE() -> j
+    96:96:boolean isEnabledSDK_TELECOM_EGame() -> k
+    103:111:boolean getEnabledSDKExitGameInterfaceWithKey(java.lang.String) -> c
+    113:113:boolean isEnabledSDKExitGameInterface_CMCC_GC() -> l
+    120:128:java.lang.String getMoreGamesURLWithKey(java.lang.String) -> d
+    130:130:java.lang.String getMoreGamesURL_CMCC_GC() -> m
+    131:131:java.lang.String getMoreGamesURL_CMCC_MM() -> n
+    132:132:java.lang.String getMoreGamesURL_UNICOM() -> o
+    133:133:java.lang.String getMoreGamesURL_TELECOM_CTE() -> p
+    134:134:java.lang.String getMoreGamesURL_TELECOM_EGame() -> q
+    141:150:java.lang.String getAppInformation_CMCC_MM_AppID() -> r
+    157:166:java.lang.String getAppInformation_CMCC_MM_AppKey() -> s
+    174:188:java.lang.String[] getAppInformation_TELECOM_CTE_Props() -> t
+    195:209:java.lang.String[] getAppInformation_TELECOM_CTE_Prices() -> u
+    216:230:int[] getAppInformation_TELECOM_CTE_PriceTypes() -> v
+    237:246:java.lang.String getAppInformation_TELECOM_CTE_ChannelID() -> w
+billingSDK.billingDemo.SmsPayFactory -> billingSDK.billingDemo.e:
+    boolean _bIniting -> a
+    boolean _bInited -> b
+    android.app.Activity _context -> c
+    billingSDK.billingDemo.SmsPayBase _smsPayer -> d
+    billingSDK.billingDemo.SmsPayFactory _singleton -> e
+    int[] $SWITCH_TABLE$billingSDK$billingDemo$SmsPayFactory$SmsMobileOperator -> f
+    92:98:void init(android.app.Activity) -> a
+    101:101:android.app.Activity getContext() -> a
+    105:108:billingSDK.billingDemo.SmsPayFactory getInstance() -> b
+    112:113:void initFinished() -> c
+    123:144:int getEnabledSDKs() -> f
+    148:189:billingSDK.billingDemo.SmsPayFactory$SmsMobileOperator getMobileOperator() -> d
+    194:214:void pay(android.content.Context,int,billingSDK.billingDemo.SmsPayFactory$SmsPurchaseListener,boolean) -> a
+    218:223:void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitGameListener) -> a
+    227:230:void viewMoreGames(android.content.Context) -> a
+    26:26:int[] $SWITCH_TABLE$billingSDK$billingDemo$SmsPayFactory$SmsMobileOperator() -> e
+billingSDK.billingDemo.SmsPayFactory$SmsExitGameListener -> billingSDK.billingDemo.e$a:
+    void onExitGameCancelExit() -> a
+    void onExitGameConfirmExit() -> b
+billingSDK.billingDemo.SmsPayFactory$SmsExitListener -> billingSDK.billingDemo.e$b:
+    billingSDK.billingDemo.SmsPayFactory$SmsExitGameListener _listener -> b
+    billingSDK.billingDemo.SmsPayFactory this$0 -> a
+    407:425:void showCustomExitingGameDialog() -> a
+    429:431:void onCancelExit() -> onCancelExit
+    435:437:void onConfirmExit() -> onConfirmExit
+    400:400:billingSDK.billingDemo.SmsPayFactory$SmsExitGameListener access$0(billingSDK.billingDemo.SmsPayFactory$SmsExitListener) -> a
+billingSDK.billingDemo.SmsPayFactory$SmsExitListener$1 -> billingSDK.billingDemo.e$b$1:
+    billingSDK.billingDemo.SmsPayFactory$SmsExitListener this$1 -> a
+    412:415:void onClick(android.content.DialogInterface,int) -> onClick
+billingSDK.billingDemo.SmsPayFactory$SmsExitListener$2 -> billingSDK.billingDemo.e$b$2:
+    billingSDK.billingDemo.SmsPayFactory$SmsExitListener this$1 -> a
+    419:422:void onClick(android.content.DialogInterface,int) -> onClick
+billingSDK.billingDemo.SmsPayFactory$SmsMobileOperator -> billingSDK.billingDemo.e$c:
+    billingSDK.billingDemo.SmsPayFactory$SmsMobileOperator kMOBILE_OPERATOR_UNKNOWN -> a
+    billingSDK.billingDemo.SmsPayFactory$SmsMobileOperator kMOBILE_OPERATOR_CMCC_GC -> b
+    billingSDK.billingDemo.SmsPayFactory$SmsMobileOperator kMOBILE_OPERATOR_CMCC_MM -> c
+    billingSDK.billingDemo.SmsPayFactory$SmsMobileOperator kMOBILE_OPERATOR_UNICOM -> d
+    billingSDK.billingDemo.SmsPayFactory$SmsMobileOperator kMOBILE_OPERATOR_TELECOM_CTE -> e
+    billingSDK.billingDemo.SmsPayFactory$SmsMobileOperator kMOBILE_OPERATOR_TELECOM_EGame -> f
+    billingSDK.billingDemo.SmsPayFactory$SmsMobileOperator kMOBILE_OPERATOR_OTHER -> g
+    billingSDK.billingDemo.SmsPayFactory$SmsMobileOperator[] ENUM$VALUES -> h
+    1:1:billingSDK.billingDemo.SmsPayFactory$SmsMobileOperator[] values() -> values
+    1:1:billingSDK.billingDemo.SmsPayFactory$SmsMobileOperator valueOf(java.lang.String) -> valueOf
+billingSDK.billingDemo.SmsPayFactory$SmsPayListener -> billingSDK.billingDemo.e$d:
+    billingSDK.billingDemo.SmsPayFactory _factory -> b
+    billingSDK.billingDemo.SmsPayFactory$SmsPurchaseListener _listener -> c
+    billingSDK.billingDemo.SmsPayFactory this$0 -> a
+    263:279:void onResult(int,java.lang.String,java.lang.Object) -> onResult
+    286:289:void onInitFinish(int) -> onInitFinish
+    292:322:void onBillingFinish(int,java.util.HashMap) -> onBillingFinish
+    330:369:void PayResult(java.lang.String,int,java.lang.String) -> PayResult
+    376:380:void payCancel(java.lang.String) -> a
+    383:388:void payFailed(java.lang.String,int) -> a
+    391:395:void paySuccess(java.lang.String) -> b
+billingSDK.billingDemo.SmsPayFactory$SmsPurchaseListener -> billingSDK.billingDemo.e$e:
+    void onPurchaseSucceed() -> a
+    void onPurchaseCanceld() -> b
+    void onPurchaseFailed(java.lang.String) -> a
+    void onPurchaseInfo(java.lang.String) -> b
+billingSDK.billingDemo.SmsPayTelecom_CTE -> billingSDK.billingDemo.f:
+    android.app.Activity _context -> b
+    java.lang.String[] _props -> c
+    java.lang.String[] _prices -> d
+    java.lang.String[] _requestIDs -> e
+    int[] _priceTypes -> f
+    java.lang.String _channelID -> g
+    billingSDK.billingDemo.SmsPayTelecom_CTE _singletonSmsPayTelecom -> h
+    40:44:billingSDK.billingDemo.SmsPayTelecom_CTE initSingleton(android.app.Activity) -> a
+    49:64:void pay(android.content.Context,int,billingSDK.billingDemo.SmsPayFactory$SmsPayListener,boolean) -> a
+    68:69:void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener) -> a
+    73:76:void viewMoreGames(android.content.Context) -> a
+billingSDK.billingDemo.SmsPayTelecom_EGame -> billingSDK.billingDemo.g:
+    android.app.Activity _context -> b
+    billingSDK.billingDemo.SmsPayTelecom_EGame _singletonSmsPayTele -> c
+    26:30:billingSDK.billingDemo.SmsPayTelecom_EGame initSingleton(android.app.Activity) -> a
+    35:37:void pay(android.content.Context,int,billingSDK.billingDemo.SmsPayFactory$SmsPayListener,boolean) -> a
+    41:42:void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener) -> a
+    46:49:void viewMoreGames(android.content.Context) -> a
+billingSDK.billingDemo.SmsPayUnicom -> billingSDK.billingDemo.h:
+    android.app.Activity _context -> b
+    billingSDK.billingDemo.SmsPayUnicom _singletonSmsPayUnicom -> c
+    34:38:billingSDK.billingDemo.SmsPayUnicom initSingleton(android.app.Activity,com.unicom.dcLoader.Utils$UnipayPayResultListener) -> a
+    43:45:void pay(android.content.Context,int,billingSDK.billingDemo.SmsPayFactory$SmsPayListener,boolean) -> a
+    49:50:void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener) -> a
+    54:57:void viewMoreGames(android.content.Context) -> a
+billingSDK.billingDemo.Telecom_CTE_Activity -> billingSDK.billingDemo.Telecom_CTE_Activity:
+    int _smsPayIndex -> a
+    boolean _isRepeated -> b
+    billingSDK.billingDemo.SmsPayBase _smsPayer -> c
+    billingSDK.billingDemo.SmsPayFactory _factory -> d
+    billingSDK.billingDemo.SmsPayFactory$SmsPurchaseListener _listener -> e
+    24:26:void onCreate(android.os.Bundle) -> onCreate
+    33:63:void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+cn.egame.terminal.paysdk.EgamePay -> cn.egame.terminal.paysdk.a:
+    boolean a -> e
+    boolean b -> f
+    cn.egame.terminal.paysdk.k c -> g
+    java.lang.String d -> h
+    boolean SEND_SMS -> a
+    int e -> i
+    android.os.Handler mHandler -> b
+    java.lang.String f -> j
+    java.lang.String SMS_NUMBER -> c
+    java.lang.String SENT -> d
+    long g -> k
+    int h -> l
+    int i -> m
+    cn.egame.terminal.paysdk.EgamePayListener j -> n
+    boolean a(android.content.Context) -> a
+    boolean a(java.lang.String) -> a
+    void pay(android.content.Context,java.lang.String,cn.egame.terminal.paysdk.EgamePayListener) -> a
+    cn.egame.terminal.paysdk.EgamePayListener getListener() -> a
+    boolean b(android.content.Context) -> b
+cn.egame.terminal.paysdk.EgamePayActivity -> cn.egame.terminal.paysdk.EgamePayActivity:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    int d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    boolean h -> h
+    java.lang.String i -> i
+    boolean j -> j
+    android.view.View k -> k
+    android.view.View l -> l
+    android.widget.TextView m -> m
+    android.widget.TextView n -> n
+    android.widget.TextView o -> o
+    android.widget.TextView p -> p
+    android.widget.TextView q -> q
+    android.widget.TextView r -> r
+    android.widget.TextView s -> s
+    android.widget.Button t -> t
+    android.widget.Button u -> u
+    android.widget.Button v -> v
+    android.view.View w -> w
+    android.view.View x -> x
+    android.view.View y -> y
+    android.view.View z -> z
+    android.widget.TextView A -> A
+    android.widget.TextView B -> B
+    android.widget.TextView C -> C
+    android.widget.TextView D -> D
+    android.widget.TextView E -> E
+    android.widget.TextView F -> F
+    android.widget.TextView G -> G
+    android.widget.TextView H -> H
+    android.widget.TextView I -> I
+    android.widget.Button J -> J
+    android.widget.Button K -> K
+    android.widget.Button L -> L
+    android.widget.Button M -> M
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean dispatchKeyEvent(android.view.KeyEvent) -> dispatchKeyEvent
+    boolean a(cn.egame.terminal.paysdk.EgamePayActivity) -> a
+    boolean a(cn.egame.terminal.paysdk.EgamePayActivity,boolean) -> a
+    void b(cn.egame.terminal.paysdk.EgamePayActivity) -> b
+    java.lang.String c(cn.egame.terminal.paysdk.EgamePayActivity) -> c
+    java.lang.String d(cn.egame.terminal.paysdk.EgamePayActivity) -> d
+    java.lang.String e(cn.egame.terminal.paysdk.EgamePayActivity) -> e
+    java.lang.String a() -> a
+    void a(cn.egame.terminal.paysdk.EgamePayActivity,java.lang.String) -> a
+    void f(cn.egame.terminal.paysdk.EgamePayActivity) -> f
+    void g(cn.egame.terminal.paysdk.EgamePayActivity) -> g
+    void b(cn.egame.terminal.paysdk.EgamePayActivity,java.lang.String) -> b
+cn.egame.terminal.paysdk.EgamePayListener -> cn.egame.terminal.paysdk.b:
+    void paySuccess(java.lang.String) -> b
+    void payFailed(java.lang.String,int) -> a
+    void payCancel(java.lang.String) -> a
+cn.egame.terminal.paysdk.SmsBroadcastReceiver -> cn.egame.terminal.paysdk.SmsBroadcastReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+cn.egame.terminal.paysdk.a -> cn.egame.terminal.paysdk.c:
+    cn.egame.terminal.paysdk.EgamePayActivity a -> a
+    void onClick(android.view.View) -> onClick
+cn.egame.terminal.paysdk.b -> cn.egame.terminal.paysdk.d:
+    cn.egame.terminal.paysdk.a a -> a
+    void a() -> a
+    void b() -> b
+    cn.egame.terminal.paysdk.k a(android.content.Context) -> a
+    java.lang.String a(java.lang.String) -> a
+cn.egame.terminal.paysdk.c -> cn.egame.terminal.paysdk.e:
+    cn.egame.terminal.paysdk.EgamePayActivity a -> a
+    void onClick(android.view.View) -> onClick
+cn.egame.terminal.paysdk.d -> cn.egame.terminal.paysdk.f:
+    cn.egame.terminal.paysdk.EgamePayActivity a -> a
+    void onClick(android.view.View) -> onClick
+cn.egame.terminal.paysdk.e -> cn.egame.terminal.paysdk.g:
+    cn.egame.terminal.paysdk.EgamePayActivity a -> a
+    void onClick(android.view.View) -> onClick
+cn.egame.terminal.paysdk.f -> cn.egame.terminal.paysdk.h:
+    cn.egame.terminal.paysdk.EgamePayActivity a -> a
+    void onClick(android.view.View) -> onClick
+cn.egame.terminal.paysdk.g -> cn.egame.terminal.paysdk.i:
+    cn.egame.terminal.paysdk.EgamePayActivity a -> a
+    void onClick(android.view.View) -> onClick
+cn.egame.terminal.paysdk.h -> cn.egame.terminal.paysdk.j:
+    cn.egame.terminal.paysdk.g a -> a
+    void a() -> a
+    void b() -> b
+cn.egame.terminal.paysdk.i -> cn.egame.terminal.paysdk.k:
+    cn.egame.terminal.paysdk.EgamePayActivity a -> a
+    void onClick(android.view.View) -> onClick
+cn.egame.terminal.paysdk.j -> cn.egame.terminal.paysdk.l:
+    cn.egame.terminal.paysdk.EgamePayActivity a -> a
+    void onClick(android.view.View) -> onClick
+cn.egame.terminal.paysdk.k -> cn.egame.terminal.paysdk.m:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.util.List c -> c
+    long[] d -> d
+    cn.egame.terminal.paysdk.l a(java.lang.String) -> a
+    boolean a(long) -> a
+cn.egame.terminal.paysdk.l -> cn.egame.terminal.paysdk.n:
+    int a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+cn.egame.terminal.paysdk.m -> cn.egame.terminal.paysdk.o:
+    cn.egame.terminal.paysdk.SmsBroadcastReceiver a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    cn.egame.terminal.paysdk.o d -> d
+    android.app.Activity e -> e
+    void onPreExecute() -> onPreExecute
+    java.lang.Boolean a() -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+cn.egame.terminal.paysdk.n -> cn.egame.terminal.paysdk.p:
+    void handleMessage(android.os.Message) -> handleMessage
+cn.egame.terminal.paysdk.o -> cn.egame.terminal.paysdk.q:
+    void a() -> a
+    void b() -> b
+com.alipay.android.app.IAlixPay -> com.alipay.android.app.IAlixPay:
+    java.lang.String Pay(java.lang.String) -> Pay
+    java.lang.String test() -> test
+    void registerCallback(com.alipay.android.app.IRemoteServiceCallback) -> registerCallback
+    void unregisterCallback(com.alipay.android.app.IRemoteServiceCallback) -> unregisterCallback
+    java.lang.String prePay(java.lang.String) -> prePay
+com.alipay.android.app.IAlixPay$Stub -> com.alipay.android.app.IAlixPay$Stub:
+    java.lang.String DESCRIPTOR -> DESCRIPTOR
+    int TRANSACTION_Pay -> TRANSACTION_Pay
+    int TRANSACTION_test -> TRANSACTION_test
+    int TRANSACTION_registerCallback -> TRANSACTION_registerCallback
+    int TRANSACTION_unregisterCallback -> TRANSACTION_unregisterCallback
+    int TRANSACTION_prePay -> TRANSACTION_prePay
+    28:35:com.alipay.android.app.IAlixPay asInterface(android.os.IBinder) -> asInterface
+    39:39:android.os.IBinder asBinder() -> asBinder
+    43:97:boolean onTransact(int,android.os.Parcel,android.os.Parcel,int) -> onTransact
+com.alipay.android.app.IAlixPay$Stub$Proxy -> com.alipay.android.app.IAlixPay$Stub$Proxy:
+    android.os.IBinder mRemote -> mRemote
+    108:108:android.os.IBinder asBinder() -> asBinder
+    112:112:java.lang.String getInterfaceDescriptor() -> getInterfaceDescriptor
+    127:141:java.lang.String Pay(java.lang.String) -> Pay
+    152:165:java.lang.String test() -> test
+    174:186:void registerCallback(com.alipay.android.app.IRemoteServiceCallback) -> registerCallback
+    192:204:void unregisterCallback(com.alipay.android.app.IRemoteServiceCallback) -> unregisterCallback
+    218:232:java.lang.String prePay(java.lang.String) -> prePay
+com.alipay.android.app.IRemoteServiceCallback -> com.alipay.android.app.IRemoteServiceCallback:
+    void startActivity(java.lang.String,java.lang.String,int,android.os.Bundle) -> startActivity
+    void payEnd(boolean,java.lang.String) -> payEnd
+    boolean isHideLoadingScreen() -> isHideLoadingScreen
+com.alipay.android.app.IRemoteServiceCallback$Stub -> com.alipay.android.app.IRemoteServiceCallback$Stub:
+    java.lang.String DESCRIPTOR -> DESCRIPTOR
+    int TRANSACTION_startActivity -> TRANSACTION_startActivity
+    int TRANSACTION_payEnd -> TRANSACTION_payEnd
+    int TRANSACTION_isHideLoadingScreen -> TRANSACTION_isHideLoadingScreen
+    28:35:com.alipay.android.app.IRemoteServiceCallback asInterface(android.os.IBinder) -> asInterface
+    39:39:android.os.IBinder asBinder() -> asBinder
+    43:90:boolean onTransact(int,android.os.Parcel,android.os.Parcel,int) -> onTransact
+com.alipay.android.app.IRemoteServiceCallback$Stub$Proxy -> com.alipay.android.app.IRemoteServiceCallback$Stub$Proxy:
+    android.os.IBinder mRemote -> mRemote
+    101:101:android.os.IBinder asBinder() -> asBinder
+    105:105:java.lang.String getInterfaceDescriptor() -> getInterfaceDescriptor
+    109:130:void startActivity(java.lang.String,java.lang.String,int,android.os.Bundle) -> startActivity
+    133:146:void payEnd(boolean,java.lang.String) -> payEnd
+    149:162:boolean isHideLoadingScreen() -> isHideLoadingScreen
+com.chinaMobile.MMOnlineConfigureListener -> com.a.a:
+    void onDataReceive(org.json.JSONObject) -> a
+com.chinaMobile.MobileAgent -> com.a.b:
+    org.json.JSONObject a -> a
+    boolean b -> b
+    boolean c -> c
+    boolean d -> d
+    int e -> e
+    int f -> f
+    com.chinaMobile.MMOnlineConfigureListener g -> g
+    java.lang.String h -> h
+    java.lang.String i -> i
+    long j -> j
+    java.lang.String k -> k
+    java.lang.Object l -> l
+    boolean m -> m
+    boolean n -> n
+    void onResume(android.content.Context) -> a
+    void pageAct(android.content.Context,java.lang.String,java.lang.String) -> a
+    void onResumeP(android.content.Context,java.lang.String,java.lang.String) -> f
+    void onResume(android.content.Context,java.lang.String,java.lang.String) -> g
+    void onPauseP(android.content.Context) -> i
+    void onEventP(android.content.Context,java.lang.String,java.lang.String) -> b
+    void onEventSys(android.content.Context,java.lang.String,java.lang.String) -> h
+    void onEventRT(android.content.Context,java.lang.String,java.lang.String) -> c
+    void init(android.content.Context,java.lang.String,java.lang.String) -> d
+    boolean isSessionTimeOut(android.content.SharedPreferences) -> a
+    boolean sessionPolicy(android.content.Context) -> j
+    java.lang.String createSession(android.content.Context,java.lang.String,android.content.SharedPreferences) -> a
+    java.lang.String getActivityStateStr(android.content.Context,java.lang.String,java.lang.String) -> i
+    android.content.SharedPreferences getConfigPreferences(android.content.Context) -> k
+    android.content.SharedPreferences getStateSharedPreferences(android.content.Context) -> l
+    android.content.SharedPreferences getEventSharedPreferences(android.content.Context) -> b
+    android.content.SharedPreferences getUploadListSharePreferences(android.content.Context) -> c
+    org.json.JSONObject createMessage(android.content.Context) -> d
+    boolean sendActionMessage(android.content.Context,java.lang.String) -> a
+    boolean sendEventMessage(android.content.Context,java.lang.String,java.lang.String) -> e
+    boolean sendSystemMessage(android.content.Context,java.lang.String) -> b
+    void pushSysLog(android.content.Context) -> e
+    boolean sendErrorMessage(android.content.Context,java.lang.String) -> c
+    int HttpPostData(android.content.Context,java.lang.String,org.json.JSONObject) -> a
+    boolean getLastLaunchData(android.content.Context,android.content.SharedPreferences,boolean) -> a
+    boolean getLastEventData(android.content.Context,android.content.SharedPreferences) -> a
+    void requestParams(android.content.Context) -> f
+    java.lang.String getConfigParams(android.content.Context,java.lang.String) -> d
+    void syncParams(android.content.Context) -> g
+    void strategy(android.content.Context,boolean) -> a
+    boolean saveLog(android.content.Context,java.lang.String,int) -> a
+    java.lang.String getLogStr(android.content.Context,java.lang.String) -> f
+    void deleteLog(android.content.Context,java.lang.String) -> g
+    long getPopIndex(android.content.Context) -> m
+    java.lang.String popUploadFileName(android.content.Context) -> n
+    void delPopUpload(android.content.Context,java.lang.String) -> h
+    void pushUploadFileName(android.content.Context,java.lang.String,long) -> a
+    void uploadList(android.content.Context) -> h
+    boolean isOnce(android.content.Context,int) -> a
+    boolean isWiFi(android.content.Context) -> o
+    void recordDate(android.content.Context,int) -> b
+    void recordErr(android.content.Context,java.lang.String) -> e
+com.chinaMobile.c -> com.a.c:
+    com.chinaMobile.c a -> a
+    android.content.Context b -> b
+    com.chinaMobile.c a() -> a
+    void a(android.content.Context) -> a
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+com.chinaMobile.d -> com.a.d:
+    com.chinaMobile.d a -> a
+    javax.crypto.spec.SecretKeySpec b -> b
+    com.chinaMobile.d a() -> a
+    byte[] a(java.lang.String) -> a
+    byte[] b(java.lang.String) -> b
+com.chinaMobile.f -> com.a.e:
+    java.io.PrintStream a -> a
+    void a(java.io.OutputStream,byte[],int,int) -> a
+    int a(java.io.InputStream,byte[]) -> a
+    void a(java.io.InputStream,java.io.OutputStream) -> a
+    java.lang.String a(byte[]) -> a
+com.chinaMobile.g -> com.a.f:
+    java.lang.String a(android.content.Context) -> a
+    java.lang.String b(android.content.Context) -> b
+    java.lang.String c(android.content.Context) -> c
+    java.lang.String a() -> a
+    int d(android.content.Context) -> d
+    int e(android.content.Context) -> e
+    boolean a(android.content.Context,java.lang.String) -> a
+    java.lang.String f(android.content.Context) -> f
+    java.lang.String g(android.content.Context) -> g
+    java.lang.String h(android.content.Context) -> h
+    java.lang.String i(android.content.Context) -> i
+    java.lang.String j(android.content.Context) -> j
+    int k(android.content.Context) -> k
+    java.lang.String l(android.content.Context) -> l
+    java.lang.String a(java.lang.String) -> a
+    long[] m(android.content.Context) -> m
+    int o(android.content.Context) -> o
+    java.lang.String n(android.content.Context) -> n
+    java.lang.String b() -> b
+    java.lang.String c() -> c
+    java.lang.String d() -> d
+    java.lang.String b(java.lang.String) -> b
+com.chinaMobile.h -> com.a.g:
+    char[] a -> a
+    void a(java.io.OutputStream,byte[],int,int) -> a
+com.chinaMobile.j -> com.a.h:
+    boolean a(android.content.Context,java.lang.String) -> a
+com.chinaMobile.k -> com.a.i:
+    android.content.Context a -> a
+    java.lang.String b -> b
+    int c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    void run() -> run
+com.chinaMobile.l -> com.a.j:
+    boolean isRedirectRequested(org.apache.http.HttpResponse,org.apache.http.protocol.HttpContext) -> isRedirectRequested
+    java.net.URI getLocationURI(org.apache.http.HttpResponse,org.apache.http.protocol.HttpContext) -> getLocationURI
+com.chinaMobile.m -> com.a.k:
+    java.lang.String a -> a
+    java.lang.String a(android.content.Context) -> a
+    java.lang.String a() -> a
+com.estore.lsms.tools.ApConfig -> com.estore.lsms.tools.ApConfig:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    void setValue(java.lang.String,java.lang.String) -> setValue
+    java.lang.String getApName() -> getApName
+    java.lang.String getApsecret() -> getApsecret
+    java.lang.String getApPhoneNum() -> getApPhoneNum
+    java.lang.String getTestFlag() -> getTestFlag
+    java.lang.String getAppName() -> getAppName
+com.estore.lsms.tools.ApiParameter -> com.estore.lsms.tools.ApiParameter:
+    java.lang.String APPID -> APPID
+    java.lang.String APPCHARGEID -> APPCHARGEID
+    java.lang.String APSECRET -> APSECRET
+    java.lang.String TESTFLAG -> TESTFLAG
+    java.lang.String RESULTCODE -> RESULTCODE
+    java.lang.String ORDERSN -> ORDERSN
+    java.lang.String RESULTDESC -> RESULTDESC
+    java.lang.String SCREENHORIZONTAL -> SCREENHORIZONTAL
+    java.lang.String CHANNELID -> CHANNELID
+    java.lang.String VALIDCODE -> VALIDCODE
+    int CTESTORE_SENDSUCCESS -> CTESTORE_SENDSUCCESS
+    int CTESTORE_SENDTIMEOUT -> CTESTORE_SENDTIMEOUT
+    int CTESTORE_SENDFAILED -> CTESTORE_SENDFAILED
+    int CTESTORE_USERCANCEL -> CTESTORE_USERCANCEL
+    java.lang.String REQUESTID -> REQUESTID
+    java.lang.String APNAME -> APNAME
+    java.lang.String APPNAME -> APPNAME
+    java.lang.String CHARGENAME -> CHARGENAME
+    java.lang.String PRICETYPE -> PRICETYPE
+    java.lang.String PRICE -> PRICE
+com.estore.lsms.tools.MyDialog -> com.estore.lsms.tools.MyDialog:
+    android.os.Handler a -> a
+    android.app.ProgressDialog progressDialog -> progressDialog
+    android.app.Dialog b -> b
+    void setProgressText(java.lang.String) -> setProgressText
+    void stopMyDialog() -> stopMyDialog
+    void startDialog() -> startDialog
+    void stopShowDialog() -> stopShowDialog
+    android.os.Handler a(com.estore.lsms.tools.MyDialog) -> a
+    void a(com.estore.lsms.tools.MyDialog,android.os.Handler,java.lang.String,int) -> a
+com.estore.lsms.tools.OfflineSmsTool -> com.estore.lsms.tools.OfflineSmsTool:
+    java.lang.String baseAscII -> baseAscII
+    java.math.BigInteger baseNum -> baseNum
+    boolean a -> a
+    java.lang.String sig(java.lang.String,java.lang.String) -> sig
+    java.lang.String toBase94(long) -> toBase94
+    java.lang.String toBase94(java.math.BigInteger) -> toBase94
+    java.math.BigInteger fromBase94(java.lang.String) -> fromBase94
+    java.lang.String getCurTime() -> getCurTime
+com.estore.lsms.tools.Person -> com.estore.lsms.tools.Person:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    java.lang.String h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    java.lang.String k -> k
+    java.lang.String l -> l
+    java.lang.String m -> m
+    java.lang.String n -> n
+    java.lang.String o -> o
+    java.lang.String p -> p
+    java.lang.String q -> q
+    java.lang.String r -> r
+    java.lang.String s -> s
+    java.lang.String t -> t
+    java.lang.String u -> u
+    java.lang.String v -> v
+    java.lang.String w -> w
+    java.lang.String x -> x
+    java.lang.String y -> y
+    java.lang.String z -> z
+    java.lang.String A -> A
+    java.lang.String B -> B
+    java.lang.String C -> C
+    java.lang.String D -> D
+    java.lang.String E -> E
+    java.lang.String F -> F
+    java.lang.String G -> G
+    java.lang.String H -> H
+    java.lang.String I -> I
+    java.lang.String J -> J
+    java.lang.String K -> K
+    java.lang.String L -> L
+    java.lang.String M -> M
+    java.lang.String N -> N
+    java.lang.String O -> O
+    java.lang.String P -> P
+    java.lang.String Q -> Q
+    java.lang.String R -> R
+    java.lang.String S -> S
+    java.lang.String T -> T
+    java.lang.String U -> U
+    java.lang.String V -> V
+    void setValue(java.lang.String,java.lang.String) -> setValue
+    java.lang.String getCtestoreAppname() -> getCtestoreAppname
+    java.lang.String getCtestoreApname() -> getCtestoreApname
+    java.lang.String getCtestoreTotalPrice() -> getCtestoreTotalPrice
+    java.lang.String getCtestorePhonenum() -> getCtestorePhonenum
+    java.lang.String getCtestoreIdentifyingCode() -> getCtestoreIdentifyingCode
+    java.lang.String getCtestoreWelcome() -> getCtestoreWelcome
+    java.lang.String getCtestoreSure() -> getCtestoreSure
+    java.lang.String getCtestoreSurePay() -> getCtestoreSurePay
+    java.lang.String getCtestoreMobileSupply() -> getCtestoreMobileSupply
+    java.lang.String getCtestoreErrInit() -> getCtestoreErrInit
+    java.lang.String getCtestoreErrNoNet() -> getCtestoreErrNoNet
+    java.lang.String getCtestoreErrCheck() -> getCtestoreErrCheck
+    java.lang.String getCtestoreErrCheckBack() -> getCtestoreErrCheckBack
+    java.lang.String getCtestoreErrPhonenum() -> getCtestoreErrPhonenum
+    java.lang.String getCtestoreErrPay() -> getCtestoreErrPay
+    java.lang.String getCtestoreErrPayTimeout() -> getCtestoreErrPayTimeout
+    java.lang.String getCtestoreErrRepay() -> getCtestoreErrRepay
+    java.lang.String getCtestoreErrPayPhonenum() -> getCtestoreErrPayPhonenum
+    java.lang.String getCtestoreErrVcode() -> getCtestoreErrVcode
+    java.lang.String getCtestoreErrGetcodeTimeout() -> getCtestoreErrGetcodeTimeout
+    java.lang.String getCtestoreErrNoVcode() -> getCtestoreErrNoVcode
+    java.lang.String getCtestoreErrInputVcode() -> getCtestoreErrInputVcode
+    java.lang.String getCtestoreEmsSended() -> getCtestoreEmsSended
+    java.lang.String getCtestoreErrNetTimeout() -> getCtestoreErrNetTimeout
+    java.lang.String getCtestoreTsPaysuccess() -> getCtestoreTsPaysuccess
+    java.lang.String getCtestoreTsPaysuccessDec() -> getCtestoreTsPaysuccessDec
+    java.lang.String getCtestoreTsRepaysuccess() -> getCtestoreTsRepaysuccess
+    java.lang.String getCtestoreTsRepaysuccessDec() -> getCtestoreTsRepaysuccessDec
+    java.lang.String getCtestoreTsPayfaild() -> getCtestoreTsPayfaild
+    java.lang.String getCtestoreTsPayfaildDec() -> getCtestoreTsPayfaildDec
+    java.lang.String getCtestoreTsRepayfaildDec() -> getCtestoreTsRepayfaildDec
+    java.lang.String getCtestoreTsWxts() -> getCtestoreTsWxts
+    java.lang.String getCtestoreTsTimeout() -> getCtestoreTsTimeout
+    java.lang.String getCtestoreLoading() -> getCtestoreLoading
+    java.lang.String getCtestoreCodeLoading() -> getCtestoreCodeLoading
+    java.lang.String getCtestoreSurepayLoading() -> getCtestoreSurepayLoading
+    java.lang.String getCtestoreInputcode() -> getCtestoreInputcode
+    java.lang.String getCtestoreTsCode() -> getCtestoreTsCode
+    java.lang.String getCtestoreSmsinfo() -> getCtestoreSmsinfo
+    java.lang.String getCtestoreUser() -> getCtestoreUser
+    java.lang.String getCtestoreUpay() -> getCtestoreUpay
+    java.lang.String getCtestoreUhuafei() -> getCtestoreUhuafei
+    java.lang.String getCtestoreCi() -> getCtestoreCi
+    java.lang.String getCtestoreYue() -> getCtestoreYue
+    java.lang.String getCtestoreDataErr() -> getCtestoreDataErr
+    java.lang.String getCtestoreApphonenum() -> getCtestoreApphonenum
+    java.lang.String getCtestoreWend() -> getCtestoreWend
+    java.lang.String getCtestoreGetinfo() -> getCtestoreGetinfo
+com.estore.lsms.tools.ReadXmlByPullService -> com.estore.lsms.tools.ReadXmlByPullService:
+    void ReadXmlByPull(java.io.InputStream,com.estore.lsms.tools.Person) -> ReadXmlByPull
+    void ReadXmlByPull(java.io.InputStream,com.estore.lsms.tools.ApConfig) -> ReadXmlByPull
+com.estore.lsms.tools.Tools -> com.estore.lsms.tools.Tools:
+    int SDK_VERSION_MIN -> SDK_VERSION_MIN
+    int TIMEOUT_30 -> TIMEOUT_30
+    int TIMEOUT_60 -> TIMEOUT_60
+    int HANDER_EVENT_INIT -> HANDER_EVENT_INIT
+    int HANDER_EVENT_SMS_SENDFAILED -> HANDER_EVENT_SMS_SENDFAILED
+    int HANDER_EVENT_SMS_SENDSUCCESS -> HANDER_EVENT_SMS_SENDSUCCESS
+    int HANDER_EVENT_DIALOG_EXIT -> HANDER_EVENT_DIALOG_EXIT
+    int HANDER_EVENT_RQUEST_ORDER -> HANDER_EVENT_RQUEST_ORDER
+    int HANDER_EVENT_EXIT -> HANDER_EVENT_EXIT
+    java.lang.String TAG -> TAG
+    int smallSize -> smallSize
+    int bigSize -> bigSize
+    int LbigSize -> LbigSize
+    int smallSize_large -> smallSize_large
+    int bigSize_large -> bigSize_large
+    int LbigSize_large -> LbigSize_large
+    int titlebg_height -> titlebg_height
+    int titlebg_height_large -> titlebg_height_large
+    int titlebg_height_small -> titlebg_height_small
+    int titleLogo_height -> titleLogo_height
+    int titleLogo_height_large -> titleLogo_height_large
+    int titleLogo_width -> titleLogo_width
+    int titleLogo_width_large -> titleLogo_width_large
+    int titleLogo_width_small -> titleLogo_width_small
+    int titleLogo_height_small -> titleLogo_height_small
+    int titleClose_height -> titleClose_height
+    int titleClose_height_large -> titleClose_height_large
+    int titleClose_width -> titleClose_width
+    int titleClose_width_large -> titleClose_width_large
+    int titleClose_height_small -> titleClose_height_small
+    int titleClose_width_small -> titleClose_width_small
+    int sureBtn_height -> sureBtn_height
+    int sureBtn_height_large -> sureBtn_height_large
+    int sureBtn_width -> sureBtn_width
+    int sureBtn_width_large -> sureBtn_width_large
+    int sureBtn_height_small -> sureBtn_height_small
+    int sureBtn_width_small -> sureBtn_width_small
+    int buttomLogo_height -> buttomLogo_height
+    int buttomLogo_height_large -> buttomLogo_height_large
+    int buttomLogo_width -> buttomLogo_width
+    int buttomLogo_width_large -> buttomLogo_width_large
+    int buttomLogo_height_small -> buttomLogo_height_small
+    int buttomLogo_width_small -> buttomLogo_width_small
+    int face_height -> face_height
+    int face_height_large -> face_height_large
+    int face_width -> face_width
+    int face_width_large -> face_width_large
+    int face_height_small -> face_height_small
+    int face_width_small -> face_width_small
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String fileName -> fileName
+    java.lang.String logFileName -> logFileName
+    void MLogE(java.lang.String,java.lang.String) -> MLogE
+    void MLogV(java.lang.String,java.lang.String) -> MLogV
+    java.lang.String getTransactionID() -> getTransactionID
+    java.lang.String a(int) -> a
+    java.lang.String getImsi() -> getImsi
+    java.lang.String getImei() -> getImei
+    android.graphics.Bitmap getPicFromBytes(byte[],android.graphics.BitmapFactory$Options) -> getPicFromBytes
+    java.lang.String getSHA(java.lang.String) -> getSHA
+    java.lang.String byte2hex(byte[]) -> byte2hex
+    void writeFileSdcard(java.lang.String,java.lang.String) -> writeFileSdcard
+    void writePayLog(java.lang.String,java.lang.String) -> writePayLog
+    java.lang.String getTimer() -> getTimer
+    boolean isWifiEnAbled(android.content.Context) -> isWifiEnAbled
+    boolean isNetWorkEnAbled(android.content.Context) -> isNetWorkEnAbled
+    int getSDKVersionNumber() -> getSDKVersionNumber
+    boolean isDorL(java.lang.String) -> isDorL
+com.estore.lsms.tools.a -> com.estore.lsms.tools.a:
+    com.estore.lsms.tools.MyDialog a -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.estore.quitpay.QuitPay -> com.estore.quitpay.QuitPay:
+    java.lang.String a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    boolean sendMsgQuitPay(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> sendMsgQuitPay
+    java.lang.String a(android.content.Context) -> a
+com.estore.ui.CTEStoreSDKActivity -> com.estore.ui.CTEStoreSDKActivity:
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    int h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    java.lang.String k -> k
+    java.lang.String l -> l
+    int m -> m
+    boolean a -> a
+    boolean n -> n
+    java.lang.String o -> o
+    boolean p -> p
+    int resultCode -> resultCode
+    java.lang.String q -> q
+    java.lang.String r -> r
+    android.content.BroadcastReceiver s -> s
+    int t -> t
+    int u -> u
+    int v -> v
+    int w -> w
+    int x -> x
+    int y -> y
+    int z -> z
+    int A -> A
+    int B -> B
+    int C -> C
+    int D -> D
+    int E -> E
+    int F -> F
+    int G -> G
+    int H -> H
+    int I -> I
+    int J -> J
+    int K -> K
+    java.lang.String L -> L
+    android.os.Handler handler -> handler
+    java.util.Timer M -> M
+    com.estore.lsms.tools.MyDialog N -> N
+    com.estore.lsms.tools.MyDialog O -> O
+    com.estore.lsms.tools.Person b -> b
+    com.estore.lsms.tools.ApConfig P -> P
+    android.view.ViewGroup Q -> Q
+    android.view.ViewGroup R -> R
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean a(java.lang.String,int) -> a
+    void a(android.os.Handler,java.lang.String,int) -> a
+    void a() -> a
+    void replyCalculation() -> replyCalculation
+    android.graphics.drawable.Drawable a(java.lang.String) -> a
+    android.graphics.Bitmap b(java.lang.String) -> b
+    android.graphics.drawable.NinePatchDrawable getNinePatchDrawable(android.graphics.Bitmap) -> getNinePatchDrawable
+    android.graphics.drawable.Drawable getRoundedCornerBitmap(android.graphics.Bitmap,float) -> getRoundedCornerBitmap
+    boolean c(java.lang.String) -> c
+    boolean d(java.lang.String) -> d
+    java.lang.String a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    void b() -> b
+    android.widget.LinearLayout a(java.lang.String,java.lang.String) -> a
+    void onDestroy() -> onDestroy
+    java.lang.String c() -> c
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void a(com.estore.ui.CTEStoreSDKActivity) -> a
+    void a(com.estore.ui.CTEStoreSDKActivity,int) -> a
+    void a(com.estore.ui.CTEStoreSDKActivity,boolean) -> a
+    void a(com.estore.ui.CTEStoreSDKActivity,java.lang.String) -> a
+    int b(com.estore.ui.CTEStoreSDKActivity) -> b
+    void a(com.estore.ui.CTEStoreSDKActivity,android.os.Handler,java.lang.String,int) -> a
+    void a(com.estore.ui.CTEStoreSDKActivity,java.lang.String,int) -> a
+    void c(com.estore.ui.CTEStoreSDKActivity) -> c
+    java.lang.String d(com.estore.ui.CTEStoreSDKActivity) -> d
+    void a(com.estore.ui.CTEStoreSDKActivity,java.lang.String,java.lang.String) -> a
+    boolean e(com.estore.ui.CTEStoreSDKActivity) -> e
+    void b(com.estore.ui.CTEStoreSDKActivity,boolean) -> b
+com.estore.ui.a -> com.estore.ui.a:
+    com.estore.ui.CTEStoreSDKActivity a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.estore.ui.b -> com.estore.ui.b:
+    com.estore.ui.CTEStoreSDKActivity a -> a
+    void run() -> run
+com.estore.ui.c -> com.estore.ui.c:
+    com.estore.ui.CTEStoreSDKActivity a -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.estore.ui.d -> com.estore.ui.d:
+    com.estore.ui.CTEStoreSDKActivity a -> a
+    void onClick(android.view.View) -> onClick
+com.estore.ui.e -> com.estore.ui.e:
+    com.estore.ui.CTEStoreSDKActivity a -> a
+    void onClick(android.view.View) -> onClick
+com.estore.ui.f -> com.estore.ui.f:
+    com.estore.ui.CTEStoreSDKActivity a -> a
+    void onClick(android.view.View) -> onClick
+com.sms.purchasesdk.view.ProductItemView -> com.sms.purchasesdk.view.ProductItemView:
+    boolean isFocused() -> isFocused
+com.sms.purchasesdk.view.a -> com.sms.purchasesdk.view.a:
+    android.widget.Button a -> q
+    android.view.View a() -> a
+    android.graphics.Bitmap a(android.content.Context,java.lang.String) -> a
+com.sms.purchasesdk.view.b -> com.sms.purchasesdk.view.b:
+    com.sms.purchasesdk.view.a a -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.sms.purchasesdk.view.c -> com.sms.purchasesdk.view.c:
+    android.widget.ImageView a -> q
+    android.view.View$OnTouchListener a -> r
+    android.view.View a() -> a
+    android.graphics.Bitmap a(android.content.Context,java.lang.String) -> a
+com.sms.purchasesdk.view.d -> com.sms.purchasesdk.view.d:
+    com.sms.purchasesdk.view.c a -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.sms.purchasesdk.view.e -> com.sms.purchasesdk.view.e:
+com.sms.purchasesdk.view.f -> com.sms.purchasesdk.view.f:
+    android.widget.LinearLayout a -> q
+    android.view.View a() -> a
+    android.graphics.Bitmap a(android.content.Context,java.lang.String) -> a
+com.sms.purchasesdk.view.g -> com.sms.purchasesdk.view.g:
+    com.sms.purchasesdk.view.ProductItemView a -> q
+    mm.sms.purchasesdk.e.e a -> r
+    void a(mm.sms.purchasesdk.e.e) -> a
+    android.view.View a() -> a
+    android.graphics.Bitmap a(android.content.Context,java.lang.String) -> a
+com.sms.purchasesdk.view.h -> com.sms.purchasesdk.view.h:
+    android.widget.ProgressBar a -> q
+    android.graphics.Bitmap a(android.content.Context,java.lang.String) -> a
+    android.view.View a() -> a
+com.sms.purchasesdk.view.i -> com.sms.purchasesdk.view.i:
+    android.widget.RelativeLayout a -> q
+    android.graphics.Bitmap a(android.content.Context,java.lang.String) -> a
+    android.view.View a() -> a
+com.sms.purchasesdk.view.j -> com.sms.purchasesdk.view.j:
+    android.widget.ScrollView a -> q
+    android.graphics.Bitmap a(android.content.Context,java.lang.String) -> a
+    android.view.View a() -> a
+com.sms.purchasesdk.view.k -> com.sms.purchasesdk.view.k:
+    android.widget.TextView a -> q
+    android.view.View a() -> a
+    android.graphics.Bitmap a(android.content.Context,java.lang.String) -> a
+com.sms.purchasesdk.view.l -> com.sms.purchasesdk.view.l:
+    int a -> a
+    int b -> b
+    int c -> c
+    int d -> d
+    android.graphics.drawable.Drawable a -> e
+    android.graphics.drawable.Drawable b -> f
+    android.graphics.drawable.Drawable c -> g
+    int e -> h
+    int f -> i
+    int g -> j
+    int h -> k
+    java.lang.String a -> l
+    int i -> m
+    int j -> n
+    mm.sms.purchasesdk.e.d a -> o
+    android.content.Context mContext -> p
+    void a(mm.sms.purchasesdk.e.d,android.content.Context) -> a
+    android.graphics.Bitmap a(android.content.Context,java.lang.String) -> a
+    void b(mm.sms.purchasesdk.e.d,android.content.Context) -> b
+    android.graphics.drawable.Drawable a(android.content.Context,java.lang.String) -> b
+    void a(mm.sms.purchasesdk.e.d) -> a
+    void b(mm.sms.purchasesdk.e.d) -> b
+    void c(mm.sms.purchasesdk.e.d) -> c
+    int a(int[]) -> a
+    android.graphics.Bitmap a(float,float,android.graphics.Bitmap) -> a
+com.testgame.CmgameApplication -> com.testgame.CmgameApplication:
+    7:8:void onCreate() -> onCreate
+com.testgame.MainActivity -> com.testgame.MainActivity:
+    21:72:void onCreate(android.os.Bundle) -> onCreate
+    78:92:boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+com.testgame.MainActivity$1 -> com.testgame.MainActivity$1:
+    com.testgame.MainActivity this$0 -> a
+    36:58:void onClick(android.view.View) -> onClick
+    32:32:com.testgame.MainActivity access$0(com.testgame.MainActivity$1) -> a
+com.testgame.MainActivity$1$1 -> com.testgame.MainActivity$1$1:
+    com.testgame.MainActivity$1 this$1 -> a
+    40:41:void onPurchaseSucceed() -> a
+    45:46:void onPurchaseInfo(java.lang.String) -> b
+    50:51:void onPurchaseFailed(java.lang.String) -> a
+    55:56:void onPurchaseCanceld() -> b
+com.testgame.MainActivity$2 -> com.testgame.MainActivity$2:
+    com.testgame.MainActivity this$0 -> a
+    69:70:void onClick(android.view.View) -> onClick
+com.testgame.MainActivity$3 -> com.testgame.MainActivity$3:
+    com.testgame.MainActivity this$0 -> a
+    83:84:void onExitGameConfirmExit() -> b
+    89:89:void onExitGameCancelExit() -> a
+com.unicom.dcLoader.BuildConfig -> com.unicom.dcLoader.BuildConfig:
+    boolean DEBUG -> DEBUG
+com.unicom.dcLoader.DynProcessUtil -> com.unicom.dcLoader.DynProcessUtil:
+    java.util.regex.Pattern _$4 -> _$4
+    java.util.regex.Pattern _$3 -> _$3
+    java.util.regex.Pattern _$2 -> _$2
+    boolean _$1 -> _$1
+    int[] getProcessIdList() -> getProcessIdList
+    java.util.ArrayList _$1() -> _$1
+com.unicom.dcLoader.IIIIIIIlIlIIIllI -> com.unicom.dcLoader.IIIIIIIlIlIIIllI:
+    com.unicom.dcLoader.Utils _$1 -> _$1
+    void run() -> run
+com.unicom.dcLoader.IIlIlIIlIIlIllII -> com.unicom.dcLoader.IIlIlIIlIIlIllII:
+    com.unicom.dcLoader.IIlIlIIlIIlIllII unknow -> unknow
+    com.unicom.dcLoader.IIlIlIIlIIlIllII chinaunicom -> chinaunicom
+    com.unicom.dcLoader.IIlIlIIlIIlIllII chinatele -> chinatele
+    com.unicom.dcLoader.IIlIlIIlIIlIllII chinamobile -> chinamobile
+    com.unicom.dcLoader.IIlIlIIlIIlIllII error -> error
+    com.unicom.dcLoader.IIlIlIIlIIlIllII[] _$1 -> _$1
+    com.unicom.dcLoader.IIlIlIIlIIlIllII[] values() -> values
+    com.unicom.dcLoader.IIlIlIIlIIlIllII valueOf(java.lang.String) -> valueOf
+com.unicom.dcLoader.IIlllIIIIlIIlIII -> com.unicom.dcLoader.IIlllIIIIlIIlIII:
+    com.unicom.dcLoader.MainActivity _$1 -> _$1
+    void handleMessage(android.os.Message) -> handleMessage
+com.unicom.dcLoader.IllIIIIlIlIIIllI -> com.unicom.dcLoader.IllIIIIlIlIIIllI:
+    android.content.Context _$2 -> _$2
+    com.unicom.dcLoader.Utils _$1 -> _$1
+    void run() -> run
+com.unicom.dcLoader.IllIIlIlllIlllII -> com.unicom.dcLoader.IllIIlIlllIlllII:
+    com.unicom.dcLoader.lllllIIIIlIIlIII _$1 -> _$1
+    void PayResult(java.lang.String,int,java.lang.String) -> PayResult
+com.unicom.dcLoader.MainActivity -> com.unicom.dcLoader.MainActivity:
+    android.widget.Button _$3 -> _$3
+    com.unicom.dcLoader.SubUtils _$2 -> _$2
+    android.os.Handler _$1 -> _$1
+    void onCreate(android.os.Bundle) -> onCreate
+    void SetLoadInfomation(android.content.Context,java.lang.String,java.lang.String) -> SetLoadInfomation
+com.unicom.dcLoader.R -> com.unicom.dcLoader.R:
+com.unicom.dcLoader.R$attr -> com.unicom.dcLoader.R$attr:
+com.unicom.dcLoader.R$dimen -> com.unicom.dcLoader.R$dimen:
+    int activity_horizontal_margin -> activity_horizontal_margin
+    int activity_vertical_margin -> activity_vertical_margin
+com.unicom.dcLoader.R$drawable -> com.unicom.dcLoader.R$drawable:
+    int ic_launcher -> ic_launcher
+com.unicom.dcLoader.R$id -> com.unicom.dcLoader.R$id:
+    int action_settings -> action_settings
+    int test1 -> test1
+com.unicom.dcLoader.R$layout -> com.unicom.dcLoader.R$layout:
+    int activity_main -> activity_main
+com.unicom.dcLoader.R$menu -> com.unicom.dcLoader.R$menu:
+    int main -> main
+com.unicom.dcLoader.R$string -> com.unicom.dcLoader.R$string:
+    int action_settings -> action_settings
+    int app_name -> app_name
+    int hello_world -> hello_world
+com.unicom.dcLoader.R$style -> com.unicom.dcLoader.R$style:
+    int AppBaseTheme -> AppBaseTheme
+    int AppTheme -> AppTheme
+    int Theme_billing_dialog -> Theme_billing_dialog
+com.unicom.dcLoader.SubUtils -> com.unicom.dcLoader.SubUtils:
+    int a(android.content.Context) -> a
+    int i(android.content.Context,int,android.os.Handler) -> i
+    int p(android.content.Context,java.lang.String,java.lang.String,java.lang.String,android.os.Handler) -> p
+    int m(android.content.Context) -> m
+    java.lang.String d(java.lang.String) -> d
+    int simtype(android.content.Context) -> simtype
+com.unicom.dcLoader.Utils -> com.unicom.dcLoader.Utils:
+    int SUCCESS -> SUCCESS
+    int FAILED -> FAILED
+    int CANCEL -> CANCEL
+    int OTHERPAY -> OTHERPAY
+    int ALIPAY_WAP -> ALIPAY_WAP
+    int SUCCESS_SMS -> SUCCESS_SMS
+    int SUCCESS_3RDPAY -> SUCCESS_3RDPAY
+    int INIT_FIALD -> INIT_FIALD
+    int INIT_ING -> INIT_ING
+    java.lang.String LOAD -> LOAD
+    java.lang.String KEY_REALOAD -> KEY_REALOAD
+    java.lang.String KEY_LOADPATH -> KEY_LOADPATH
+    java.lang.String KEY_LASTUPDATETIME -> KEY_LASTUPDATETIME
+    com.unicom.dcLoader.Utils$UnipayPayResultListener _$15 -> _$15
+    android.content.Context _$14 -> _$14
+    boolean _$13 -> _$13
+    dalvik.system.DexClassLoader _$12 -> _$12
+    int _$11 -> _$11
+    com.unicom.dcLoader.Utils _$10 -> _$10
+    com.unicom.dcLoader.SubUtils _$9 -> _$9
+    java.util.Timer _$8 -> _$8
+    int _$7 -> _$7
+    int[] _$6 -> _$6
+    int[] _$5 -> _$5
+    int[] _$4 -> _$4
+    com.unicom.dcLoader.lllIlllIIllIlllI _$3 -> _$3
+    java.lang.String _$2 -> _$2
+    android.os.Handler _$1 -> _$1
+    com.unicom.dcLoader.Utils getInstances() -> getInstances
+    void initSDK(android.content.Context,int) -> initSDK
+    void _$2() -> _$2
+    int _$1(int) -> _$1
+    void _$1(android.content.Context,int) -> _$1
+    void _$1(android.content.Context) -> _$1
+    void MoreGame(android.content.Context) -> MoreGame
+    com.unicom.dcLoader.IIlIlIIlIIlIllII getSimType(android.content.Context) -> getSimType
+    void pay(android.content.Context,java.lang.String,com.unicom.dcLoader.Utils$UnipayPayResultListener) -> pay
+    java.lang.String getSpInfomation(android.content.Context,java.lang.String) -> getSpInfomation
+    void SetLoadInfomation(android.content.Context,java.lang.String,java.lang.String) -> SetLoadInfomation
+    android.content.Context _$7(com.unicom.dcLoader.Utils) -> _$7
+    void _$1(com.unicom.dcLoader.Utils,android.content.Context) -> _$1
+    int[] _$2(com.unicom.dcLoader.Utils,int[]) -> _$2
+    int[] _$6(com.unicom.dcLoader.Utils) -> _$6
+    int[] _$1(com.unicom.dcLoader.Utils,int[]) -> _$1
+    int[] _$5(com.unicom.dcLoader.Utils) -> _$5
+    int[] _$4(com.unicom.dcLoader.Utils) -> _$4
+    int _$3(com.unicom.dcLoader.Utils) -> _$3
+    int _$2(com.unicom.dcLoader.Utils) -> _$2
+    void _$1(com.unicom.dcLoader.Utils,android.content.Context,int) -> _$1
+    java.lang.String _$1(com.unicom.dcLoader.Utils) -> _$1
+    com.unicom.dcLoader.Utils$UnipayPayResultListener _$1() -> _$1
+com.unicom.dcLoader.Utils$UnipayPayResultListener -> com.unicom.dcLoader.Utils$UnipayPayResultListener:
+    void PayResult(java.lang.String,int,java.lang.String) -> PayResult
+com.unicom.dcLoader.lIIIIIIlIlIIIllI -> com.unicom.dcLoader.lIIIIIIlIlIIIllI:
+    android.content.Context _$2 -> _$2
+    com.unicom.dcLoader.Utils _$1 -> _$1
+    void run() -> run
+com.unicom.dcLoader.lllIIIIlIlIIIllI -> com.unicom.dcLoader.lllIIIIlIlIIIllI:
+    com.unicom.dcLoader.Utils _$1 -> _$1
+    void handleMessage(android.os.Message) -> handleMessage
+com.unicom.dcLoader.lllIlllIIllIlllI -> com.unicom.dcLoader.lllIlllIIllIlllI:
+    int _$2 -> _$2
+    com.unicom.dcLoader.Utils _$1 -> _$1
+    boolean cancel() -> cancel
+    void run() -> run
+com.unicom.dcLoader.lllllIIIIlIIlIII -> com.unicom.dcLoader.lllllIIIIlIIlIII:
+    com.unicom.dcLoader.MainActivity _$1 -> _$1
+    void onClick(android.view.View) -> onClick
+com.unipay.Alipay.AlixId -> com.unipay.Alipay.AlixId:
+    int BASE_ID -> BASE_ID
+    int RQF_PAY -> RQF_PAY
+    int RQF_INSTALL_CHECK -> RQF_INSTALL_CHECK
+com.unipay.Alipay.Base64 -> com.unipay.Alipay.Base64:
+    int _$11 -> _$11
+    int _$10 -> _$10
+    int _$9 -> _$9
+    int _$8 -> _$8
+    int _$7 -> _$7
+    int _$6 -> _$6
+    int _$5 -> _$5
+    char _$4 -> _$4
+    boolean _$3 -> _$3
+    byte[] _$2 -> _$2
+    char[] _$1 -> _$1
+    boolean _$3(char) -> _$3
+    boolean _$2(char) -> _$2
+    boolean _$1(char) -> _$1
+    java.lang.String encode(byte[]) -> encode
+    byte[] decode(java.lang.String) -> decode
+    int _$1(char[]) -> _$1
+com.unipay.Alipay.BaseHelper -> com.unipay.Alipay.BaseHelper:
+    java.lang.String convertStreamToString(java.io.InputStream) -> convertStreamToString
+    void showDialog(android.app.Activity,java.lang.String,java.lang.String,int) -> showDialog
+    void log(java.lang.String,java.lang.String) -> log
+    void chmod(java.lang.String,java.lang.String) -> chmod
+    android.app.ProgressDialog showProgress(android.content.Context,java.lang.CharSequence,java.lang.CharSequence,boolean,boolean) -> showProgress
+    org.json.JSONObject string2JSON(java.lang.String,java.lang.String) -> string2JSON
+com.unipay.Alipay.Constant -> com.unipay.Alipay.Constant:
+    java.lang.String server_url -> server_url
+com.unipay.Alipay.IIIllIIlIIIllIlI -> com.unipay.Alipay.IIIllIIlIIIllIlI:
+    java.lang.String _$2 -> _$2
+    com.unipay.Alipay.IlIlllIIIllllIll _$1 -> _$1
+    void run() -> run
+com.unipay.Alipay.IIlIIlIIIllllIll -> com.unipay.Alipay.IIlIIlIIIllllIll:
+    com.unipay.Alipay.MobileSecurePayHelper _$1 -> _$1
+    void handleMessage(android.os.Message) -> handleMessage
+com.unipay.Alipay.IlIlllIIIllllIll -> com.unipay.Alipay.IlIlllIIIllllIll:
+    com.unipay.Alipay.MobileSecurePayHelper _$1 -> _$1
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.unipay.Alipay.IlllIllllllIIlII -> com.unipay.Alipay.IlllIllllllIIlII:
+    java.lang.String _$4 -> _$4
+    int _$3 -> _$3
+    android.os.Handler _$2 -> _$2
+    com.unipay.Alipay.MobileSecurePayer _$1 -> _$1
+    void run() -> run
+com.unipay.Alipay.IllllllIIlIlIIII -> com.unipay.Alipay.IllllllIIlIlIIII:
+    java.lang.String IMEI -> IMEI
+    java.lang.String IMSI -> IMSI
+    java.lang.String KEY -> KEY
+    java.lang.String USER_AGENT -> USER_AGENT
+    java.lang.String VERSION -> VERSION
+    java.lang.String DEVICE -> DEVICE
+    java.lang.String SID -> SID
+    java.lang.String partner -> partner
+    java.lang.String charset -> charset
+    java.lang.String sign_type -> sign_type
+    java.lang.String sign -> sign
+    java.lang.String URL -> URL
+    java.lang.String split -> split
+    java.lang.String AlixPay -> AlixPay
+    java.lang.String action -> action
+    java.lang.String actionUpdate -> actionUpdate
+    java.lang.String data -> data
+    java.lang.String platform -> platform
+com.unipay.Alipay.MobileSecurePayHelper -> com.unipay.Alipay.MobileSecurePayHelper:
+    java.lang.String _$4 -> _$4
+    android.app.ProgressDialog _$3 -> _$3
+    android.content.Context _$2 -> _$2
+    android.os.Handler _$1 -> _$1
+    boolean detectMobile_sp() -> detectMobile_sp
+    void showDownloadConfirmDialog(android.content.Context,com.unipay.Alipay.MobileSecurePayHelper$DialogListener) -> showDownloadConfirmDialog
+    void showInstallConfirmDialog(android.content.Context,java.lang.String) -> showInstallConfirmDialog
+    boolean isMobile_spExist() -> isMobile_spExist
+    boolean retrieveApkFromAssets(android.content.Context,java.lang.String,java.lang.String) -> retrieveApkFromAssets
+    android.content.pm.PackageInfo getApkInfo(android.content.Context,java.lang.String) -> getApkInfo
+    java.lang.String checkNewUpdate(android.content.pm.PackageInfo) -> checkNewUpdate
+    org.json.JSONObject sendCheckNewUpdate(java.lang.String) -> sendCheckNewUpdate
+    org.json.JSONObject sendRequest(java.lang.String) -> sendRequest
+    boolean retrieveApkFromNet(android.content.Context,java.lang.String,java.lang.String) -> retrieveApkFromNet
+    void _$1() -> _$1
+    android.app.ProgressDialog _$1(com.unipay.Alipay.MobileSecurePayHelper,android.app.ProgressDialog) -> _$1
+    android.os.Handler _$1(com.unipay.Alipay.MobileSecurePayHelper) -> _$1
+com.unipay.Alipay.MobileSecurePayHelper$DialogListener -> com.unipay.Alipay.MobileSecurePayHelper$DialogListener:
+    void buttonSelected(int) -> buttonSelected
+com.unipay.Alipay.MobileSecurePayer -> com.unipay.Alipay.MobileSecurePayer:
+    java.lang.String _$7 -> _$7
+    java.lang.Integer _$6 -> _$6
+    com.alipay.android.app.IAlixPay _$5 -> _$5
+    boolean _$4 -> _$4
+    android.app.Activity _$3 -> _$3
+    android.content.ServiceConnection _$2 -> _$2
+    com.alipay.android.app.IRemoteServiceCallback _$1 -> _$1
+    boolean pay(java.lang.String,android.os.Handler,int,android.app.Activity) -> pay
+    com.alipay.android.app.IRemoteServiceCallback _$2(com.unipay.Alipay.MobileSecurePayer) -> _$2
+    android.content.ServiceConnection _$1(com.unipay.Alipay.MobileSecurePayer) -> _$1
+com.unipay.Alipay.NetworkManager -> com.unipay.Alipay.NetworkManager:
+    java.lang.String _$5 -> _$5
+    int _$4 -> _$4
+    int _$3 -> _$3
+    java.net.Proxy _$2 -> _$2
+    android.content.Context _$1 -> _$1
+    void _$2() -> _$2
+    void _$1() -> _$1
+    java.lang.String SendAndWaitResponse(java.lang.String,java.lang.String) -> SendAndWaitResponse
+    boolean urlDownloadToFile(android.content.Context,java.lang.String,java.lang.String) -> urlDownloadToFile
+com.unipay.Alipay.PartnerConfig -> com.unipay.Alipay.PartnerConfig:
+    java.lang.String PARTNER -> PARTNER
+    java.lang.String SELLER -> SELLER
+    java.lang.String RSA_PRIVATE -> RSA_PRIVATE
+    java.lang.String RSA_ALIPAY_PUBLIC -> RSA_ALIPAY_PUBLIC
+    java.lang.String ALIPAY_PLUGIN_NAME -> ALIPAY_PLUGIN_NAME
+    java.lang.String notify_url -> notify_url
+    java.lang.String sgin_type -> sgin_type
+    java.lang.String getNotify_url() -> getNotify_url
+    void setNotify_url(java.lang.String) -> setNotify_url
+com.unipay.Alipay.ResultChecker -> com.unipay.Alipay.ResultChecker:
+    int RESULT_INVALID_PARAM -> RESULT_INVALID_PARAM
+    int RESULT_CHECK_SIGN_FAILED -> RESULT_CHECK_SIGN_FAILED
+    int RESULT_CHECK_SIGN_SUCCEED -> RESULT_CHECK_SIGN_SUCCEED
+    java.lang.String _$1 -> _$1
+    java.lang.String _$1() -> _$1
+    int checkSign() -> checkSign
+    boolean isPayOk() -> isPayOk
+com.unipay.Alipay.Rsa -> com.unipay.Alipay.Rsa:
+    java.lang.String SIGN_ALGORITHMS -> SIGN_ALGORITHMS
+    java.lang.String sign(java.lang.String,java.lang.String) -> sign
+    boolean doCheck(java.lang.String,java.lang.String,java.lang.String) -> doCheck
+com.unipay.Alipay.lIIIlllllllIIlII -> com.unipay.Alipay.lIIIlllllllIIlII:
+    com.unipay.Alipay.MobileSecurePayer _$1 -> _$1
+    void startActivity(java.lang.String,java.lang.String,int,android.os.Bundle) -> startActivity
+    boolean isHideLoadingScreen() -> isHideLoadingScreen
+    void payEnd(boolean,java.lang.String) -> payEnd
+com.unipay.Alipay.lIlIIlIIIllllIll -> com.unipay.Alipay.lIlIIlIIIllllIll:
+    com.unipay.Alipay.MobileSecurePayHelper$DialogListener _$2 -> _$2
+    com.unipay.Alipay.MobileSecurePayHelper _$1 -> _$1
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.unipay.Alipay.lllIIIlIllllllIl -> com.unipay.Alipay.lllIIIlIllllllIl:
+    com.unipay.Alipay.NetworkManager _$1 -> _$1
+    boolean verify(java.lang.String,javax.net.ssl.SSLSession) -> verify
+com.unipay.Alipay.llllIllllllIIlII -> com.unipay.Alipay.llllIllllllIIlII:
+    com.unipay.Alipay.MobileSecurePayer _$1 -> _$1
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+com.wow.shell.CheckHelper -> com.wow.shell.CheckHelper:
+    boolean checkSignatures(android.content.Context) -> checkSignatures
+com.wow.shell.Decrypt -> com.wow.shell.Decrypt:
+    int doDecrypt(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> doDecrypt
+    java.lang.String getVer() -> getVer
+    int doDecryptByte(android.content.Context,byte[],int,byte[]) -> doDecryptByte
+egame.terminal.feesmslib.jni.SmsProtocol -> egame.terminal.feesmslib.jni.SmsProtocol:
+    java.lang.String encrypt(long,long,java.lang.String,java.lang.String) -> encrypt
+mm.sms.purchasesdk.OnSMSPurchaseListener -> mm.sms.purchasesdk.OnSMSPurchaseListener:
+    java.lang.String PAYCODE -> PAYCODE
+    java.lang.String TRADEID -> TRADEID
+    void onBillingFinish(int,java.util.HashMap) -> onBillingFinish
+    void onInitFinish(int) -> onInitFinish
+mm.sms.purchasesdk.PurchaseCode -> mm.sms.purchasesdk.PurchaseCode:
+    int INIT_OK -> INIT_OK
+    int ORDER_OK -> ORDER_OK
+    int UNKNOWN_ERR -> UNKNOWN_ERR
+    int NOT_CMCC_ERR -> NOT_CMCC_ERR
+    int PARAMETER_ERR -> PARAMETER_ERR
+    int NOGSM_ERR -> NOGSM_ERR
+    int INIT_TEST_APK -> INIT_TEST_APK
+    int INIT_NO_ACTIVE -> INIT_NO_ACTIVE
+    int INIT_NOT_CMCC -> INIT_NOT_CMCC
+    int INIT_IMEI_ERR -> INIT_IMEI_ERR
+    int INIT_SID_ERR -> INIT_SID_ERR
+    int INIT_IMSI_ERR -> INIT_IMSI_ERR
+    int INIT_PUBKEY_ERR -> INIT_PUBKEY_ERR
+    int INIT_SMS_ERR -> INIT_SMS_ERR
+    int INIT_CHECK_ERR -> INIT_CHECK_ERR
+    int INIT_EXCEPTION -> INIT_EXCEPTION
+    int INIT_OTHER_ERR -> INIT_OTHER_ERR
+    int INIT_TIMEOUT -> INIT_TIMEOUT
+    int BILL_XML_PARSE_ERR -> BILL_XML_PARSE_ERR
+    int BILL_CANCEL_FAIL -> BILL_CANCEL_FAIL
+    int BILL_NOORDER -> BILL_NOORDER
+    int BILL_DIALOG_SHOWERROR -> BILL_DIALOG_SHOWERROR
+    int BILL_INVALID_APP -> BILL_INVALID_APP
+    int BILL_INVALID_SIGN -> BILL_INVALID_SIGN
+    int BILL_INVALID_SIDSIGN -> BILL_INVALID_SIDSIGN
+    int BILL_UNDEFINED_ERROR -> BILL_UNDEFINED_ERROR
+    int BILL_SDK_ERROR -> BILL_SDK_ERROR
+    int BILL_PAYCODE_ERR -> BILL_PAYCODE_ERR
+    int BILL_PAYCODE_NULL -> BILL_PAYCODE_NULL
+    int BILL_APP_SO_ERR -> BILL_APP_SO_ERR
+    int BILL_APP_ERR -> BILL_APP_ERR
+    int BILL_SMS_ERR -> BILL_SMS_ERR
+    int ORDER_OK_TIMEOUT -> ORDER_OK_TIMEOUT
+    int ORDER_OMP_ERR -> ORDER_OMP_ERR
+    java.lang.String UNDEFINED_ERR -> UNDEFINED_ERR
+    java.lang.String ErrorMsg -> ErrorMsg
+    java.lang.String ErrorInitMsg -> ErrorInitMsg
+    java.lang.String ErrorInitSMSMsg -> ErrorInitSMSMsg
+    java.lang.String ErrorInitTestMsg -> ErrorInitTestMsg
+    java.lang.String ErrorBillCancelMsg -> ErrorBillCancelMsg
+    java.lang.String InitMsg -> InitMsg
+    java.lang.String NoneMccMsg -> NoneMccMsg
+    java.lang.String NoneGSMMsg -> NoneGSMMsg
+    java.lang.String AuthNotDownload -> AuthNotDownload
+    java.lang.String ErrorTimeout -> ErrorTimeout
+    java.util.HashMap mCodeInfo -> mCodeInfo
+    int statusCode -> statusCode
+    java.lang.String getDescription(int) -> getDescription
+    java.lang.String getReason(int) -> getReason
+    void init() -> init
+    int getStatusCode() -> getStatusCode
+    void setStatusCode(int) -> setStatusCode
+mm.sms.purchasesdk.PurchaseSkin -> mm.sms.purchasesdk.PurchaseSkin:
+    int SKIN_SYSTEM_ONE -> SKIN_SYSTEM_ONE
+    int SKIN_SYSTEM_TWO -> SKIN_SYSTEM_TWO
+    int SKIN_SYSTEM_THREE -> SKIN_SYSTEM_THREE
+mm.sms.purchasesdk.SMSPurchase -> mm.sms.purchasesdk.SMSPurchase:
+    java.lang.String TAG -> TAG
+    mm.sms.purchasesdk.SMSPurchase a -> a
+    mm.sms.purchasesdk.e a -> a
+    android.os.Handler b -> b
+    android.os.Handler a -> a
+    android.os.HandlerThread a -> a
+    mm.sms.purchasesdk.sms.SMSReceiver a -> a
+    mm.sms.purchasesdk.SMSPurchase getInstance() -> getInstance
+    void setAppInfo(java.lang.String,java.lang.String) -> setAppInfo
+    void setAppInfo(java.lang.String,java.lang.String,int) -> setAppInfo
+    java.lang.String getDescription(int) -> getDescription
+    java.lang.String getReason(int) -> getReason
+    void smsInit(android.content.Context,mm.sms.purchasesdk.OnSMSPurchaseListener) -> smsInit
+    void smsOrder(android.content.Context,java.lang.String,mm.sms.purchasesdk.OnSMSPurchaseListener) -> smsOrder
+    void smsOrder(android.content.Context,java.lang.String,mm.sms.purchasesdk.OnSMSPurchaseListener,java.lang.String) -> smsOrder
+    void a(android.content.Context,java.lang.String,int,boolean,mm.sms.purchasesdk.OnSMSPurchaseListener,java.lang.String) -> a
+    void a(android.content.Context) -> a
+    void b(android.content.Context) -> b
+    android.os.Handler a(mm.sms.purchasesdk.SMSPurchase) -> a
+    android.os.Handler b(mm.sms.purchasesdk.SMSPurchase) -> b
+mm.sms.purchasesdk.a -> mm.sms.purchasesdk.a:
+    java.lang.String b -> b
+    java.lang.String c -> c
+mm.sms.purchasesdk.a.a -> mm.sms.purchasesdk.a.a:
+    boolean c -> c
+    int m -> m
+    java.lang.String d -> d
+    boolean d -> d
+    java.lang.Boolean a -> a
+    java.lang.Boolean b -> b
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    java.lang.String h -> h
+    mm.sms.purchasesdk.a.c a -> a
+    mm.sms.purchasesdk.a.c a() -> a
+    void a(mm.sms.purchasesdk.a.c) -> a
+    void a(java.lang.String) -> a
+    void a(boolean) -> a
+    boolean b() -> b
+    int b() -> b
+    void b(java.lang.String) -> b
+mm.sms.purchasesdk.a.b -> mm.sms.purchasesdk.a.b:
+    java.lang.String TAG -> TAG
+    void a(mm.sms.purchasesdk.a.a,android.os.Message) -> a
+mm.sms.purchasesdk.a.c -> mm.sms.purchasesdk.a.c:
+    java.util.ArrayList a -> a
+    java.util.HashMap b -> b
+    java.util.HashMap a() -> a
+    void a(java.lang.String,mm.sms.purchasesdk.e.e) -> a
+    void c(java.lang.String) -> c
+mm.sms.purchasesdk.b -> mm.sms.purchasesdk.b:
+    mm.sms.purchasesdk.OnSMSPurchaseListener a -> a
+    android.os.Handler a -> a
+    android.os.Handler b -> b
+    int k -> k
+    java.util.HashMap a -> a
+    int l -> l
+    int a() -> a
+    void a(int) -> a
+    void a(java.util.HashMap) -> a
+    void a(int,java.util.HashMap) -> a
+    void a() -> a
+    void onInitFinish(int) -> onInitFinish
+mm.sms.purchasesdk.b.a -> mm.sms.purchasesdk.b.a:
+    java.lang.String TAG -> TAG
+    java.lang.Boolean a(mm.sms.purchasesdk.a.a) -> a
+    mm.sms.purchasesdk.a.c b() -> b
+    java.lang.String a(java.lang.String) -> a
+    int a(java.lang.String,java.lang.String) -> a
+    mm.sms.purchasesdk.a.c a(java.lang.String,java.lang.String) -> a
+    mm.sms.purchasesdk.a.c b(java.lang.String,java.lang.String) -> b
+    mm.sms.purchasesdk.e.e a(org.w3c.dom.Element,java.lang.String,int) -> a
+    void a(mm.sms.purchasesdk.a.c,float) -> a
+mm.sms.purchasesdk.c -> mm.sms.purchasesdk.c:
+    java.lang.String TAG -> TAG
+    boolean a -> a
+    int a(android.content.Context) -> a
+    int b(android.content.Context) -> b
+    void a(android.os.Handler,android.os.Handler,mm.sms.purchasesdk.b,int) -> a
+    void b(android.os.Handler,android.os.Handler,mm.sms.purchasesdk.b,int) -> b
+mm.sms.purchasesdk.c.a -> mm.sms.purchasesdk.c.a:
+    long a -> a
+    long b -> b
+    long c -> c
+    int n -> n
+    java.lang.String a() -> a
+    long getStartTime() -> getStartTime
+    void b() -> b
+    long a() -> a
+    void c() -> c
+    void d() -> d
+    java.lang.String b() -> b
+mm.sms.purchasesdk.d -> mm.sms.purchasesdk.d:
+    mm.sms.purchasesdk.SMSPurchase b -> b
+    void handleMessage(android.os.Message) -> handleMessage
+mm.sms.purchasesdk.d.a -> mm.sms.purchasesdk.d.a:
+    java.lang.String TAG -> TAG
+    java.lang.String a(java.lang.String,android.content.Context) -> a
+    java.lang.String c() -> c
+mm.sms.purchasesdk.e -> mm.sms.purchasesdk.e:
+    android.os.Handler b -> b
+    android.os.Handler a -> a
+    boolean b -> b
+    mm.sms.purchasesdk.a.a a -> a
+    void a(android.os.Handler) -> a
+    void init() -> init
+    android.os.Handler a() -> a
+    void a(mm.sms.purchasesdk.b) -> a
+    void a(mm.sms.purchasesdk.b,int) -> a
+    void b(mm.sms.purchasesdk.b) -> b
+    void c(mm.sms.purchasesdk.b) -> c
+    mm.sms.purchasesdk.a.a a() -> a
+    boolean a() -> a
+    boolean a(boolean) -> a
+    void a(mm.sms.purchasesdk.e,mm.sms.purchasesdk.b) -> a
+    void b(mm.sms.purchasesdk.e,mm.sms.purchasesdk.b) -> b
+    void c(mm.sms.purchasesdk.e,mm.sms.purchasesdk.b) -> c
+    void a(mm.sms.purchasesdk.e,mm.sms.purchasesdk.b,int) -> a
+mm.sms.purchasesdk.e.a -> mm.sms.purchasesdk.e.a:
+    mm.sms.purchasesdk.e.d b -> b
+    android.content.Context mContext -> mContext
+    mm.sms.purchasesdk.e.d c -> c
+    mm.sms.purchasesdk.e.d d -> d
+    mm.sms.purchasesdk.e.d e -> e
+    java.io.InputStream a(java.lang.String) -> a
+    mm.sms.purchasesdk.e.d a(java.io.InputStream,mm.sms.purchasesdk.e.d) -> a
+    void a(org.w3c.dom.Element,mm.sms.purchasesdk.e.d) -> a
+    java.util.HashMap a(org.w3c.dom.Element) -> a
+    mm.sms.purchasesdk.e.d a(java.lang.String) -> a
+    mm.sms.purchasesdk.e.d b(java.lang.String) -> b
+mm.sms.purchasesdk.e.b -> mm.sms.purchasesdk.e.b:
+    java.lang.String TAG -> TAG
+    mm.sms.purchasesdk.e.n a -> a
+    mm.sms.purchasesdk.e.g a -> a
+    mm.sms.purchasesdk.e.f a -> a
+    mm.sms.purchasesdk.e.k a -> a
+    mm.sms.purchasesdk.e.q a -> a
+    mm.sms.purchasesdk.e.a a -> a
+    android.content.Context mContext -> mContext
+    java.lang.String k -> k
+    mm.sms.purchasesdk.a.c a -> a
+    android.os.Handler b -> b
+    android.os.Handler a -> a
+    mm.sms.purchasesdk.b a -> a
+    mm.sms.purchasesdk.a.a b -> b
+    mm.sms.purchasesdk.a.a b() -> b
+    void a(mm.sms.purchasesdk.a.a) -> a
+    android.os.Handler b() -> b
+    void b(android.os.Handler) -> b
+    android.os.Handler a() -> a
+    void c(android.os.Handler) -> c
+    mm.sms.purchasesdk.b a() -> a
+    void d(mm.sms.purchasesdk.b) -> d
+    void b(int) -> b
+    void e() -> e
+    void f() -> f
+    void g() -> g
+    void h() -> h
+    void c(int) -> c
+    void i() -> i
+    void j() -> j
+    void k() -> k
+    void l() -> l
+    void m() -> m
+mm.sms.purchasesdk.e.c -> mm.sms.purchasesdk.e.c:
+    java.lang.String TAG -> TAG
+    mm.sms.purchasesdk.e.d a -> a
+    android.content.Context mContext -> mContext
+    int p -> p
+    int q -> q
+    mm.sms.purchasesdk.e.b a -> a
+    android.view.View$OnClickListener a -> a
+    android.view.View$OnClickListener b -> b
+    java.lang.Boolean f -> f
+    java.util.HashMap b -> b
+    android.os.Handler b -> b
+    android.os.Handler a -> a
+    mm.sms.purchasesdk.b a -> a
+    mm.sms.purchasesdk.a.a b -> b
+    android.view.View a() -> a
+    void b(java.util.HashMap) -> b
+    android.view.View a(mm.sms.purchasesdk.e.d) -> a
+    void show() -> show
+    android.view.View b(mm.sms.purchasesdk.e.d) -> b
+    android.view.View c(mm.sms.purchasesdk.e.d) -> c
+    android.widget.LinearLayout a(mm.sms.purchasesdk.e.d) -> a
+    mm.sms.purchasesdk.e.e a(java.lang.String) -> a
+    android.view.View d(mm.sms.purchasesdk.e.d) -> d
+    android.view.View e(mm.sms.purchasesdk.e.d) -> e
+    android.view.View f(mm.sms.purchasesdk.e.d) -> f
+    android.view.View g(mm.sms.purchasesdk.e.d) -> g
+    android.view.View h(mm.sms.purchasesdk.e.d) -> h
+    android.widget.RelativeLayout a(mm.sms.purchasesdk.e.d) -> a
+mm.sms.purchasesdk.e.d -> mm.sms.purchasesdk.e.d:
+    int x -> x
+    int y -> y
+    int q -> q
+    int p -> p
+    java.lang.String l -> l
+    java.lang.String a -> a
+    int i -> i
+    int j -> j
+    int r -> r
+    int s -> s
+    int t -> t
+    int u -> u
+    int v -> v
+    int w -> w
+    int e -> e
+    int f -> f
+    int g -> g
+    int h -> h
+    java.lang.String m -> m
+    java.lang.String n -> n
+    java.lang.String o -> o
+    int z -> z
+    java.lang.String p -> p
+    int[] a -> a
+    java.lang.String q -> q
+    java.lang.Boolean f -> f
+    java.util.HashMap c -> c
+    java.util.ArrayList b -> b
+    int A -> A
+    java.lang.Boolean g -> g
+    float a -> a
+    int B -> B
+    float a() -> a
+    float a(java.lang.String) -> a
+    java.lang.Boolean a() -> a
+    java.lang.Boolean a(java.lang.String) -> a
+    int f() -> f
+    int a(java.lang.String) -> a
+    java.lang.String e() -> e
+    java.lang.String f() -> f
+    java.util.ArrayList a() -> a
+    void a(java.util.ArrayList) -> a
+    void c(java.util.HashMap) -> c
+    java.lang.Boolean b() -> b
+    java.lang.Boolean b(java.lang.String) -> b
+    java.lang.String g() -> g
+    int[] a() -> a
+    int[] a(java.lang.String) -> a
+    int b(java.lang.String) -> b
+    int g() -> g
+    int h() -> h
+    int i() -> i
+    int j() -> j
+    int getOrientation() -> getOrientation
+    int c(java.lang.String) -> c
+    java.lang.String h() -> h
+    int d(java.lang.String) -> d
+    int k() -> k
+    int l() -> l
+    int getTopPadding() -> getTopPadding
+    int getBottomPadding() -> getBottomPadding
+    java.util.HashMap b() -> b
+    void d(java.util.HashMap) -> d
+    int getHeight() -> getHeight
+    int e(java.lang.String) -> e
+    int getWidth() -> getWidth
+    int f(java.lang.String) -> f
+    java.lang.String a() -> a
+    java.lang.String getText() -> getText
+    int getTextSize() -> getTextSize
+    int g(java.lang.String) -> g
+    int m() -> m
+    int h(java.lang.String) -> h
+    java.lang.String i() -> i
+mm.sms.purchasesdk.e.e -> mm.sms.purchasesdk.e.e:
+    java.lang.String r -> r
+    java.lang.String mValue -> mValue
+    java.lang.String s -> s
+    int C -> C
+    int D -> D
+mm.sms.purchasesdk.e.f -> mm.sms.purchasesdk.e.f:
+    void show() -> show
+    android.view.View a() -> a
+mm.sms.purchasesdk.e.g -> mm.sms.purchasesdk.e.g:
+    java.lang.String TAG -> TAG
+    void n() -> n
+    void show() -> show
+    android.view.View a() -> a
+mm.sms.purchasesdk.e.h -> mm.sms.purchasesdk.e.h:
+    mm.sms.purchasesdk.e.g b -> b
+    void onClick(android.view.View) -> onClick
+mm.sms.purchasesdk.e.i -> mm.sms.purchasesdk.e.i:
+    mm.sms.purchasesdk.e.g b -> b
+    void onClick(android.view.View) -> onClick
+mm.sms.purchasesdk.e.j -> mm.sms.purchasesdk.e.j:
+    mm.sms.purchasesdk.e.j a -> a
+    mm.sms.purchasesdk.e.b a -> a
+    mm.sms.purchasesdk.e.j a() -> a
+    void b(mm.sms.purchasesdk.a.a) -> b
+    void a(android.os.Handler,android.os.Handler,mm.sms.purchasesdk.b,mm.sms.purchasesdk.a.a) -> a
+    void a(int,mm.sms.purchasesdk.b,android.os.Handler,android.os.Handler,java.util.HashMap) -> a
+    void o() -> o
+    void p() -> p
+    void a(android.os.Handler,android.os.Handler,mm.sms.purchasesdk.b) -> a
+mm.sms.purchasesdk.e.k -> mm.sms.purchasesdk.e.k:
+    int E -> E
+    void n() -> n
+    android.view.View a() -> a
+    int a(mm.sms.purchasesdk.e.k,int) -> a
+    int a(mm.sms.purchasesdk.e.k) -> a
+mm.sms.purchasesdk.e.l -> mm.sms.purchasesdk.e.l:
+    mm.sms.purchasesdk.e.k b -> b
+    void onClick(android.view.View) -> onClick
+mm.sms.purchasesdk.e.m -> mm.sms.purchasesdk.e.m:
+    mm.sms.purchasesdk.e.k b -> b
+    void onClick(android.view.View) -> onClick
+mm.sms.purchasesdk.e.n -> mm.sms.purchasesdk.e.n:
+    java.lang.String TAG -> TAG
+    void n() -> n
+    android.view.View a() -> a
+mm.sms.purchasesdk.e.o -> mm.sms.purchasesdk.e.o:
+    mm.sms.purchasesdk.e.n b -> b
+    void onClick(android.view.View) -> onClick
+mm.sms.purchasesdk.e.p -> mm.sms.purchasesdk.e.p:
+    mm.sms.purchasesdk.e.n b -> b
+    void onClick(android.view.View) -> onClick
+mm.sms.purchasesdk.e.q -> mm.sms.purchasesdk.e.q:
+    java.lang.String TAG -> TAG
+    android.graphics.drawable.Drawable d -> d
+    android.graphics.drawable.Drawable e -> e
+    void show() -> show
+    android.view.View a() -> a
+mm.sms.purchasesdk.e.q$a -> mm.sms.purchasesdk.e.q$a:
+    mm.sms.purchasesdk.e.q b -> b
+    void run() -> run
+mm.sms.purchasesdk.e.r -> mm.sms.purchasesdk.e.r:
+    float b -> b
+    java.lang.String t -> t
+    java.lang.String u -> u
+    java.lang.String v -> v
+    java.lang.String w -> w
+    java.lang.String x -> x
+    java.lang.String y -> y
+    java.lang.String z -> z
+    java.lang.String A -> A
+    java.util.HashMap d -> d
+    java.util.ArrayList c -> c
+    void a(java.lang.String,java.lang.String) -> a
+    android.graphics.Bitmap b(android.content.Context,java.lang.String) -> b
+    android.graphics.Bitmap c(android.content.Context,java.lang.String) -> c
+    void q() -> q
+    void r() -> r
+    boolean a(java.lang.String) -> a
+    android.graphics.Bitmap a(android.graphics.Bitmap) -> a
+    android.graphics.Bitmap a(float,float,android.graphics.Bitmap) -> a
+mm.sms.purchasesdk.f -> mm.sms.purchasesdk.f:
+    mm.sms.purchasesdk.e b -> b
+    void handleMessage(android.os.Message) -> handleMessage
+mm.sms.purchasesdk.f.a -> mm.sms.purchasesdk.f.a:
+    java.lang.String j() -> j
+    byte[] a() -> a
+    java.lang.String a(byte[]) -> a
+mm.sms.purchasesdk.f.b -> mm.sms.purchasesdk.f.b:
+    boolean a(android.content.Context) -> a
+    java.lang.String k() -> k
+    java.lang.String l() -> l
+    java.lang.Boolean a(android.content.Context) -> a
+mm.sms.purchasesdk.f.c -> mm.sms.purchasesdk.f.c:
+    boolean e -> e
+    int F -> F
+    java.lang.Boolean h -> h
+    android.content.Context mContext -> mContext
+    java.lang.Boolean i -> i
+    java.lang.String B -> B
+    java.lang.String C -> C
+    int G -> G
+    java.lang.String D -> D
+    java.lang.String E -> E
+    java.lang.Boolean j -> j
+    java.lang.String F -> F
+    int H -> H
+    java.lang.Boolean k -> k
+    java.lang.String G -> G
+    java.lang.String H -> H
+    java.lang.String I -> I
+    int n -> n
+    int I -> I
+    float c -> c
+    int J -> J
+    int K -> K
+    java.lang.String J -> J
+    boolean f -> f
+    java.lang.String K -> K
+    boolean g -> g
+    java.lang.String L -> L
+    java.lang.String M -> M
+    java.lang.String N -> N
+    java.lang.String O -> O
+    boolean h -> h
+    java.lang.Boolean l -> l
+    java.lang.String P -> P
+    java.lang.String Q -> Q
+    int L -> L
+    int n() -> n
+    void d(int) -> d
+    java.lang.String m() -> m
+    void d(java.lang.String) -> d
+    int o() -> o
+    java.lang.Boolean c() -> c
+    void b(java.lang.Boolean) -> b
+    java.lang.String n() -> n
+    java.lang.Boolean d() -> d
+    void c(java.lang.Boolean) -> c
+    void b(java.lang.String,java.lang.String) -> b
+    android.content.Context getContext() -> getContext
+    void setContext(android.content.Context) -> setContext
+    java.lang.String o() -> o
+    java.lang.String p() -> p
+    java.lang.Boolean e() -> e
+    void d(java.lang.Boolean) -> d
+    java.lang.String q() -> q
+    java.lang.String b(java.lang.String) -> b
+    void e(java.lang.String) -> e
+    java.lang.String r() -> r
+    void b(boolean) -> b
+    boolean c() -> c
+    java.lang.String s() -> s
+    java.lang.String t() -> t
+    java.lang.String u() -> u
+    void f(java.lang.String) -> f
+    void g(java.lang.String) -> g
+    java.lang.String v() -> v
+    boolean a(int) -> a
+    void unlock() -> unlock
+    java.lang.String w() -> w
+    java.lang.String x() -> x
+    void h(java.lang.String) -> h
+    int b() -> b
+    void e(int) -> e
+    void s() -> s
+    void reset() -> reset
+    void t() -> t
+    java.lang.String y() -> y
+    java.lang.String z() -> z
+    java.lang.String A() -> A
+    java.lang.String a(long) -> a
+    java.lang.String b(long) -> b
+    java.lang.String getPackageName() -> getPackageName
+    java.lang.String B() -> B
+    android.util.DisplayMetrics a() -> a
+    java.lang.String C() -> C
+    java.lang.String D() -> D
+    java.lang.String E() -> E
+    int p() -> p
+    void f(int) -> f
+    java.lang.String c(java.lang.String) -> c
+    void i(java.lang.String) -> i
+    java.lang.String F() -> F
+    java.lang.String G() -> G
+    void j(java.lang.String) -> j
+    java.lang.String H() -> H
+    void g(int) -> g
+    int q() -> q
+mm.sms.purchasesdk.f.d -> mm.sms.purchasesdk.f.d:
+    java.lang.String TAG -> TAG
+    int M -> M
+    java.lang.Object a -> a
+    void c(java.lang.String,java.lang.String) -> c
+    void a(java.lang.String,java.lang.String,java.lang.Exception) -> a
+    void d(java.lang.String,java.lang.String) -> d
+    void a(int,java.lang.String,java.lang.String,java.lang.Exception) -> a
+    void a(int,java.lang.String,java.lang.String) -> a
+    java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]) -> invoke
+    void u() -> u
+mm.sms.purchasesdk.f.e -> mm.sms.purchasesdk.f.e:
+    java.lang.String R -> R
+    java.lang.Boolean m -> m
+    void k(java.lang.String) -> k
+    java.lang.Boolean f() -> f
+    java.io.File a() -> a
+    void e(java.lang.String,java.lang.String) -> e
+    void write(java.lang.String) -> write
+mm.sms.purchasesdk.f.f -> mm.sms.purchasesdk.f.f:
+    java.lang.String TAG -> TAG
+    boolean b(android.content.Context) -> b
+mm.sms.purchasesdk.fingerprint.IdentifyApp -> mm.sms.purchasesdk.fingerprint.IdentifyApp:
+    boolean init(java.lang.Object,java.lang.String,int) -> init
+    int getLastError() -> getLastError
+    java.lang.String md5(byte[]) -> md5
+    java.lang.String generateTransactionID(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> generateTransactionID
+    java.lang.String decryptPapaya(java.lang.String) -> decryptPapaya
+    java.lang.String saveSMS(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> saveSMS
+    java.lang.String SMSOrderContent(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> SMSOrderContent
+mm.sms.purchasesdk.fingerprint.a -> mm.sms.purchasesdk.fingerprint.a:
+    java.lang.Boolean c -> c
+    int status -> status
+    void init() -> init
+    java.lang.String d() -> d
+    java.lang.String a(java.lang.String,java.lang.String) -> a
+mm.sms.purchasesdk.sms.SMSReceiver -> mm.sms.purchasesdk.sms.SMSReceiver:
+    java.lang.String i -> i
+    java.lang.String j -> j
+    android.os.Message a -> a
+    java.lang.String TAG -> TAG
+    java.lang.Boolean d -> d
+    void a(android.os.Message) -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    int d() -> d
+    int e() -> e
+mm.sms.purchasesdk.sms.a -> mm.sms.purchasesdk.sms.a:
+    java.lang.String TAG -> TAG
+    void a(java.lang.String,android.os.Message) -> a
+    int c() -> c
+mm.sms.purchasesdk.sms.b -> mm.sms.purchasesdk.sms.b:
+    java.lang.String TAG -> TAG
+    int o -> o
+    java.lang.Boolean e -> e
+    android.os.Message a -> a
+    void a(java.lang.Boolean) -> a
+    void run() -> run
+    int d() -> d
