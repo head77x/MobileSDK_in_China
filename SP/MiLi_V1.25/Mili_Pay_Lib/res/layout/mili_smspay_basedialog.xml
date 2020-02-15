@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/dialog_failure_bg"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#f8f8f8"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp" >
+
+            <ImageView
+                android:id="@+id/mili_smspay_stop_dialog_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="5dp"
+                android:src="@drawable/mili_smspay_stop_dialog_close" />
+
+            <RelativeLayout
+                android:id="@+id/mili_smspay_stop_dialog_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f4f7f7" >
+
+                <TextView
+                    android:id="@+id/mili_smspay_basedialog_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="false"
+                    android:layout_marginBottom="12dp"
+                    android:gravity="center"
+                    android:lineSpacingExtra="5dp"
+                    android:textSize="13sp"
+                    android:maxLines="2" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/mili_smspay_basedialog_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="8dp"
+                android:src="@drawable/mili_smspay_stop_dialog_close" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="14.67dp"
+                android:layout_marginRight="14.67dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/mili_smspay_basedialog_button_one"
+                    android:layout_width="0dp"
+                    android:layout_height="40.6dp"
+                    android:layout_marginRight="13.33dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mili_smspay_press_gray_stroke_button"
+                    android:gravity="center"
+                    android:text="开启WIFI"
+                    android:textColor="#8e8e8e" />
+
+                <TextView
+                    android:id="@+id/mili_smspay_basedialog_button_two"
+                    android:layout_width="0dp"
+                    android:layout_height="40.6dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mili_msmpay_press_green_exit_bg"
+                    android:gravity="center"
+                    android:text="确  定"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cacaca" >
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
