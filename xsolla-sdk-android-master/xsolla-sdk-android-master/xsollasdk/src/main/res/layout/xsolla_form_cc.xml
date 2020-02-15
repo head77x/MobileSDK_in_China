@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/xsolla_white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/xsolla_base_16"
+        android:layout_marginRight="@dimen/xsolla_base_16"
+        android:layout_marginTop="@dimen/xsolla_base_16"
+        android:textSize="@dimen/xsolla_textMedium"
+        android:text="dscription"
+        android:id="@+id/tvDescription"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/xsolla_base_16"
+        android:background="@drawable/xsolla_form_bg_main">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/xsolla_base_16">
+
+            <TextView
+                style="@style/xsolla_BaseInputTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/xsolla_textMedium"
+                android:text="Card number"
+                android:id="@+id/tvCardNumber" />
+
+            <com.xsolla.android.sdk.view.widget.maskededittext.CCEditText
+                style="@style/xsolla_BaseInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:xsolla_mask="#### #### #### ####"
+                android:minWidth="@dimen/xsolla_min_width"
+                android:inputType="number"
+                android:singleLine="true"
+                android:id="@+id/edCardNumber"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/xsolla_base_16"
+            android:paddingRight="@dimen/xsolla_base_16">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/xsolla_BaseInputTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/xsolla_textMedium"
+                    android:text="Expiration Date"
+                    android:id="@+id/tvExpirationDate" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        style="@style/xsolla_BaseInput"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="MM"
+                        android:minEms="3"
+                        android:maxLength="2"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/edMonth"
+                        android:nextFocusDown="@+id/edYear"/>
+
+                    <EditText
+                        style="@style/xsolla_BaseInput"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="YY"
+                        android:minEms="3"
+                        android:maxLength="2"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/edYear"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/xsolla_BaseInputTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/xsolla_textMedium"
+                    android:text="Zip Code"
+                    android:id="@+id/tvZipCode"/>
+
+                <EditText
+                    style="@style/xsolla_BaseInput"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minEms="6"
+                    android:maxLength="8"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:id="@+id/edZipCode"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/xsolla_base_16"
+            android:paddingRight="@dimen/xsolla_base_16"
+            android:paddingLeft="@dimen/xsolla_base_16"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/xsolla_BaseInputTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/xsolla_textMedium"
+                android:text="Card holder"
+                android:id="@+id/tvCardHolder" />
+
+            <EditText
+                style="@style/xsolla_BaseInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minEms="8"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:id="@+id/edCardHolder"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/xsolla_base_16">
+
+            <TextView
+                style="@style/xsolla_BaseInputTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/xsolla_textMedium"
+                android:text="CVV/CVV2"
+                android:id="@+id/tvCvv" />
+
+            <EditText
+                style="@style/xsolla_BaseInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minEms="8"
+                android:maxLength="4"
+                android:inputType="number"
+                android:singleLine="true"
+                android:id="@+id/edCvv"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xsolla_base_8"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/xsolla_base_16"
+        android:textColor="@color/xsolla_text_main"
+        android:text="New CheckBox"
+        android:id="@+id/checkBox"
+        android:visibility="gone"/>
+
+</LinearLayout>

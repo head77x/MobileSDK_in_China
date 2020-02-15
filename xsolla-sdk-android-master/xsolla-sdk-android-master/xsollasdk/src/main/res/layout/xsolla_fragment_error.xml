@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xsolla.android.sdk.view.ErrorFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/xsolla_error"
+        android:padding="@dimen/xsolla_base_8"
+        android:layout_gravity="left|top"
+        android:id="@+id/llError"
+        android:gravity="center">
+
+        <com.xsolla.android.sdk.view.widget.IconTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:textColor="@color/xsolla_white"
+            android:text="@string/xsolla_ic_info"
+            android:textSize="@dimen/xsolla_ic_other"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/xsolla_base_16"
+            android:text="ERROR"
+            android:textColor="@color/xsolla_white"
+            android:textSize="@dimen/xsolla_textMedium"
+            android:id="@+id/tvError"
+            />
+
+    </LinearLayout>
+
+    <Button
+        style="@style/xsolla_ButtonPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/xsolla_base_16"
+        android:text="Close"
+        android:id="@+id/btnComplete"
+        android:layout_gravity="left|bottom" />
+
+</FrameLayout>

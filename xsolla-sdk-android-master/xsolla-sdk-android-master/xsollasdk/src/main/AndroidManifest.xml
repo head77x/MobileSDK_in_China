@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xsolla.android.sdk">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application android:allowBackup="true">
+        <activity
+            android:name=".view.XsollaActivity"
+            android:label="@string/xsolla_app_name"
+            android:theme="@style/xsolla_SDKTheme"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+    </application>
+
+</manifest>

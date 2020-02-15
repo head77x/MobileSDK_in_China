@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:background="@color/xsolla_white">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/xsolla_white">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mainContainer"
+            android:visibility="visible">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/xsolla_correct"
+                android:paddingStart="@dimen/xsolla_base_8"
+                android:paddingEnd="@dimen/xsolla_base_8">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/xsolla_base_8"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <com.xsolla.android.sdk.view.widget.IconTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|center_vertical"
+                        android:textColor="@color/xsolla_white"
+                        android:text="@string/xsolla_ic_success"
+                        android:textSize="@dimen/xsolla_ic_other"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/xsolla_base_16"
+                        android:textColor="@color/xsolla_white"
+                        android:textSize="@dimen/xsolla_textMedium"
+                        android:text="Your payment was completed. Thank you for your order!"
+                        android:id="@+id/tvCompleteText"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/xsolla_base_16"
+                android:paddingRight="@dimen/xsolla_base_16"
+                android:id="@+id/subContainer">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/xsolla_base_16"
+                    android:paddingBottom="@dimen/xsolla_base_16"
+                    android:textSize="@dimen/xsolla_textMedium"
+                    android:text="Product - PlaceHolder"
+                    android:id="@+id/tvProductName"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/xsolla_divider"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:showDividers="middle"
+                    android:divider="@drawable/xsolla_dotted"
+                    android:dividerHeight="1px"
+                    android:id="@+id/llStatus"
+                    android:hardwareAccelerated="false"
+                    android:layerType="software"/><!---->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/xsolla_divider"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <Button
+                    style="@style/xsolla_ButtonPay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/xsolla_base_16"
+                    android:text="Ok"
+                    android:id="@+id/btnComplete"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/progressContainer"
+            android:visibility="gone">
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar"
+                android:layout_gravity="center" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

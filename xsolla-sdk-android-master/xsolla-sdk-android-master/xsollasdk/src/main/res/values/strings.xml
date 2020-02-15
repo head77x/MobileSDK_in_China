@@ -1,0 +1,43 @@
+<resources>
+    <string name="xsolla_app_name">XsollaSDK</string>
+    <string name="xsolla_title_activity_xsolla">Bill</string>
+
+    <string name="xsolla_hello_world">Hello world!</string>
+    <string name="xsolla_action_settings">Settings</string>
+    <string name="xsolla_fish">By submitting payment information you acknowledge that you have read and
+        agree to be bound by the terms and conditions of the Xsolla End-User License Agreement.
+        Please note: your credit card statement will read: Xsolla USA Inc.</string>
+
+    <string name="xsolla_ic_arrow_back">{ic_arrow_back}</string>
+    <string name="xsolla_ic_arrow_down">{ic_arrow_down}</string>
+    <string name="xsolla_ic_arrow_forward">{ic_arrow_forward}</string>
+    <string name="xsolla_ic_arrow_up">{ic_arrow_up}</string>
+    <string name="xsolla_ic_calendar">{ic_calendar}</string>
+    <string name="xsolla_ic_card">{ic_card}</string>
+    <string name="xsolla_ic_cart">{ic_cart}</string>
+    <string name="xsolla_ic_country">{ic_country}</string>
+    <string name="xsolla_ic_currency">{ic_currency}</string>
+    <string name="xsolla_ic_error">{ic_error}</string>
+    <string name="xsolla_ic_hint">{ic_hint}</string>
+    <string name="xsolla_ic_info">{ic_info}</string>
+    <string name="xsolla_ic_lock">{ic_lock}</string>
+    <string name="xsolla_ic_map_pin">{ic_map_pin}</string>
+    <string name="xsolla_ic_menu">{ic_menu}</string>
+    <string name="xsolla_ic_phone">{ic_phone}</string>
+    <string name="xsolla_ic_ruble">{ic_ruble}</string>
+    <string name="xsolla_ic_sale">{ic_sale}</string>
+    <string name="xsolla_ic_search">{ic_search}</string>
+    <string name="xsolla_ic_send_by">{ic_send_by}</string>
+    <string name="xsolla_ic_shop">{ic_shop}</string>
+    <string name="xsolla_ic_subscription">{ic_subscription}</string>
+    <string name="xsolla_ic_success">{ic_success}</string>
+    <string name="xsolla_ic_tick_select">{ic_tick_select}</string>
+    <string name="xsolla_ic_total">{ic_total}</string>
+    <string name="xsolla_ic_user_agreement">{ic_user_agreement}</string>
+    <string name="xsolla_ic_user">{ic_user}</string>
+    <string name="xsolla_ic_waiting">{ic_waiting}</string>
+    <string name="xsolla_ic_xsolla_app">{ic_xsolla_app}</string>
+    <string name="xsolla_ic_zipcode">{ic_zipcode}</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="xsolla_hello_blank_fragment">Hello blank fragment</string>
+</resources>

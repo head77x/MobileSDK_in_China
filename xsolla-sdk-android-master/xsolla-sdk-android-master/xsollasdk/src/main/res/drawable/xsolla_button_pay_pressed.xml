@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:radius="@dimen/xsolla_input_radius"
+        />
+    <solid
+        android:color="@color/xsolla_green_d"
+        />
+    <padding
+        android:left="@dimen/xsolla_input_padding_horizontal"
+        android:top="@dimen/xsolla_input_padding_vertical"
+        android:right="@dimen/xsolla_input_padding_horizontal"
+        android:bottom="@dimen/xsolla_input_padding_vertical"
+        />
+</shape>

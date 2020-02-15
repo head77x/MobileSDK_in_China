@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="xsolla_max_width">512dp</dimen>
+    <dimen name="xsolla_min_width">256dp</dimen>
+    <dimen name="xsolla_base_4">4dp</dimen>
+    <dimen name="xsolla_base_8">8dp</dimen>
+    <dimen name="xsolla_base_16">16dp</dimen>
+    <dimen name="xsolla_base_32">32dp</dimen>
+    <dimen name="xsolla_base_48">48dp</dimen>
+    <dimen name="xsolla_base_64">64dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="xsolla_activity_horizontal_margin">16dp</dimen>
+    <dimen name="xsolla_activity_vertical_margin">16dp</dimen>
+
+    <dimen name="xsolla_input_border">1dp</dimen>
+    <dimen name="xsolla_input_radius">4dp</dimen>
+    <dimen name="xsolla_input_padding_vertical">8dp</dimen>
+    <dimen name="xsolla_input_padding_horizontal">16dp</dimen>
+
+    <dimen name="xsolla_textMini">10sp</dimen>
+    <dimen name="xsolla_textSmall">14sp</dimen>
+    <dimen name="xsolla_textMedium">16sp</dimen>
+    <dimen name="xsolla_textLarge">22sp</dimen>
+
+    <dimen name="xsolla_ic_progress">48sp</dimen>
+    <dimen name="xsolla_ic_other">32sp</dimen>
+</resources>

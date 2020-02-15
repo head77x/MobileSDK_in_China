@@ -1,0 +1,137 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/xsolla_white"
+    tools:context=".MainActivity">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/webView"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:visibility="visible">
+
+        <EditText
+            style="@style/xsolla_BaseInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/xsolla_base_4"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="KhevmS4ddZ3lmzZKU4yBlmKwTeKO3bTY"
+            android:hint="ACCESS_TOKEN"
+            android:id="@+id/edToken"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sandbox"
+            android:id="@+id/checkBox"/>
+       <!-- <EditText
+            style="@style/xsolla_BaseInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/xsolla_base_4"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:hint="PID"
+            android:id="@+id/edPid"/>
+        <EditText
+            style="@style/xsolla_BaseInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/xsolla_base_4"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:hint="OUT"
+            android:id="@+id/edOut"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                style="@style/xsolla_BaseInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/xsolla_base_4"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_weight="1"
+                android:hint="SKU[ID]"
+                android:id="@+id/edSkuId"/>
+            <EditText
+                style="@style/xsolla_BaseInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/xsolla_base_4"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:hint="SKU_COUNT"
+                android:id="@+id/edSkuCount"/>
+        </LinearLayout>
+
+        <EditText
+            style="@style/xsolla_BaseInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/xsolla_base_4"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:hint="ID_PACKAGE"
+            android:id="@+id/edPackageId"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <Button
+            style="@style/xsolla_ButtonPay"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/xsolla_base_4"
+            android:layout_weight="1"
+            android:text="Direct Pay"
+            android:id="@+id/button" />
+
+        <Button
+            style="@style/xsolla_ButtonPay"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/xsolla_base_4"
+            android:layout_weight="1"
+            android:text="Create Default"
+            android:id="@+id/button3" />
+
+        <Button
+            style="@style/xsolla_ButtonPay"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/xsolla_base_4"
+            android:text="Create"
+            android:id="@+id/button2"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/tvResult"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+</FrameLayout>

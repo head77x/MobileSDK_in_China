@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/xsolla_form_bg"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/xsolla_base_16">
+
+    <TextView
+        style="@style/xsolla_BaseInputTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/xsolla_textMedium"
+        android:text="Medium Text"
+        android:id="@+id/text1" />
+
+    <EditText
+        style="@style/xsolla_BaseInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/xsolla_min_width"
+        android:maxLength="16"
+        android:inputType="text"
+        android:singleLine="true"
+        android:id="@+id/editText"/>
+</LinearLayout>

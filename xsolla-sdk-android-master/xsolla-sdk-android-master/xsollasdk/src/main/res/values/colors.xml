@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="xsolla_black">#000000</color>
+    <color name="xsolla_white">#ffffff</color>
+    <color name="xsolla_correct">#57c69a</color>
+    <color name="xsolla_green">#58a989</color>
+    <color name="xsolla_green_d">#ff468c6c</color>
+    <color name="xsolla_error">#fa7464</color>
+    <color name="xsolla_divider">#b4b4b4</color>
+    <color name="xsolla_text_main">#737377</color>
+    <color name="xsolla_text_accent">#c7c6c6</color>
+    <color name="xsolla_form_bg">#f2f2f2</color>
+    <color name="xsolla_form_input_border">#d8d8d8</color>
+    <color name="xsolla_mediumpurple">#9483bb</color>
+    <color name="xsolla_darkpurple">#ff605582</color>
+</resources>

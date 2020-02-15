@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_window_focused="false" android:state_enabled="true" android:drawable="@drawable/xsolla_input_base_default" /><!--default-->
+    <item android:state_window_focused="false" android:state_enabled="false" android:drawable="@drawable/xsolla_input_base_disabled" /><!--disabled-->
+    <item android:state_enabled="true" android:state_focused="true" android:drawable="@drawable/xsolla_input_base_active" /><!--activated-->
+    <item android:state_enabled="true" android:state_activated="true" android:drawable="@drawable/xsolla_input_base_active" /><!--focused-->
+    <item android:state_enabled="true" android:drawable="@drawable/xsolla_input_base_default" /><!--default-->
+    <item android:state_focused="true" android:drawable="@drawable/xsolla_input_base_disabled" /><!--disabled_focused-->
+    <item android:drawable="@drawable/xsolla_input_base_disabled" /><!--disabled-->
+
+<!--    <item app:state_correct="true" android:drawable="@drawable/xsolla_input_base_default" />
+    <item app:state_wrong="true" android:drawable="@drawable/xsolla_input_base_default" />-->
+
+</selector>

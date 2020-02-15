@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:background="@color/xsolla_white"
+    android:id="@+id/scrollView">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mainContainer">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/xsolla_base_8"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/xsolla_base_48"
+                    android:layout_height="@dimen/xsolla_base_48"
+                    android:scaleType="centerInside"
+                    android:id="@+id/ivPaymentSystem"/><!--
+                    android:src="@drawable/ic_launcher"-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/xsolla_base_8"
+                    android:textSize="@dimen/xsolla_textMedium"
+                    android:textColor="@color/xsolla_text_accent"
+                    android:text="Payment system name"
+                    android:id="@+id/tvPaymentSystem"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/xsolla_divider"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/xsolla_error"
+                android:padding="@dimen/xsolla_base_8"
+                android:layout_gravity="center"
+                android:id="@+id/llError"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <com.xsolla.android.sdk.view.widget.IconTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    android:textColor="@color/xsolla_white"
+                    android:text="@string/xsolla_ic_info"
+                    android:textSize="@dimen/xsolla_ic_other"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/xsolla_base_16"
+                    android:text="ERROR"
+                    android:textColor="@color/xsolla_white"
+                    android:textSize="@dimen/xsolla_textMedium"
+                    android:id="@+id/tvError"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:maxWidth="@dimen/xsolla_max_width"
+                android:paddingLeft="@dimen/xsolla_base_16"
+                android:paddingRight="@dimen/xsolla_base_16"
+                android:id="@+id/subContainer">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="@dimen/xsolla_max_width"
+                    android:id="@+id/formContainer">
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="@dimen/xsolla_max_width"
+                    android:paddingLeft="@dimen/xsolla_base_8"
+                    android:paddingRight="@dimen/xsolla_base_8"
+                    android:textColor="@color/xsolla_text_accent"
+                    android:text="@string/xsolla_fish"
+                    android:id="@+id/tvEula"/>
+
+                <!--<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/base_8"
+                    android:textColor="@color/correct"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:drawableStart="@drawable/check"
+                    android:drawableLeft="@drawable/check"
+                    android:text="Total $0.00"
+                    android:id="@+id/tvTotal"/>-->
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="@dimen/xsolla_max_width"
+                    android:gravity="center">
+
+                    <com.xsolla.android.sdk.view.widget.IconTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="-5dp"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/xsolla_correct"
+                        android:text="@string/xsolla_ic_total"
+                        android:textSize="@dimen/xsolla_ic_other"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/xsolla_base_8"
+                        android:textColor="@color/xsolla_correct"
+                        android:textSize="@dimen/xsolla_textMedium"
+                        android:text="Total $0.00"
+                        android:id="@+id/tvTotal"/>
+                </LinearLayout>
+
+                <Button
+                    style="@style/xsolla_ButtonPay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="@dimen/xsolla_max_width"
+                    android:layout_marginRight="@dimen/xsolla_base_16"
+                    android:layout_marginBottom="@dimen/xsolla_base_16"
+                    android:layout_marginLeft="@dimen/xsolla_base_16"
+                    android:text="Pay now"
+                    android:id="@+id/btnPay"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/xsolla_base_8"
+                android:background="@color/xsolla_form_input_border"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/xsolla_form_bg">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/xsolla_base_4">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/xsolla_textSmall"
+                        android:text="phone"
+                        android:id="@+id/tvSupportPhone"/>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/xsolla_textMini"
+                            android:layout_marginRight="@dimen/xsolla_base_4"
+                            android:layout_marginEnd="@dimen/xsolla_base_4"
+                            android:textColor="@color/xsolla_text_accent"
+                            android:text="help"
+                            android:id="@+id/tvNeedHelp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/xsolla_textMini"
+                            android:textColor="@color/xsolla_text_accent"
+                            android:text="contact us"
+                            android:id="@+id/tvContactUs"/>
+                        </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="@color/xsolla_form_input_border"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/xsolla_base_4">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/xsolla_textSmall"
+                        android:text="mail"
+                        android:id="@+id/tvSupportEmail"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/xsolla_textMini"
+                        android:textColor="@color/xsolla_text_accent"
+                        android:text="support"
+                        android:id="@+id/tvCustomerSupport"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/progressContainer"
+            android:visibility="gone">
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar"
+                android:layout_gravity="center" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

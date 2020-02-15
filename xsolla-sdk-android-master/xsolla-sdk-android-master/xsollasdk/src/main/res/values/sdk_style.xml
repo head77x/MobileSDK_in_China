@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="xsolla_SDKTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:windowIsFloating">false</item>-->
+        <!--<item name="android:backgroundDimEnabled">false</item>-->
+
+        <item name="android:textAppearanceLarge">@style/xsolla_TextAppearanceLarge</item>
+        <item name="android:textAppearanceMedium">@style/xsolla_TextAppearanceMedium</item>
+        <item name="android:textAppearanceSmall">@style/xsolla_TextAppearanceSmall</item>
+
+
+        <!-- colorPrimary is used, for instance, for the default ActionBar
+             (but not Toolbar) background.
+              We specify the same color for the toolbar background in
+              toolbar.xml.. -->
+        <!--<item name="colorPrimary">@color/color_primary</item>-->
+
+        <!-- colorPrimaryDark is used for the status bar (with the
+             battery, clock, etc). -->
+        <!--<item name="colorPrimaryDark">@color/color_primary_dark</item>-->
+
+        <!-- colorAccent is used as the default value for
+             colorControlActivated which is used to tint widgets. -->
+        <!--<item name="colorAccent">@color/color_accent</item>-->
+
+        <!-- android:textColorPrimary is the  color of the title text
+       in the Toolbar, in the Theme.AppCompat theme:  -->
+        <!--<item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>-->
+
+        <!-- android:textColorPrimaryInverse is the  color of the title
+             text in the Toolbar, in the Theme.AppCompat.Light theme:  -->
+        <!-- <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item> -->
+
+        <!-- android:actionMenuTextColor is the color of the text of
+              action (menu) items in the Toolbar, at least in the
+              Theme.AppCompat theme.
+              For some reason, they already get the textColorPrimary
+              when running on API 21, but not on older versions of
+              Android, so this is only necessary to support older
+              Android versions.-->
+        <!--<item name="actionMenuTextColor">@color/abc_primary_text_material_dark</item>-->
+        <!-- android:textColorSecondary is the color of the menu
+             overflow icon (three vertical dots) -->
+        <!--<item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>-->
+
+        <!-- This would set the toolbar's background color,
+              but setting this also changes the popup menu's background,
+              even if we define popupTheme for our <Toolbar> -->
+        <!-- <item name="android:background">@color/color_primary</item> -->
+    </style>
+
+    <style name="xsolla_BaseInputTitle" parent="android:Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/xsolla_text_main</item>
+    </style>
+
+    <style name="xsolla_BaseInput" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/xsolla_input_base</item>
+        <item name="android:textColor">@color/xsolla_text_main</item>
+    </style>
+
+    <style name="xsolla_ButtonPay" parent="android:Widget.Button">
+        <item name="android:background">@drawable/xsolla_button_pay</item>
+        <item name="android:textColor">@color/xsolla_white</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+    </style>
+
+    <style name="xsolla_TextAppearanceLarge" parent="android:TextAppearance.Large">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="xsolla_TextAppearanceMedium" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="xsolla_TextAppearanceSmall" parent="android:TextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

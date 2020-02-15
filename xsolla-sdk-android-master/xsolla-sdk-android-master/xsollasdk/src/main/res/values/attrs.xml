@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="xsolla_valid">
+        <attr name="xsolla_state_correct" format="boolean" />
+        <attr name="xsolla_state_wrong" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="xsolla_MaskedEditText">
+        <attr name="xsolla_mask" format="string" />
+        <attr name="xsolla_char_representation" format="string" />
+        <attr name="xsolla_mask_fill" format="string" />
+    </declare-styleable>
+</resources>

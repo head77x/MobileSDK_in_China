@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:text="Title"
+        android:id="@+id/tvTitle"
+        android:textColor="@color/xsolla_text_main"
+        android:textSize="@dimen/xsolla_textMedium"
+        android:paddingTop="@dimen/xsolla_base_8"
+        android:paddingBottom="@dimen/xsolla_base_8"
+        android:paddingLeft="@dimen/xsolla_base_8"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:text="Value"
+        android:maxLength="30"
+        android:id="@+id/tvValue"
+        android:textColor="@color/xsolla_text_main"
+        android:textSize="@dimen/xsolla_textMedium"
+        android:paddingTop="@dimen/xsolla_base_8"
+        android:paddingBottom="@dimen/xsolla_base_8"
+        android:paddingRight="@dimen/xsolla_base_8"/>
+
+</FrameLayout>

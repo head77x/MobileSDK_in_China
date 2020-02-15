@@ -1,0 +1,37 @@
+def dataLayerProject = ':xsollasdk'
+evaluationDependsOn(dataLayerProject)
+
+apply plugin: 'java'
+
+dependencies {
+
+    def dataLayer = project(dataLayerProject)
+    testCompile project(path: dataLayerProject, configuration: 'debugCompile')
+
+    def debugVariant = dataLayer.android.libraryVariants.find({it.name == 'debug'})
+    //noinspection GroovyAssignabilityCheck
+    testCompile debugVariant.javaCompile.classpath
+    //noinspection GroovyAssignabilityCheck
+    testCompile debugVariant.javaCompile.outputs.files
+    //noinspection GroovyAssignabilityCheck
+    testCompile files(dataLayer.plugins.findPlugin('com.android.library').getBootClasspath())
+
+
+    testCompile 'org.mockito:mockito-core:1.9.5'
+    testCompile 'junit:junit:4.11'
+    testCompile 'org.robolectric:robolectric:2.2'
+}
+
+sourceSets {
+  test {
+    java.srcDirs = ['src/test/java']
+  }
+}
+
+tasks.withType(Test) {
+  scanForTestClasses = false
+  include "**/*Should.class"
+  include "**/*Test.class"
+  include "**/*Tests.class"
+  exclude "**/*IT.class"
+}
