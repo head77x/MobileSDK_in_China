@@ -1,0 +1,16 @@
+融合版本计费sdk
+sdk内容：
+	mmpaybilling1.0.0.jar
+	libsmsiap.so
+	libsmsprotocol.so
+版本更新内容：
+	使用新版电信计费jar以及电信计费so库。
+#######################################
+融合版本计费sdk
+sdk内容：
+	mmpaybilling1.0.0.jar
+	libsmsiap.so
+	libsmsprotocol.so
+版本更新内容：
+	使用新版联通计费jar
+	增加联通接口订购完成后返回订单号

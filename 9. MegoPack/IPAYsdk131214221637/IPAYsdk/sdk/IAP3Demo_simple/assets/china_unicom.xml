@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game>
+ <gamecode>200175</gamecode>
+ <gamekey>19c453556f86477c4ed1ec60</gamekey>
+ <company>中国移动MM平台</company>
+ <gamename>移动计费demo</gamename>
+ <servicephone>13822154911</servicephone>
+ <good>
+  <goodinputid>30000284404801</goodinputid>
+  <goodsubid>0101810005</goodsubid>
+  <goodname>小狗</goodname>
+  <goodmoney>1</goodmoney>
+ </good>
+ <channel>
+  <inputchannel>151</inputchannel>
+  <channelid>001</channelid>
+ </channel>
+ <channel>
+  <inputchannel>0000000000</inputchannel>
+  <channelid>100</channelid>
+ </channel>
+</game>
