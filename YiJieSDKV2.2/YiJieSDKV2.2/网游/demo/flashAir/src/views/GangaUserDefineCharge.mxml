@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark"
+		title="Ganga_Ane_UNQuotaCharge">
+
+	<fx:Script>
+		<![CDATA[
+			
+			import mx.managers.PopUpManager;
+			
+			import cn.snowfish.ganga.ane.SFOnlineHelper;
+			//CP服务器地址，支付同步接口
+			private static const CP_PAY_SYNC_URL:String = "http://testomsdk.xiaobalei.com:5555/cp/user/paylog/sync";
+			private var itemName: String;
+			private var unitPrice: int;
+
+			protected function btn_clickHandler(event:MouseEvent):void
+			{
+				var itemName:String = this.ProductName.text; 
+				var unitPrice:int = int(this.Price.text);
+				PopUpManager.removePopUp(this);
+				SFOnlineHelper.getInstance().charge(itemName,unitPrice,1,"购买金币",CP_PAY_SYNC_URL);			
+				outputs("paying...");
+				outputs("ProductName:"+itemName);
+				outputs("Price:"+unitPrice);
+			}
+			private function outputs(txt:String):void
+			{
+				txtOutputs.appendText(txt + "\n");
+			}
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	
+	<s:VGroup x="20" y="300">
+		<s:HGroup verticalAlign="middle" gap="18">
+		<s:Label text="UNQuotaCharge" fontSize="50"/>
+		</s:HGroup>
+		<s:HGroup verticalAlign="middle" gap="18">
+		<s:Label width="300" height="58" text="ProductName:"/>
+		<s:TextInput id="ProductName" width="300" height="58" fontSize="24"/>
+		</s:HGroup>
+		<s:HGroup verticalAlign="middle" gap="18">
+		<s:Label width="300" height="58" text="Price:"/>
+		<s:TextInput id="Price" width="300" height="58" fontSize="24" restrict="0-9"/>
+		</s:HGroup>
+		<s:HGroup verticalAlign="middle" gap="18">
+		<s:Button id="Sumit" width="300" height="58" label="Sumit"
+				  click="btn_clickHandler(event)" fontSize="24"/>
+		<s:Button id="Cancle" width="300" height="58" label="Cancle"
+				  click="PopUpManager.removePopUp(this)" fontSize="24"/>
+		</s:HGroup>
+		<s:HGroup verticalAlign="middle" gap="18">
+			<s:TextArea id="txtOutputs" height="400" fontSize="24" text=""/>
+		</s:HGroup>
+		
+	</s:VGroup>
+</s:View>

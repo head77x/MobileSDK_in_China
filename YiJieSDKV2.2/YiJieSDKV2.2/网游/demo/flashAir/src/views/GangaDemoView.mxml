@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark" title="Ganga Demo">
+
+	<fx:Script> 
+		<![CDATA[
+			import flash.desktop.NativeApplication;
+			
+			import mx.managers.PopUpManager;
+			
+			import cn.snowfish.ganga.ane.CallbackEvent;
+			import cn.snowfish.ganga.ane.Constants;
+			import cn.snowfish.ganga.ane.SFOnlineHelper;
+			
+			/*CP服务器地址:用作登录验证.因为有些渠道需要做登录验证，为了统一处理，所以只有登录验证成功之后才算真正的登陆成功
+			* 登陆验证是由CP服务器实现的，供游戏客户端调用验证用户登录状态的接口。 游戏客户端和游戏服务器之间的登陆验证接口由CP自己定义
+			*/ 
+			//正服
+			private static const CP_LOGIN_CHECK_URL:String = "http://testomsdk.xiaobalei.com:5555/cp/user/paylog/checkLoginP";
+			//测服
+//			private static const CP_LOGIN_CHECK_URL:String = "http://testomsdk.xiaobalei.com:5555/cp/user/paylog/checkLogin";
+			//自建服务器  测服
+//			private static const CP_LOGIN_CHECK_URL:String = "http://testomsdk.xiaobalei.com:5555/cp/user/paylog/checkLoginZijian";
+			//自建服务器  正服
+//			private static const CP_LOGIN_CHECK_URL:String = "http://testomsdk.xiaobalei.com:5555/cp/user/paylog/checkLoginZijianP";
+			
+			
+			/*CP服务器地址，支付结果同步地址
+			* 如果客户端不设置，将以在易接后台创建游戏时设置的数据同步地址进行同步
+			* */
+			private static const CP_PAY_SYNC_URL:String = "http://testomsdk.xiaobalei.com:5555/cp/user/paylog/sync";
+			private static var bLogined: Boolean = false;
+			private var isDebug: Boolean = false;
+			private static var mProductCode:String = null;
+			private static var mChannelId:String = null;
+			private static var mChannelUserId:String = null;
+			private static var mToken:String = null;
+			
+			/**onDeActivate
+			 *当应用程序转到后台运行时会触发该事件
+			 */
+			public function onDeActivate(event:Event):void
+			{
+				outputs("onDeActivate");
+				SFOnlineHelper.getInstance().onPause();
+			}
+			
+			/**onActivate
+			 *当应用程序转到前台运行时会触发该事件
+			 */
+			public function onActivate(event:Event):void
+			{
+				
+				outputs("onActivate");
+				SFOnlineHelper.getInstance().onResume();
+			}
+			/**
+			 * onDestroy
+			 *当应用程序销毁时会触发该事件
+			 * 
+			 */
+			public function onDestroy(event:Event):void
+			{
+				
+				outputs("onDestroy");
+				SFOnlineHelper.getInstance().onDestroy();
+			}
+			
+			/**
+			 * SFOnlineHelper.getInstance().initSDK()
+			 * 初始化SDK
+			 * 该方法只需调用一次
+			 */
+			/**
+			 * SFOnlineHelper.getInstance().onResume()
+			 * 因为有些sdk的浮标是在onresume里面显示的，所以初始化的时候需要调用一下onResume函数
+			 * 
+			 */
+			protected function btnInit_clickHandler(event:MouseEvent):void
+			{
+				outputs("initing...");
+				SFOnlineHelper.getInstance().initSDK();
+//				SFOnlineHelper.getInstance().initSDKExtend();
+				
+				SFOnlineHelper.getInstance().onResume();
+				NativeApplication.nativeApplication.addEventListener(Event.EXITING, onDestroy);
+				NativeApplication.nativeApplication.addEventListener(Event.ACTIVATE , onActivate);
+				NativeApplication.nativeApplication.addEventListener(Event.DEACTIVATE , onDeActivate );
+				
+				SFOnlineHelper.getInstance().addEventListener(Constants.EVENT_TYPE_GANGA_CALLBACK,onCallbackEvent);
+				if(stage)//AIR内置对象
+				{
+					stage.addEventListener(ThrottleEvent.THROTTLE,pauseHandler);		// 添加切换到后台的监听
+					stage.addEventListener(KeyboardEvent.KEY_DOWN, onKey);
+				}
+				
+			}
+			
+			private function onKey(event:KeyboardEvent):void {
+				
+				switch(event.keyCode) {
+					
+					case Keyboard.BACK :
+						outputs("back");
+						event.preventDefault();
+						SFOnlineHelper.getInstance().exitSDK();
+					
+						// go back within AIR application
+						
+						break;
+				}
+				
+			}
+			private function pauseHandler(evt:ThrottleEvent):void
+			{
+				switch (evt.state)
+				{
+					case ThrottleType.THROTTLE:
+						//游戏进入后台
+						outputs("pauseHandler onStop");
+						SFOnlineHelper.getInstance().onStop();
+						break;
+					default:
+						break;
+				}
+			}
+			/**
+			 * SFOnlineHelper.getInstance().login(context:Object,type:String)
+			 * 用户登录接口
+			 * context:上下文
+			 * type: 字符串"Login"
+			 */
+			protected function btnLogin_clickHandler(event:MouseEvent):void
+			{	
+				if (bLogined) {
+					outputs("用户已登陆");
+					return;
+				}
+				SFOnlineHelper.getInstance().login("Login");
+//				SFOnlineHelper.getInstance().getMetaData("com.snowfish.channelid");得到meta-data的值，返回值在 onCallbackEvent中
+				outputs("登陆中...");
+				
+			}
+			
+			/**
+			 * SFOnlineHelper.getInstance().pay(unitPrice:    int, 
+												unitName:     String,
+												count:        int, 
+												callBackInfo: String,
+												callBackUrl:  String)
+
+			 *定额支付接口
+			 	* unitPrice		             游戏道具单位价格，单位为人民币分
+				* unitName		              虚拟货币名称
+				* count		                            用户选择购买道具界面的默认道具数量。（总价 count*unitPrice）
+				* callBackInfo		由游戏开发者定义传入的字符串，会与支付结果一同发送给游戏服务器，游戏服务器可通过该字段判断交易的详细内容（金额角色等）
+				* callBackUrl		将支付结果通知给游戏服务器时的通知地址url，交易结束后，系统会向该url发送http请求，通知交易的结果金额callbackInfo等信息
+				 *                  如果客户端不设置，将以在易接后台创建游戏时设置的数据同步地址进行同步
+			 */
+			protected function btnPay_clickHandler(event:MouseEvent):void
+			{
+				if (!bLogined) {
+					outputs("用户未登陆");
+					return;
+				}
+				SFOnlineHelper.getInstance().pay(100, "金币", 1,"购买金币", CP_PAY_SYNC_URL);
+				outputs("支付中...");
+				
+			}
+			/**
+			 * SFOnlineHelper.getInstance().charge(itemName:        String,
+												   unitPrice:      int,
+												   count:          int,
+												   callBackInfo:   String,
+												   callBackUrl:    String)
+
+			 
+			 *非定额支付接口
+			 * itemName		              虚拟货币名称
+			 * unitPrice		 游戏道具单位价格，单位为人民币分
+			 * count		               用户选择购买道具界面的默认道具数量。（总价 count*unitPrice）
+			 * callBackInfo		由游戏开发者定义传入的字符串，会与支付结果一同发送给游戏服务器，游戏服务器可通过该字段判断交易的详细内容（金额角色等）
+			 * callBackUrl		将支付结果通知给游戏服务器时的通知地址url，交易结束后，系统会向该url发送http请求，通知交易的结果金额callbackInfo等信息
+			 *                  如果客户端不设置，将以在易接后台创建游戏时设置的数据同步地址进行同步
+			 */
+			protected function btnUPointCharge_clickHandler(event:MouseEvent):void
+			{
+				if (!bLogined) {
+					outputs("用户未登陆");
+					return;
+				}
+				SFOnlineHelper.getInstance().charge("金币",100,1,"购买金币",CP_PAY_SYNC_URL);
+				outputs("充值中...");
+			}
+			/**
+			 * SFOnlineHelper.getInstance().extend("test","3");
+			 * 扩展接口
+			 * data:需要传入的数据，根据不同SDK的需求设置，可以参考参数接入说明，可以是json或者string
+		     * callbackCount:扩展接口回调函数的数量
+			 */
+			protected function btnExtend_clickHandler(event:MouseEvent):void
+			{
+				if (!bLogined) {
+					outputs("用户未登陆");
+					return;
+				}
+				SFOnlineHelper.getInstance().extend("test","3");
+				outputs("扩展接口");
+			}
+			protected function btnUNQuotaPay_clickHandler(event:MouseEvent):void
+			{
+				if (!bLogined) {
+					outputs("用户未登陆");
+					return;
+				}
+				
+				var updatePanel: GangaUserDefinePay = GangaUserDefinePay ( PopUpManager.createPopUp( this, GangaUserDefinePay, true)); 
+			}
+			protected function btnUNQuotaCharge_clickHandler(event:MouseEvent):void
+			{
+				if (!bLogined) {
+					outputs("用户未登陆");
+					return;
+				}
+				var UNQuotaCharge: GangaUserDefineCharge = GangaUserDefineCharge ( PopUpManager.createPopUp( this, GangaUserDefineCharge, true)); 
+			}
+			
+			protected function createLoginURL():String
+			{
+				if (mChannelId == null) {
+					outputs("未登录");
+					return null;
+				}
+				
+				var userId:String = encodeURIComponent(mChannelUserId); 
+				var token:String = encodeURIComponent(mToken);
+				
+				var builder:String = CP_LOGIN_CHECK_URL+"?app="+mProductCode+"&sdk="+mChannelId
+					+"&uin="+userId+"&sess="+token;
+					
+				outputs("createLoginURL ");
+			
+				return builder;
+			}
+			/**
+			 * 登录验证接口
+			 * CP客户端请求CP服务器，CP服务器请求易接服务器做登录验证，返回结果给客户端；
+			 * 由于有些SDK要求必须做登录验证，为了统一处理，必须增加登录验证的接口，只有登录验证通过才算真正的登录成功
+			 */
+			protected function btnLoginCheck_clickHandler(event:MouseEvent):void
+			{
+				if (isDebug) {
+					bLogined = true;
+					return;
+				}
+				
+				var url:String = createLoginURL();
+				if (url == null){
+					outputs("url == null");	
+					return;
+				}
+				SFOnlineHelper.getInstance().executeHttpGet(url);	
+				outputs("登录验证.....");
+			}
+			/**
+			 * 登出接口
+			 *SFOnlineHelper.getInstance().logout();
+			  */	
+			protected function btnLogout_clickHandler(event:MouseEvent):void
+			{
+				//退出当前登录的账号
+				SFOnlineHelper.getInstance().logout();
+				outputs("登出...");
+			}
+			/**
+			 * 退出接口
+			 *SFOnlineHelper.getInstance().exitSDK();
+			 */
+			protected function btnPayExtend_clickHandler(event:MouseEvent):void
+			{
+				if (!bLogined) {
+					outputs("用户未登陆");
+					return;
+				}
+				
+				var updatePanel: GangaUserDefinePayExtend = GangaUserDefinePayExtend ( PopUpManager.createPopUp( this, GangaUserDefinePayExtend, true)); 
+				outputs("支付扩展...");
+			}
+			
+			private function outputs(txt:String):void
+			{
+				txtOutputs.appendText(txt + "\n");
+			}
+			/**
+			 * 对登陆、支付的回调的处理,需要在初始化时注册callback
+			 *onCallbackEvent(event:CallbackEvent)
+			 * 返回类型说明：
+			 * Constants.CALLBACKTYPE_LoginSuccess:登录成功
+			 * Constants.CALLBACKTYPE_LoginFailed  ：登录失败
+			 * Constants.CALLBACKTYPE_ExecuteHttpGet：登录验证结果
+			 * Constants.CALLBACKTYPE_Logout     ：登出
+			 * Constants.CALLBACKTYPE_PaySuccess：支付成功
+			 * Constants.CALLBACKTYPE_PayFailed ：支付失败
+			 * Constants.CALLBACKTYPE_PayonOderNo：订单号
+			 * Constants.CALLBACKTYPE_Exit :退出回调
+			 * Constants.CALLBACKTYPE_MusicEnable: 判断SDK是否需要打开游戏声音，目前只有移动基地需要此接口，
+                                                                                                                                                                                 游戏开发者需要根据该返回值，设定游戏背景音乐是否开启
+																																												
+			 *CALLBACKTYPE_GetMetaData  :获取meta-data的返回值
+			 *CALLBACKTYPE_InitResponse  :初始化回调处理
+		     *CALLBACKTYPE_Expand_Return  :扩展接口返回值	
+			 *CALLBACKTYPE_Expand_Calback ：扩展接口回调处理
+			 */
+			
+			public function onCallbackEvent(event:CallbackEvent):void 
+			{
+				outputs("received callback event: " + event.toString());
+				var callbackType:String = event.callbackType;
+				var code:int = event.code;
+				var data:Object = event.data;
+				var customParams:String = null;
+//				outputs("received callback event: callbackType=" + callbackType + ", code=" + code + ", data=" + (data != null ? data.toString() : "") );
+				outputs("received callback event: callbackType=" + callbackType);
+				if (callbackType == Constants.CALLBACKTYPE_InitResponse) { 
+					var tag: String = data.tag;
+					var value: String = data.value;
+					outputs("init response tag =="+tag+" value = "+value);
+					if(tag == "success"){
+						outputs("初始化成功 ");
+					}else if(tag == "fail"){
+						outputs("初始化失败 ");
+					}
+					
+				}else if (callbackType == Constants.CALLBACKTYPE_LoginSuccess) {
+					var id: String = data.id;
+					var userName: String = data.userName;
+					mChannelId = data.channelId;
+					mChannelUserId = data.channelUserId;
+					mToken = data.token;
+					mProductCode = data.productCode;
+					customParams = data.customParams;
+					outputs("登录成功 ");
+//					outputs("onStatus LoginSuccess : id=" +id + ", channelId=" + mChannelId+ ", channelUserId=" + mChannelUserId+ ", userName=" + userName+ ", token=" + mToken+ ", productCode=" + mProductCode);
+				} else if (callbackType == Constants.CALLBACKTYPE_LoginFailed) { 
+					var failReason: String = data.toString();
+					mProductCode = null;
+					mChannelId = null;
+					mChannelUserId = null;
+					mToken = null;
+					outputs("登录失败 : failReason=" +failReason);
+//					SFOnlineHelper.getInstance().login(this,"Login");
+					
+				}else if (callbackType == Constants.CALLBACKTYPE_ExecuteHttpGet){
+					var result:String = data.toString();
+					outputs("_ExecuteHttpGet result =  "+result); 
+					if (result == null || result != "SUCCESS") {
+						bLogined = false;
+						outputs("验证登录失败" ); 
+					} else {
+						bLogined = true;
+						/**
+						public function setRoleData(roleId: String, 
+													roleName: String,
+													roleLevel: String, 
+													zoneId: String,
+													zoneName: String):void
+						 *部分渠道如UC渠道，要对游戏人物数据进行统计，而且为接入规范,调用时间：在游戏角色登录成功后
+						 * roleId：		角色唯一标识
+						 * roleName：	角色名
+						 * roleLevel：	角色等级
+						 * zoneId：		角色所在区域唯一标识
+						 * zoneName：	角色所在区域名称
+						 
+ 					    */
+						SFOnlineHelper.getInstance().setRoleData("1", "猎人", "100", "1", "阿狸一区");
+						outputs("已验证成功登录" );
+					}
+				}else if (callbackType == Constants.CALLBACKTYPE_Logout) { 
+					bLogined = false;
+					mProductCode = null;
+					mChannelId = null;
+					mChannelUserId = null;
+					mToken = null;
+					SFOnlineHelper.getInstance().login("Login");
+					outputs("已登出 ");
+					
+				}else if (callbackType == Constants.CALLBACKTYPE_PaySuccess) { 
+					outputs("支付成功 ");
+					
+				}else if (callbackType == Constants.CALLBACKTYPE_PayFailed) { 
+					outputs("支付失败 ");
+					
+				}else if (callbackType == Constants.CALLBACKTYPE_PayonOderNo) {
+					outputs("onStatus PayonOderNo  = "+event.data); 
+					
+				}else if (callbackType == Constants.CALLBACKTYPE_MusicEnable) {
+					var r:String = data.toString();
+					outputs("onStatus musicEnable  = "+r); 
+					if (r != null ) {
+						if(r == "true"){
+							outputs("onStatus 音效开启"); 
+						}else if (r == "false"){
+							outputs("onStatus 音效关闭"); 
+						}
+					}
+					
+				}else if (callbackType == Constants.CALLBACKTYPE_Expand_Return) {
+					var exReturn:String = data.toString();
+					outputs("expand return value = "+exReturn); 
+				}else if (callbackType == Constants.CALLBACKTYPE_Expand_Calback) {
+					var callbackIndex: String = data.callbackIndex;
+					var extag: String = data.tag;
+					var exvalue: String = data.value;
+					outputs("expand callbackIndex =" +callbackIndex + ", extag=" + extag+ ", exvalue=" + exvalue);
+					
+				}else if (callbackType == Constants.CALLBACKTYPE_Exit) {
+					outputs("onStatus Exit"); 
+					var exitType:String = data.toString();
+					if(exitType != null){
+						if(exitType == "onSDKExitSuccess")//当SDK有退出方法及界面，退出成功该函数
+						{
+							outputs("onSDKExitSuccess"); 
+							SFOnlineHelper.getInstance().onDestroy();
+							SFOnlineHelper.getInstance().dealloc();
+							NativeApplication.nativeApplication.exit();
+							
+						}else if(exitType == "onSDKExitFail")//当SDK有退出方法及界面，退出失败该函数
+						{
+							outputs("onSDKExitFail"); 
+							
+						}else if(exitType == "onNoExiterProvide")//当SDK没有退出方法及界面，调用该函数
+						{
+							outputs("onNoExiterProvide"); 
+							SFOnlineHelper.getInstance().onDestroy();
+							SFOnlineHelper.getInstance().dealloc();
+							NativeApplication.nativeApplication.exit();
+
+						}
+					}
+					
+				}else if (callbackType == Constants.CALLBACKTYPE_GetMetaData){
+					var metaValue:String = data.toString();
+					outputs("getMetaData metaValue = "+metaValue); 
+				}
+				
+				
+			}
+			
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	
+	<s:Group width="100%" height="100%" >
+		<s:Label text="Ganga Ane Demo" />
+		<s:Button id="btnInit" x="19" y="38" width="274" height="58" label="Init"
+				  click="btnInit_clickHandler(event)" fontSize="24"/>
+		<s:Button id="btnLogin" x="330" y="38" width="274" height="58" label="Login"
+				  click="btnLogin_clickHandler(event)" fontSize="24"/>
+		<s:Button id="btnLoginCheck" x="0" y="148" width="100%" height="58" label="LoginCheck"
+				  click="btnLoginCheck_clickHandler(event)" fontSize="24"/>
+		<s:Button id="btnPay" x="19" y="258" width="274" height="58" label="Pay"
+				  click="btnPay_clickHandler(event)" fontSize="24"/>
+		<s:Button id="btnUPointCharge" x="330" y="258" width="274" height="58" label="UPoint Charge"
+				  click="btnUPointCharge_clickHandler(event)" fontSize="24"/>
+		<s:Button id="btnUNQuotaPay" x="19" y="368" width="274" height="58" label="UNQuotaPay"
+				  click="btnUNQuotaPay_clickHandler(event)" fontSize="24"/>
+		<s:Button id="btnUNQuotaCharge" x="330" y="368" width="274" height="58" label="UNQuotaCharge"
+				  click="btnUNQuotaCharge_clickHandler(event)" fontSize="24"/>
+		<s:Button id="btnLogout" x="19" y="478" width="274" height="58" label="Logout"
+				  click="btnLogout_clickHandler(event)" fontSize="24"/>
+		<s:Button id="btnExitSDK" x="330" y="478" width="274" height="58" label="Pay Extend"
+				  click="btnPayExtend_clickHandler(event)" fontSize="24"/>
+		<s:TextArea id="txtOutputs" x="0" y="540" width="100%" height="300" fontSize="24" text=""/>
+	</s:Group>
+	
+</s:View>
