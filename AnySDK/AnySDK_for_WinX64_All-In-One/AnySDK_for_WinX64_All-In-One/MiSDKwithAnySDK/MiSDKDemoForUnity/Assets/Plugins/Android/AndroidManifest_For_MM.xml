@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.netmego.anysdklinking"
+    android:versionCode="2"
+    android:versionName="1.2">
+  <supports-screens
+      android:smallScreens="true"
+      android:normalScreens="true"
+      android:largeScreens="true"
+      android:xlargeScreens="true"
+      android:anyDensity="true"/>
+
+  <application android:icon="@drawable/app_icon"
+           android:label="@string/app_name"
+           android:configChanges="orientation"
+           android:debuggable="true"
+           android:allowClearUserData="true"
+           android:hardwareAccelerated="false">
+
+    <!-- 게임 화면 가로(landscape)/세로(portrait) 모드 정확히 셋팅해주세요. -->
+    <!-- China Mobile MM 일 경우, 아래의 라인을 쓰고,  -->
+    <!--    <activity android:name="com.netmego.anysdklinking.MMActivity" -->
+    <!-- MiSDK 일 경우, 아래의 라인을 쓰세요  -->
+    <!--    <activity android:name="com.netmego.anysdklinking.MegoActivity" -->
+    <activity android:name="com.netmego.anysdklinking.MMActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+            android:screenOrientation="portrait">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <service
+       android:name="mm.purchasesdk.iapservice.PurchaseService"
+       android:exported="true" >
+
+      <intent-filter android:priority="301" >
+        <action android:name="com.aspire.purchaseservice.BIND" />
+
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+      <intent-filter android:priority="301" >
+        <action android:name="com.netmego.anysdklinking.purchaseservice.BIND" />
+
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+      <intent-filter android:priority="301" >
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.SAFIAP.COMPONENT" >
+        </category>
+      </intent-filter>
+    </service>
+    <activity
+        android:name="mm.purchasesdk.iapservice.BillingLayoutActivity"
+        android:configChanges="orientation|keyboardHidden"
+        android:theme="@android:style/Theme.Translucent" >
+      <intent-filter android:priority="301" >
+        <!-- 유니티 프로젝트의 Package 명을 com.netmego.anysdklinkerdemo 대신 쓰세요. -->
+
+        <action android:name="com.netmego.anysdklinkerdemo.com.mmiap.activity" />
+
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+    </activity>
+
+    <service
+        android:name="safiap.framework.SafFrameworkManager"
+        android:exported="true"
+        android:process="safiap.framework" >
+      <intent-filter android:priority="630" >
+
+        <action android:name="safiap.framework.sdk.ISAFFramework" />
+      </intent-filter>
+      <intent-filter android:priority="630" >
+        <action android:name="safiap.framework.ACTION_START_DOWNLOAD" />
+      </intent-filter>
+      <intent-filter android:priority="630" >
+        <action android:name="safiap.framework.ACTION_CHECK_UPDATE" />
+      </intent-filter>
+    </service>
+    <receiver android:name="safiap.framework.CheckUpdateReceiver" >
+      <intent-filter>
+        <action android:name="safiap.framework.ACTION_CANCEL_NOTIFICATION" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="safiap.GET_SHARED_DATA" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="safiap.framework.ACTION_SET_TIMER" />
+      </intent-filter>
+    </receiver>
+    <activity
+        android:name="safiap.framework.ui.UpdateHintActivity"
+        android:launchMode="singleInstance"
+        android:excludeFromRecents="true"
+        android:configChanges="orientation"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar">
+      <intent-filter>
+        <action android:name="safiap.framework.ACTION_TO_INSTALL" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="safiap.framework.ACTION_TO_INSTALL_IAP" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="safiap.framework.ACTION_NETWORK_ERROR_IAP" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="safiap.framework.ACTION_NETWORK_ERROR_FRAMEWORK" />
+      </intent-filter>
+    </activity>
+    <service android:name="safiap.framework.logreport.monitor.handler.LogreportHandler" android:process=":remote"/>
+
+    <!-- ChinaMobile MM 인 경우, 아래에 MMID와 MMKey 값, 그리고, AnySDK 사용시 아이템 결제 Product_ID 별 MM에서 제공받은 코드를 등록하십시요. -->
+    <meta-data android:value="\01000" android:name="SOBill"/>
+    <meta-data android:value="\0300008458136" android:name="MMID"/>
+    <meta-data android:value="\09E8B1E82D269939B" android:name="MMKey"/>
+    <meta-data android:value="\030000845813601" android:name="1010"/>
+    
+  </application>
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+  <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.SEND_SMS" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+</manifest>
