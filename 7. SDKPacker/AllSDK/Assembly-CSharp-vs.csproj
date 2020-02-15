@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{7C9C55A9-7267-7A0D-6E3B-0D3B43AAE9FF}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program Files (x86)/Unity356/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program Files (x86)/Unity356/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CMSDK_Packs\CMGB\CmBillingAndroid.cs" />
+     <Compile Include="Assets\CMSDK_Packs\CMMM\CmmBillingAndroid.cs" />
+     <Compile Include="Assets\CMSDK_Packs\THREE\Plugin\Android\ThreeBillingAndroid.cs" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\01\vertical\failresultdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\drawable-hdpi\gc_leaderboard_light_green_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\drawable-hdpi\gc_btn_friend_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\drawable-hdpi\gc_sure_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\drawable-hdpi\gc_btn_friend_enter.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\values\g_strings_gamepad.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\splash\horizontal\splashdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\drawable-hdpi\gc_back_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\values\g_color.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\drawable-hdpi\gc_btn_friend_enter.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\assets\CMGC\ConfigExtend.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\01\vertical\sucresultdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\03\horizontal\sucresultdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\03\vertical\progressdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\02\horizontal\progressdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\values\g_strings.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\values\strings.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\values\g_strings_gamepad.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\values\g_strings.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\drawable-hdpi\gc_net_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\drawable-hdpi\gc_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\01\horizontal\savingdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\values\g_strings_gamepad.xml" />
+     <None Include="Assets\CMSDK_Packs\CTTY\Plugin\Android\assets\ctestore\ctestore_strings.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\drawable-hdpi\gc_net_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CTTY\Plugin\Android\assets\ctestore\ctestore_apconfig.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\02\horizontal\savingdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\03\vertical\purchasedialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\02\vertical\failresultdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\assets\Charge.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\03\horizontal\savingdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\values\g_strings_leaderboard.xml" />
+     <None Include="Assets\CMSDK_Packs\CUWO\Plugin\Android\assets\premessable.txt" />
+     <None Include="Assets\CMSDK_Packs\CMGB\assets\ConsumeCodeInfo.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\drawable-hdpi\gc_back_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CUWO\Plugin\Android\res\values\strings.xml" />
+     <None Include="Assets\CMSDK_Packs\CUWO\Plugin\Android\res\layout\activity_unicom_test.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\AndroidManifest.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\drawable-hdpi\gc_leaderboard_light_green_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\assets\ConsumeCodeInfo.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\03\horizontal\failresultdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\values\styles.xml" />
+     <None Include="Assets\CMSDK_Packs\CUWO\Plugin\Android\AndroidManifest.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\AndroidManifest.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\drawable-hdpi\gc_leaderboard_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\drawable-hdpi\gc_leaderboard_light_green_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\assets\Config.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\values\g_styles.xml" />
+     <None Include="Assets\CMSDK_Packs\CUWO\Plugin\Android\res\values\dimens.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\drawable-hdpi\gc_btn_friend_enter.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\assets\ctestore\telCTEchannel.txt" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\values\g_styles.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\assets\Charge.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\splash\vertical\splashdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\drawable-hdpi\gc_back_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\values\g_strings.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\assets\Config.xml" />
+     <None Include="Assets\CMSDK_Packs\CTDX\Plugin\Android\res\drawable\egame_fee_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\02\vertical\savingdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\drawable-hdpi\gc_sure_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\drawable-hdpi\gc_leaderboard_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\values\dimens.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\03\vertical\sucresultdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\drawable-hdpi\gc_sure_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\01\horizontal\sucresultdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CUWO\Plugin\Android\res\values-sw600dp\dimens.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\drawable-hdpi\gc_btn_friend_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CTTY\Plugin\Android\AndroidManifest.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\drawable-hdpi\gc_leaderboard_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\02\horizontal\sucresultdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\drawable-hdpi\gc_btn_enter_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\drawable-hdpi\gc_exit_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\drawable-hdpi\gc_exit_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\03\vertical\savingdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CUWO\Plugin\Android\res\values-sw720dp-land\dimens.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\01\horizontal\purchasedialog.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\AndroidManifest.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\assets\CMGC\ConfigExtend.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\01\horizontal\progressdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\02\vertical\sucresultdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CTDX\Plugin\Android\AndroidManifest.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\02\vertical\progressdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\values\g_strings_leaderboard.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\assets\Charge.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\01\vertical\progressdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\drawable-hdpi\gc_leaderboard_gray_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\03\horizontal\purchasedialog.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\assets\ctestore\ctestore_strings.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\assets\ConsumeCodeInfo.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\layout\activity_main.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\AndroidManifest.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\drawable-hdpi\gc_net_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\assets\ctestore\ctestore_apconfig.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\assets\Config.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\drawable-hdpi\gc_leaderboard_gray_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CUWO\Plugin\Android\res\menu\unicom_test.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\drawable-hdpi\gc_leaderboard_gray_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\03\vertical\failresultdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\values\g_strings_leaderboard.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\assets\premessable.txt" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\01\vertical\savingdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\drawable-hdpi\gc_btn_enter_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\drawable-hdpi\gc_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\drawable-hdpi\gc_btn_friend_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\drawable-hdpi\gc_btn_enter_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\assets\premessable.txt" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\values\g_color.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\02\horizontal\purchasedialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\res\values\g_color.xml" />
+     <None Include="Assets\CMSDK_Packs\CTDX\Plugin\Android\res\layout\egame_fee_one_confirm_layout.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\01\horizontal\failresultdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\02\horizontal\failresultdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\values\g_styles.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\02\vertical\purchasedialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\03\horizontal\progressdialog.xml" />
+     <None Include="Assets\CMSDK_Packs\CMMM\assets\mmiap\01\vertical\purchasedialog.xml" />
+     <None Include="Assets\CMSDK_Packs\THREE\Plugin\Android\res\drawable-hdpi\gc_exit_btn_selector.xml" />
+     <None Include="Assets\CMSDK_Packs\CUWO\Plugin\Android\res\values\styles.xml" />
+     <None Include="Assets\CMSDK_Packs\CMGB\assets\CMGC\ConfigExtend.xml" />
+     <None Include="Assets\CMSDK_Packs\TOUCH\Plugin\Android\res\drawable-hdpi\gc_btn_selector.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
