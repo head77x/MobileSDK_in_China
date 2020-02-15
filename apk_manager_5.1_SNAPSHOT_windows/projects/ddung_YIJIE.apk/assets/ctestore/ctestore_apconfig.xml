@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AP密钥 -->
+    <string name="ctestore_apsecret">EF9B31FAB7C143EEE0430100007F2A88</string>
+    <!-- AP客服电话，允许为空 -->
+    <string name="ctestore_apphonenum">18202150000</string>
+    <!-- 是否是测试模式，true测试模式，其他正式模式 -->
+    <string name="ctestore_testflag">false</string>
+    <!-- AP名称 -->
+    <string name="ctestore_apname">XXX公司</string>
+    <!-- 应用名称 -->
+    <string name="ctestore_appname">游戏名称</string>
+</resources>

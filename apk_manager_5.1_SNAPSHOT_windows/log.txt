@@ -1,0 +1,953 @@
+-------------------------------------------------------------------------- 
+|2014-10-26 -- 10:11:54.62| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+Could Not Find C:\Users\Brandon\Desktop\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedCrazyCube_ChinaLast5.apk
+Could Not Find C:\Users\Brandon\Desktop\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedCrazyCube_ChinaLast5.apk
+I: Baksmaling...
+I: Loading resource table...
+I: Loaded.
+I: Loading resource table from file: C:\Users\Brandon\apktool\framework\1.apk
+W: Could not decode attr value, using undecoded value instead: ns=android, name=versionCode, value=0x00000003
+I: Loading resource table from file: C:\Users\Brandon\apktool\framework\1.apk
+W: Could not decode attr value, using undecoded value instead: ns=android, name=versionName, value=0x0000001f
+Exception in thread "main" java.lang.NullPointerException
+	at java.io.Writer.write(Unknown Source)
+	at brut.androlib.res.util.ExtMXSerializer.writeAttributeValue(ExtMXSerializer.java:38)
+	at org.xmlpull.mxp1_serializer.MXSerializer.attribute(MXSerializer.java:673)
+	at org.xmlpull.v1.wrapper.classic.XmlSerializerDelegate.attribute(XmlSerializerDelegate.java:106)
+	at org.xmlpull.v1.wrapper.classic.StaticXmlSerializerWrapper.writeStartTag(StaticXmlSerializerWrapper.java:267)
+	at org.xmlpull.v1.wrapper.classic.StaticXmlSerializerWrapper.event(StaticXmlSerializerWrapper.java:211)
+	at brut.androlib.res.decoder.XmlPullStreamDecoder.decode(XmlPullStreamDecoder.java:46)
+	at brut.androlib.res.decoder.ResStreamDecoderContainer.decode(ResStreamDecoderContainer.java:34)
+	at brut.androlib.res.decoder.ResFileDecoder.decode(ResFileDecoder.java:100)
+	at brut.androlib.res.AndrolibResources.decode(AndrolibResources.java:114)
+	at brut.androlib.Androlib.decodeResourcesFull(Androlib.java:93)
+	at brut.androlib.ApkDecoder.decode(ApkDecoder.java:98)
+	at brut.apktool.Main.cmdDecode(Main.java:128)
+	at brut.apktool.Main.main(Main.java:65)
+Could Not Find C:\Users\Brandon\Desktop\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedCrazyCube_ChinaLast5.apk
+Could Not Find C:\Users\Brandon\Desktop\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedCrazyCube_ChinaLast5.apk
+I: Baksmaling...
+I: Loading resource table...
+I: Loaded.
+I: Loading resource table from file: C:\Users\Brandon\apktool\framework\1.apk
+W: Could not decode attr value, using undecoded value instead: ns=android, name=versionCode, value=0x00000003
+I: Loading resource table from file: C:\Users\Brandon\apktool\framework\1.apk
+W: Could not decode attr value, using undecoded value instead: ns=android, name=versionName, value=0x0000001f
+Exception in thread "main" java.lang.NullPointerException
+	at java.io.Writer.write(Unknown Source)
+	at brut.androlib.res.util.ExtMXSerializer.writeAttributeValue(ExtMXSerializer.java:38)
+	at org.xmlpull.mxp1_serializer.MXSerializer.attribute(MXSerializer.java:673)
+	at org.xmlpull.v1.wrapper.classic.XmlSerializerDelegate.attribute(XmlSerializerDelegate.java:106)
+	at org.xmlpull.v1.wrapper.classic.StaticXmlSerializerWrapper.writeStartTag(StaticXmlSerializerWrapper.java:267)
+	at org.xmlpull.v1.wrapper.classic.StaticXmlSerializerWrapper.event(StaticXmlSerializerWrapper.java:211)
+	at brut.androlib.res.decoder.XmlPullStreamDecoder.decode(XmlPullStreamDecoder.java:46)
+	at brut.androlib.res.decoder.ResStreamDecoderContainer.decode(ResStreamDecoderContainer.java:34)
+	at brut.androlib.res.decoder.ResFileDecoder.decode(ResFileDecoder.java:100)
+	at brut.androlib.res.AndrolibResources.decode(AndrolibResources.java:114)
+	at brut.androlib.Androlib.decodeResourcesFull(Androlib.java:93)
+	at brut.androlib.ApkDecoder.decode(ApkDecoder.java:98)
+	at brut.apktool.Main.cmdDecode(Main.java:128)
+	at brut.apktool.Main.main(Main.java:65)
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: 1 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: 1 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: x (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: x (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: exit (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: exit (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: quit (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: quit (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: aaa.apk (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: aaa.apk (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: 0 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: 0 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: 1 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: 1 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: 2 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: 2 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: 3 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: 3 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: 3 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: 3 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+-------------------------------------------------------------------------- 
+|2014-10-26 -- 10:38:26.85| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+The system cannot find the path specified.
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Unknown Source)
+	at java.io.ByteArrayOutputStream.grow(Unknown Source)
+	at java.io.ByteArrayOutputStream.ensureCapacity(Unknown Source)
+	at java.io.ByteArrayOutputStream.write(Unknown Source)
+	at java.util.zip.DeflaterOutputStream.deflate(Unknown Source)
+	at java.util.zip.DeflaterOutputStream.write(Unknown Source)
+	at java.util.zip.ZipOutputStream.write(Unknown Source)
+	at com.android.signapk.SignApk.copyFiles(SignApk.java:422)
+	at com.android.signapk.SignApk.main(SignApk.java:490)
+The system cannot find the path specified.
+The system cannot find the path specified.
+'zipalign' is not recognized as an internal or external command,
+operable program or batch file.
+Could Not Find C:\Users\Brandon\Desktop\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\unsignedCrazyCube_ChinaLast5.apk
+The system cannot find the file specified.
+The system cannot find the file specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2014-10-26 -- 17:22:58.16| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+'zipalign' is not recognized as an internal or external command,
+operable program or batch file.
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\signedCrazyCube_ChinaLast5.apk
+The system cannot find the file specified.
+The system cannot find the file specified.
+java.io.FileNotFoundException: ..\place-apk-here-for-modding\unsignedCrazyCube_ChinaLast5.apk (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at com.android.signapk.SignApk.main(SignApk.java:454)
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedCrazyCube_ChinaLast5.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\signedCrazyCube_ChinaLast5.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\unsignedCrazyCube_ChinaLast5.apk
+The system cannot find the file specified.
+The system cannot find the file specified.
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\signedCrazyCube_ChinaLast5.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\unsignedCrazyCube_ChinaLast5.apk
+The system cannot find the file specified.
+The system cannot find the file specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedCrazyCube_ChinaLast5.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedCrazyCube_ChinaLast5.apk
+I: Baksmaling...
+I: Loading resource table...
+I: Loaded.
+I: Loading resource table from file: C:\Users\Brandon\apktool\framework\1.apk
+I: Loaded.
+I: Decoding file-resources...
+I: Decoding values*/* XMLs...
+I: Done.
+I: Copying assets and libs...
+I: Checking whether sources has changed...
+I: Smaling...
+I: Checking whether resources has changed...
+I: Building resources...
+I: Copying libs...
+I: Building apk file...
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedCrazyCube_ChinaLast5.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedCrazyCube_ChinaLast5.apk
+I: Baksmaling...
+I: Loading resource table...
+I: Loaded.
+I: Loading resource table from file: C:\Users\Brandon\apktool\framework\1.apk
+I: Loaded.
+I: Decoding file-resources...
+I: Decoding values*/* XMLs...
+I: Done.
+I: Copying assets and libs...
+I: Checking whether sources has changed...
+I: Smaling...
+I: Checking whether resources has changed...
+I: Building resources...
+I: Copying libs...
+I: Building apk file...
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedCrazyCube_ChinaLast5.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedCrazyCube_ChinaLast5.apk
+I: Baksmaling...
+I: Loading resource table...
+I: Loaded.
+I: Loading resource table from file: C:\Users\Brandon\apktool\framework\1.apk
+I: Loaded.
+I: Decoding file-resources...
+I: Decoding values*/* XMLs...
+I: Done.
+I: Copying assets and libs...
+I: Checking whether sources has changed...
+I: Smaling...
+I: Checking whether resources has changed...
+I: Building resources...
+I: Copying libs...
+I: Building apk file...
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedCrazyCube_ChinaLast5.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedCrazyCube_ChinaLast5.apk
+I: Baksmaling...
+I: Loading resource table...
+I: Loaded.
+I: Loading resource table from file: C:\Users\Brandon\apktool\framework\1.apk
+I: Loaded.
+I: Decoding file-resources...
+I: Decoding values*/* XMLs...
+I: Done.
+I: Copying assets and libs...
+I: Checking whether sources has changed...
+I: Smaling...
+I: Checking whether resources has changed...
+I: Building resources...
+I: Copying libs...
+I: Building apk file...
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedCrazyCube_ChinaLast5.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedCrazyCube_ChinaLast5.apk
+I: Baksmaling...
+I: Loading resource table...
+I: Loaded.
+I: Loading resource table from file: C:\Users\Brandon\apktool\framework\1.apk
+I: Loaded.
+I: Decoding file-resources...
+I: Decoding values*/* XMLs...
+I: Done.
+I: Copying assets and libs...
+I: Checking whether sources has changed...
+I: Smaling...
+I: Checking whether resources has changed...
+I: Building resources...
+I: Copying libs...
+I: Building apk file...
+I: Checking whether sources has changed...
+I: Checking whether resources has changed...
+I: Building apk file...
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedCrazyCube_ChinaLast5.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedCrazyCube_ChinaLast5.apk
+I: Baksmaling...
+I: Loading resource table...
+I: Loaded.
+I: Loading resource table from file: C:\Users\Brandon\apktool\framework\1.apk
+I: Loaded.
+I: Decoding file-resources...
+I: Decoding values*/* XMLs...
+I: Done.
+I: Copying assets and libs...
+I: Checking whether sources has changed...
+I: Smaling...
+I: Checking whether resources has changed...
+I: Building resources...
+I: Copying libs...
+I: Building apk file...
+^C-------------------------------------------------------------------------- 
+|2014-10-26 -- 20:14:26.35| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+java.io.FileNotFoundException: ..\place-apk-here-for-modding\unsignedCrazyCube_ChinaLast5.apk (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at com.android.signapk.SignApk.main(SignApk.java:454)
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedCrazyCube_ChinaLast5.apk
+-------------------------------------------------------------------------- 
+|2014-10-26 -- 20:54:34.64| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+-------------------------------------------------------------------------- 
+|2014-10-27 -- 13:12:53.97| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+File not found - *.9.png
+^C^C-------------------------------------------------------------------------- 
+|2014-10-27 -- 16:03:22.57| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedtmpsigned.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedtmpsigned.apk
+I: Baksmaling...
+I: Loading resource table...
+I: Loaded.
+I: Loading resource table from file: C:\Users\Brandon\apktool\framework\1.apk
+I: Loaded.
+I: Decoding file-resources...
+I: Decoding values*/* XMLs...
+I: Done.
+I: Copying assets and libs...
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedCrazyCube_ChinaLast5.apk
+I: Baksmaling...
+I: Loading resource table...
+I: Loaded.
+I: Loading resource table from file: C:\Users\Brandon\apktool\framework\1.apk
+I: Loaded.
+I: Decoding file-resources...
+I: Decoding values*/* XMLs...
+I: Done.
+I: Copying assets and libs...
+java.io.FileNotFoundException: ..\place-apk-here-for-modding\unsignedunsignedCrazyCube_ChinaLast5.apk (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at com.android.signapk.SignApk.main(SignApk.java:454)
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedunsignedCrazyCube_ChinaLast5.apk
+-------------------------------------------------------------------------- 
+|2014-10-27 -- 18:45:12.37| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedtemppack.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedtemppack.apk
+I: Baksmaling...
+I: Loading resource table...
+I: Loaded.
+I: Loading resource table from file: C:\Users\Brandon\apktool\framework\1.apk
+I: Loaded.
+I: Decoding file-resources...
+I: Decoding values*/* XMLs...
+I: Done.
+I: Copying assets and libs...
+-------------------------------------------------------------------------- 
+|2014-10-27 -- 19:06:49.08| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+-------------------------------------------------------------------------- 
+|2014-11-28 --  9:49:04.78| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+Exception in thread "main" brut.androlib.AndrolibException: brut.directory.PathNotExist: apktool.yml
+	at brut.androlib.Androlib.readMetaFile(Androlib.java:142)
+	at brut.androlib.Androlib.build(Androlib.java:159)
+	at brut.androlib.Androlib.build(Androlib.java:154)
+	at brut.apktool.Main.cmdBuild(Main.java:182)
+	at brut.apktool.Main.main(Main.java:67)
+Caused by: brut.directory.PathNotExist: apktool.yml
+	at brut.directory.AbstractDirectory.getFileInput(AbstractDirectory.java:103)
+	at brut.androlib.Androlib.readMetaFile(Androlib.java:138)
+	... 4 more
+The system cannot find the file specified.
+The system cannot find the path specified.
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: 2 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: 2 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: n (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: n (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: n (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: n (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: 0 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: 0 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: 22 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: 22 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+^C-------------------------------------------------------------------------- 
+|2014-11-28 --  9:59:58.43| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+The system cannot find the path specified.
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Unknown Source)
+	at java.io.ByteArrayOutputStream.grow(Unknown Source)
+	at java.io.ByteArrayOutputStream.ensureCapacity(Unknown Source)
+	at java.io.ByteArrayOutputStream.write(Unknown Source)
+	at java.util.zip.DeflaterOutputStream.deflate(Unknown Source)
+	at java.util.zip.ZipOutputStream.closeEntry(Unknown Source)
+	at java.util.zip.ZipOutputStream.putNextEntry(Unknown Source)
+	at java.util.jar.JarOutputStream.putNextEntry(Unknown Source)
+	at com.android.signapk.SignApk.copyFiles(SignApk.java:418)
+	at com.android.signapk.SignApk.main(SignApk.java:490)
+-------------------------------------------------------------------------- 
+|2014-12-08 -- 10:39:33.58| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+Exception in thread "main" brut.androlib.AndrolibException: brut.directory.PathNotExist: apktool.yml
+	at brut.androlib.Androlib.readMetaFile(Androlib.java:142)
+	at brut.androlib.Androlib.build(Androlib.java:159)
+	at brut.androlib.Androlib.build(Androlib.java:154)
+	at brut.apktool.Main.cmdBuild(Main.java:182)
+	at brut.apktool.Main.main(Main.java:67)
+Caused by: brut.directory.PathNotExist: apktool.yml
+	at brut.directory.AbstractDirectory.getFileInput(AbstractDirectory.java:103)
+	at brut.androlib.Androlib.readMetaFile(Androlib.java:138)
+	... 4 more
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+'adb' is not recognized as an internal or external command,
+operable program or batch file.
+'adb' is not recognized as an internal or external command,
+operable program or batch file.
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2014-12-18 -- 13:27:51.37| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+-------------------------------------------------------------------------- 
+|2015-02-08 --  6:31:45.87| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+Exception in thread "main" brut.androlib.AndrolibException: brut.directory.PathNotExist: apktool.yml
+	at brut.androlib.Androlib.readMetaFile(Androlib.java:142)
+	at brut.androlib.Androlib.build(Androlib.java:159)
+	at brut.androlib.Androlib.build(Androlib.java:154)
+	at brut.apktool.Main.cmdBuild(Main.java:182)
+	at brut.apktool.Main.main(Main.java:67)
+Caused by: brut.directory.PathNotExist: apktool.yml
+	at brut.directory.AbstractDirectory.getFileInput(AbstractDirectory.java:103)
+	at brut.androlib.Androlib.readMetaFile(Androlib.java:138)
+	... 4 more
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-02-08 --  7:23:22.24| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-02-08 --  7:41:08.80| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-02-08 -- 13:00:33.51| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-02-08 -- 13:35:20.30| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+-------------------------------------------------------------------------- 
+|2015-02-26 -- 15:29:59.60| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_25"
+Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+Java HotSpot(TM) 64-Bit Server VM (build 25.25-b02, mixed mode)
+-------------------------------------------------------------------------- 
+|2015-03-07 -- 20:11:33.06| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+.apk) was unexpected at this time.
+-------------------------------------------------------------------------- 
+|2015-03-07 -- 20:11:45.40| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+.apk) was unexpected at this time.
+-------------------------------------------------------------------------- 
+|2015-03-07 -- 20:12:22.56| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedBuffKnight_debug.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedBuffKnight_debug.apk
+The process cannot access the file because it is being used by another process.
+-------------------------------------------------------------------------- 
+|2015-03-23 -- 17:47:15.98| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedSDKNative.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedSDKNative.apk
+I: Baksmaling...
+I: Loading resource table...
+Exception in thread "main" brut.androlib.AndrolibException: Could not decode arsc file
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:55)
+	at brut.androlib.res.AndrolibResources.getResPackagesFromApk(AndrolibResources.java:315)
+	at brut.androlib.res.AndrolibResources.loadMainPkg(AndrolibResources.java:50)
+	at brut.androlib.res.AndrolibResources.getResTable(AndrolibResources.java:43)
+	at brut.androlib.Androlib.getResTable(Androlib.java:44)
+	at brut.androlib.ApkDecoder.getResTable(ApkDecoder.java:148)
+	at brut.androlib.ApkDecoder.decode(ApkDecoder.java:98)
+	at brut.apktool.Main.cmdDecode(Main.java:128)
+	at brut.apktool.Main.main(Main.java:65)
+Caused by: java.io.IOException: Expected: 0x001c0001, got: 0x00000000
+	at brut.util.ExtDataInput.skipCheckInt(ExtDataInput.java:48)
+	at brut.androlib.res.decoder.StringBlock.read(StringBlock.java:45)
+	at brut.androlib.res.decoder.ARSCDecoder.readPackage(ARSCDecoder.java:97)
+	at brut.androlib.res.decoder.ARSCDecoder.readTable(ARSCDecoder.java:82)
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:48)
+	... 8 more
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signed[g.10086.cn]HJQS.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsigned[g.10086.cn]HJQS.apk
+I: Baksmaling...
+I: Loading resource table...
+Exception in thread "main" brut.androlib.AndrolibException: Could not decode arsc file
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:55)
+	at brut.androlib.res.AndrolibResources.getResPackagesFromApk(AndrolibResources.java:315)
+	at brut.androlib.res.AndrolibResources.loadMainPkg(AndrolibResources.java:50)
+	at brut.androlib.res.AndrolibResources.getResTable(AndrolibResources.java:43)
+	at brut.androlib.Androlib.getResTable(Androlib.java:44)
+	at brut.androlib.ApkDecoder.getResTable(ApkDecoder.java:148)
+	at brut.androlib.ApkDecoder.decode(ApkDecoder.java:98)
+	at brut.apktool.Main.cmdDecode(Main.java:128)
+	at brut.apktool.Main.main(Main.java:65)
+Caused by: java.io.IOException: Expected: 0x001c0001, got: 0x00000000
+	at brut.util.ExtDataInput.skipCheckInt(ExtDataInput.java:48)
+	at brut.androlib.res.decoder.StringBlock.read(StringBlock.java:45)
+	at brut.androlib.res.decoder.ARSCDecoder.readPackage(ARSCDecoder.java:97)
+	at brut.androlib.res.decoder.ARSCDecoder.readTable(ARSCDecoder.java:82)
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:48)
+	... 8 more
+-------------------------------------------------------------------------- 
+|2015-04-01 -- 16:09:08.91| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedBuffKnight.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedBuffKnight.apk
+I: Baksmaling...
+I: Loading resource table...
+Exception in thread "main" brut.androlib.AndrolibException: Could not decode arsc file
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:55)
+	at brut.androlib.res.AndrolibResources.getResPackagesFromApk(AndrolibResources.java:315)
+	at brut.androlib.res.AndrolibResources.loadMainPkg(AndrolibResources.java:50)
+	at brut.androlib.res.AndrolibResources.getResTable(AndrolibResources.java:43)
+	at brut.androlib.Androlib.getResTable(Androlib.java:44)
+	at brut.androlib.ApkDecoder.getResTable(ApkDecoder.java:148)
+	at brut.androlib.ApkDecoder.decode(ApkDecoder.java:98)
+	at brut.apktool.Main.cmdDecode(Main.java:128)
+	at brut.apktool.Main.main(Main.java:65)
+Caused by: java.io.IOException: Expected: 0x001c0001, got: 0x00000000
+	at brut.util.ExtDataInput.skipCheckInt(ExtDataInput.java:48)
+	at brut.androlib.res.decoder.StringBlock.read(StringBlock.java:45)
+	at brut.androlib.res.decoder.ARSCDecoder.readPackage(ARSCDecoder.java:97)
+	at brut.androlib.res.decoder.ARSCDecoder.readTable(ARSCDecoder.java:82)
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:48)
+	... 8 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: 2 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: 2 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: 2 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: 2 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: 2 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: 2 (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: q (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: q (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: e (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: e (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: quit (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: quit (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+Exception in thread "main" brut.androlib.AndrolibException: java.io.FileNotFoundException: quit (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:406)
+	at brut.androlib.Androlib.installFramework(Androlib.java:365)
+	at brut.apktool.Main.cmdInstallFramework(Main.java:193)
+	at brut.apktool.Main.main(Main.java:69)
+Caused by: java.io.FileNotFoundException: quit (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at brut.androlib.res.AndrolibResources.installFramework(AndrolibResources.java:374)
+	... 3 more
+-------------------------------------------------------------------------- 
+|2015-04-01 -- 16:22:32.05| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedBuffKnight.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedBuffKnight.apk
+The process cannot access the file because it is being used by another process.
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedBuffKnight.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedBuffKnight.apk
+The process cannot access the file because it is being used by another process.
+-------------------------------------------------------------------------- 
+|2015-04-03 -- 14:44:59.28| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/signedBuffKnight.apk
+Could Not Find C:\Publishing\RingTiger\SDK\apk_manager_5.1_SNAPSHOT_windows\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedBuffKnight.apk
+I: Baksmaling...
+I: Loading resource table...
+Exception in thread "main" brut.androlib.AndrolibException: Could not decode arsc file
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:55)
+	at brut.androlib.res.AndrolibResources.getResPackagesFromApk(AndrolibResources.java:315)
+	at brut.androlib.res.AndrolibResources.loadMainPkg(AndrolibResources.java:50)
+	at brut.androlib.res.AndrolibResources.getResTable(AndrolibResources.java:43)
+	at brut.androlib.Androlib.getResTable(Androlib.java:44)
+	at brut.androlib.ApkDecoder.getResTable(ApkDecoder.java:148)
+	at brut.androlib.ApkDecoder.decode(ApkDecoder.java:98)
+	at brut.apktool.Main.cmdDecode(Main.java:128)
+	at brut.apktool.Main.main(Main.java:65)
+Caused by: java.io.IOException: Expected: 0x001c0001, got: 0x00000000
+	at brut.util.ExtDataInput.skipCheckInt(ExtDataInput.java:48)
+	at brut.androlib.res.decoder.StringBlock.read(StringBlock.java:45)
+	at brut.androlib.res.decoder.ARSCDecoder.readPackage(ARSCDecoder.java:97)
+	at brut.androlib.res.decoder.ARSCDecoder.readTable(ARSCDecoder.java:82)
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:48)
+	... 8 more
+-------------------------------------------------------------------------- 
+|2015-04-19 -- 13:02:13.41| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+Exception in thread "main" brut.androlib.AndrolibException: brut.directory.PathNotExist: apktool.yml
+	at brut.androlib.Androlib.readMetaFile(Androlib.java:142)
+	at brut.androlib.Androlib.build(Androlib.java:159)
+	at brut.androlib.Androlib.build(Androlib.java:154)
+	at brut.apktool.Main.cmdBuild(Main.java:182)
+	at brut.apktool.Main.main(Main.java:67)
+Caused by: brut.directory.PathNotExist: apktool.yml
+	at brut.directory.AbstractDirectory.getFileInput(AbstractDirectory.java:103)
+	at brut.androlib.Androlib.readMetaFile(Androlib.java:138)
+	... 4 more
+Exception in thread "main" brut.androlib.AndrolibException: brut.directory.PathNotExist: apktool.yml
+	at brut.androlib.Androlib.readMetaFile(Androlib.java:142)
+	at brut.androlib.Androlib.build(Androlib.java:159)
+	at brut.androlib.Androlib.build(Androlib.java:154)
+	at brut.apktool.Main.cmdBuild(Main.java:182)
+	at brut.apktool.Main.main(Main.java:67)
+Caused by: brut.directory.PathNotExist: apktool.yml
+	at brut.directory.AbstractDirectory.getFileInput(AbstractDirectory.java:103)
+	at brut.androlib.Androlib.readMetaFile(Androlib.java:138)
+	... 4 more
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-04-19 -- 20:21:09.74| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+The system cannot find the path specified.
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Unknown Source)
+	at java.io.ByteArrayOutputStream.grow(Unknown Source)
+	at java.io.ByteArrayOutputStream.ensureCapacity(Unknown Source)
+	at java.io.ByteArrayOutputStream.write(Unknown Source)
+	at java.util.zip.DeflaterOutputStream.deflate(Unknown Source)
+	at java.util.zip.DeflaterOutputStream.write(Unknown Source)
+	at java.util.zip.ZipOutputStream.write(Unknown Source)
+	at com.android.signapk.SignApk.copyFiles(SignApk.java:422)
+	at com.android.signapk.SignApk.main(SignApk.java:490)
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-04-19 -- 22:04:45.22| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-04-25 -- 14:58:18.68| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-04-29 -- 12:03:44.94| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-04-30 -- 13:30:40.29| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-05-06 -- 14:15:50.72| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+The system cannot find the path specified.
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-05-07 --  9:37:06.09| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-05-07 -- 15:48:55.05| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-05-17 --  1:22:21.25| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-06-11 -- 17:36:18.46| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_45"
+Java(TM) SE Runtime Environment (build 1.8.0_45-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 25.45-b02, mixed mode)
+The system cannot find the path specified.
+-------------------------------------------------------------------------- 
+|2015-07-12 -- 20:59:17.18| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_45"
+Java(TM) SE Runtime Environment (build 1.8.0_45-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 25.45-b02, mixed mode)
+The system cannot find the path specified.
+The system cannot find the path specified.

@@ -1,0 +1,2328 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: lib/x86/libcmcc_haze.so
+SHA1-Digest: Zvo/RFRhmhXIJhAVu23/SY852IM=
+
+Name: assets/bin/Data/3c8390024db00104a84fa433251d7ced
+SHA1-Digest: lgw9prc64VxzYHrAugLmCWmMxxg=
+
+Name: assets/igaworks/res/btn_close.png
+SHA1-Digest: eugKdPUWzMT0hC780HK3IIpUF7Q=
+
+Name: assets/bin/Data/70498844ed5c549549be788dd9763c6d
+SHA1-Digest: kM6NHjTAmHM9JPjVGtw31qHqHKA=
+
+Name: assets/bin/Data/Managed/Assembly-CSharp.dll.mdb
+SHA1-Digest: lZnP3gVwqbPloDjw5lWv3AP4z1E=
+
+Name: res/drawable-hdpi-v4/egame_sdk_popup_dotted_line.png
+SHA1-Digest: xgAifcp2l1wpIY2d1FxgILDHkhA=
+
+Name: assets/unicom_account/accountsdk_2_float_bg_expand2.9.png
+SHA1-Digest: WzP4Qg49j7b7/0b7N1lIzug1enc=
+
+Name: res/drawable/egame_sdk_progress_loading_style.xml
+SHA1-Digest: YPvhqvjHsJ1DoVTrQfZ5NDpJ5NI=
+
+Name: assets/mmiap/image/vertical/keyboard_button_delete_press.png
+SHA1-Digest: yv7satnRxZ23IwgQS1qqoJGaamE=
+
+Name: assets/unicom_account/accountsdk_2_arrow_down.png
+SHA1-Digest: jGxmq7EkUmNhkojNyxnPUDUfTyQ=
+
+Name: assets/mmiap/03/button1_confirm_press.9.png
+SHA1-Digest: UzrvQws9fuS5mdrnlq5z3WKXU9c=
+
+Name: lib/armeabi-v7a/libanysdk.so
+SHA1-Digest: atklVc/eaquqdzmziDOcqDkhIDQ=
+
+Name: assets/bin/Data/Managed/Mono.Posix.dll
+SHA1-Digest: Qtep2n7B0qT0CmNLPu3QjuyP1hM=
+
+Name: assets/mmiap/image/vertical/btn_smalltitle_close.png
+SHA1-Digest: vk1A9sc0iJHxlPOE5okAG4DNEOs=
+
+Name: res/drawable-ldpi-v4/app_icon.png
+SHA1-Digest: UHhfiYhMU5NKewoG+pXZdMIy/I4=
+
+Name: assets/igaworks/res/logo_adpopcorn.png
+SHA1-Digest: I6XqMtld9/u1dawkgDjrfuG0/Jc=
+
+Name: assets/bin/Data/42a9828637f12394d8693903968977b6
+SHA1-Digest: 95WEe7f6RJ80aFoi90DhDtqaQ1A=
+
+Name: assets/bin/Data/7117b24bce590c44ea2ad9242ef7df59
+SHA1-Digest: 3pmE3NQr61129NZZSO8s9W+SaWM=
+
+Name: res/drawable-xxxhdpi-v4/icon.png
+SHA1-Digest: FRK39hTnl63boYhkxP+Zvg0aNiw=
+
+Name: assets/mmiap/01/horizontal/failresultdialog.xml
+SHA1-Digest: c2SrmD+fMFKUxPHnYCEbSw410PU=
+
+Name: res/drawable-hdpi-v4/gc_recharge_sale.png
+SHA1-Digest: Mxafzg8GnH6ynLtKU2qN8RsbRo4=
+
+Name: assets/bin/Data/level0.split0
+SHA1-Digest: PXuhAxDd75LW6GPx4xebUQ80z6c=
+
+Name: assets/mmiap/01/infobg.9.png
+SHA1-Digest: FwQrOBt3bKF94Eg5Gg6rZYZNbkA=
+
+Name: assets/bin/Data/sharedassets1.assets.split32
+SHA1-Digest: w9ZPlitXRFdGuwbUSOryl73n5go=
+
+Name: assets/bin/Data/d0bbf4f1fa8eb784d85d2e5ac62ed583
+SHA1-Digest: CaIbmW4xaKvrne7DkHe+sAJ36tY=
+
+Name: assets/bin/Data/sharedassets1.assets.split33
+SHA1-Digest: a4f7HuOWrtg6XjWOrnoORQ8pcq8=
+
+Name: assets/bin/Data/sharedassets1.assets.split30
+SHA1-Digest: rAkgkE8F9zBJmm65XMfu7QlPzuU=
+
+Name: assets/bin/Data/level0.split1
+SHA1-Digest: 65JRceOtdA4KqdO0WMs8aDzA12A=
+
+Name: assets/bin/Data/sharedassets1.assets.split31
+SHA1-Digest: VLxXsYN2QKKQ1n50tliOrrZUyGA=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_light_green_selector.xml
+SHA1-Digest: fqMjtFkoYzBZVRlwf/vFx5qx26I=
+
+Name: assets/mmiap/image/vertical/icon_success.gif
+SHA1-Digest: jz2Ue6iEh7TxiruZv+e9C0l8HFU=
+
+Name: assets/bin/Data/sharedassets10.assets
+SHA1-Digest: 5XPSyjb4Dj6MKLZt2VDkPef39RA=
+
+Name: assets/bin/Data/sharedassets1.assets.split29
+SHA1-Digest: NtGk4bFQQKmZOBcor5Bh6vYtsno=
+
+Name: assets/bin/Data/Managed/HOTween.dll.mdb
+SHA1-Digest: 9YPlYVQ/frT4/otrGyPtKgAcneo=
+
+Name: assets/bin/Data/sharedassets1.assets.split25
+SHA1-Digest: 4Eitim1T0n56my7V72+TcIeNZcA=
+
+Name: assets/bin/Data/sharedassets1.assets.split26
+SHA1-Digest: IWVbD1wB1DoJub2PsirRRJ1PcXE=
+
+Name: assets/bin/Data/sharedassets1.assets.split27
+SHA1-Digest: lrdiIHfzLX+DcpdSlKJOMfUh974=
+
+Name: assets/bin/Data/sharedassets1.assets.split28
+SHA1-Digest: ZPFEfhmT5pq70VvHHsU4QsywdZ0=
+
+Name: assets/bin/Data/356d190fda1a60e47b344c78543870b5
+SHA1-Digest: LCnG8hnoVkBCuh284Xjg0J2eBQQ=
+
+Name: assets/bin/Data/sharedassets1.assets.split21
+SHA1-Digest: A6xdcxW0vIssGPJ1swwq47FXeo4=
+
+Name: assets/bin/Data/7bd1f85246a483146b448cb93a1ca4b1
+SHA1-Digest: fEhH/hOkQgtnGgELekHsJpponas=
+
+Name: assets/bin/Data/sharedassets1.assets.split22
+SHA1-Digest: Dm04zAMbbqLyCP5NQWldNVP50Vg=
+
+Name: assets/bin/Data/sharedassets1.assets.split23
+SHA1-Digest: LuFB4VhspiHK+JbfdvgAwcJMIBE=
+
+Name: assets/bin/Data/sharedassets1.assets.split24
+SHA1-Digest: cchgsawTWjnPWnbIAS722D4Z42k=
+
+Name: assets/bin/Data/89e90a5d60cfb884f8db8c2beb89bccd
+SHA1-Digest: et5Y80q5bmVG5/2BawBBplOxp7M=
+
+Name: assets/bin/Data/sharedassets1.assets.split20
+SHA1-Digest: ujipmSVTtbn0b/S+G7NpsDy4k1g=
+
+Name: assets/igaworks/res/ic_bottom_faq.png
+SHA1-Digest: gsL4KbZaknWnNRVOK/1rl8Z2O68=
+
+Name: assets/ctestore/ctesotore_titlebg1_large.png
+SHA1-Digest: hAy7MEJK9nk1w+aGUeBNv9LkUoo=
+
+Name: assets/mmiap/image/vertical/button_finishbilling.png
+SHA1-Digest: IubPvq7wECqp0SAmjupM7jQBN3M=
+
+Name: assets/unicom_account/accountsdk_2_float_btn_account.png
+SHA1-Digest: PsTMm5EsAAUF88hMzfgKH1WOhHM=
+
+Name: assets/config.properties
+SHA1-Digest: 9dnAFdbFT5FmML+WaTNv2P4tSDU=
+
+Name: assets/mmiap/03/button_back.png
+SHA1-Digest: 7Bwdo88LV52b4bn/nCb/ApIjHtA=
+
+Name: assets/mmiap/01/btn_3.9.png
+SHA1-Digest: yjjKbULRoDE8GpIAFqsq/EuTz9U=
+
+Name: res/drawable-hdpi-v4/gc_member_green.png
+SHA1-Digest: Cy00ZHjfewFCIAl+bBRYDb/liDM=
+
+Name: assets/igaworks/res/ic_info.png
+SHA1-Digest: Q5y/Nqq8v0dEkKmGz6zr8xeip5I=
+
+Name: assets/bin/Data/0f4d0e5ac2686404ab77ef332071b76c
+SHA1-Digest: T3Gow08TQp9mB8JeChxGgmcHJS0=
+
+Name: assets/bin/Data/sharedassets1.assets.split18
+SHA1-Digest: QMnpyoOC01Qa3iYKiPbVLlF8p4o=
+
+Name: assets/bin/Data/sharedassets1.assets.split19
+SHA1-Digest: MVljxPEcOGYxjtpdOO3QwQu4Ias=
+
+Name: assets/bin/Data/sharedassets1.assets.split14
+SHA1-Digest: fEnT1jWA7xE0KDsdqNvvfMMIWik=
+
+Name: assets/bin/Data/sharedassets1.assets.split15
+SHA1-Digest: 5UtTZa5IRqvshJY67oRix6uCYcM=
+
+Name: assets/bin/Data/sharedassets1.assets.split16
+SHA1-Digest: HRPOcNLGB2MiZB4urh0WVj8EUH0=
+
+Name: assets/bin/Data/sharedassets1.assets.split17
+SHA1-Digest: 682dBasZTimgQFBrEUIim3ExiXI=
+
+Name: assets/bin/Data/sharedassets1.assets.split10
+SHA1-Digest: igfcaY4taN3YnUDeXhXNygPOao8=
+
+Name: assets/igaworks/res/ic_bottom_logo.png
+SHA1-Digest: GEMbuCfb8egfTeZa2VIm5Ent3a8=
+
+Name: assets/bin/Data/sharedassets1.assets.split11
+SHA1-Digest: 35LZr8hIpN2xov+1JhOHRcUDxps=
+
+Name: assets/bin/Data/sharedassets1.assets.split12
+SHA1-Digest: Y26cYGIWdpxWQdvYDvPW8ChIQGQ=
+
+Name: assets/bin/Data/sharedassets1.assets.split13
+SHA1-Digest: 8q5Y0ZfCXQ8OBtATtsR9KPQcVnA=
+
+Name: assets/igaworks/res/ic_download.png
+SHA1-Digest: TcFEEGtUz861Z45jpVaiUPCVnqs=
+
+Name: assets/bin/Data/7f876b3275ca1154aa0f587701b6fbc8
+SHA1-Digest: cQHk2zdRO5gxA33IrCGYMmzjXDk=
+
+Name: assets/mmiap/image/vertical/splash_h.jpg
+SHA1-Digest: pQTNLInmQuMvaWhiYODWLql56GU=
+
+Name: assets/bin/Data/Managed/Boo.Lang.dll
+SHA1-Digest: +XYgPqkONcfVvHTJW5ikFs0byqU=
+
+Name: res/drawable-hdpi-v4/gc_edit_del.png
+SHA1-Digest: GYGG1Rd7rWa+0yMnN9vf4yHus9I=
+
+Name: lib/x86/libcmcc_rusteze.so
+SHA1-Digest: catltwkNujvf53PPLxGt1gHNlVA=
+
+Name: res/layout/plugin_ads.xml
+SHA1-Digest: CyDEb+psr7RoaFgcJ+7NX75omS4=
+
+Name: res/drawable-hdpi-v4/gc_title_arrow.png
+SHA1-Digest: 3bJx1+PCYhrQ0CuV21bWH85yors=
+
+Name: res/drawable-hdpi-v4/gc_arrow_text.png
+SHA1-Digest: hX0pH86Vt7csmB9nb+SjN21EW5Y=
+
+Name: assets/unicom_base/wostore_welcome.png
+SHA1-Digest: WXmiX3c/JWp4Zv5wrrjDB8zg0lA=
+
+Name: assets/mmiap/02/btn_orange.9.png
+SHA1-Digest: MYWOFAW4JmsHykvnqlWQk9QNsZ8=
+
+Name: assets/unicom_account/accountsdk_2_icon_paytype_11.jpg
+SHA1-Digest: wxk9+4tHCopyevGalebz9oi5t+s=
+
+Name: assets/ctestore/ctestore_sure_small.png
+SHA1-Digest: EexP64Hqq208yGtOL7r3CE+cf7M=
+
+Name: assets/unicom_account/accountsdk_2_icon_pay.png
+SHA1-Digest: 9mGzUWXLmLa1f/9HSls9iLJAEIo=
+
+Name: res/drawable-hdpi-v4/gc_start_game.png
+SHA1-Digest: NebYB1eRBwZvFGjaVPKhWJ7Y+u0=
+
+Name: lib/x86/libmain.so
+SHA1-Digest: KmVoB8DwVpLTz4Q0RK+uZnsAa2Q=
+
+Name: lib/armeabi-v7a/libcmcc_rusteze.so
+SHA1-Digest: sQRQoPNjcL+rkhyiMbZrK8sgI14=
+
+Name: res/drawable-hdpi-v4/gc_gamepad_raw.png
+SHA1-Digest: 31KPqrumWkchXaF3A5eIHvvN0WA=
+
+Name: assets/bin/Data/c2893422635dc4487be6b196597a2f29
+SHA1-Digest: wv9RzgBhvQjJzAiBc+EqNrpUx5w=
+
+Name: assets/bin/Data/01af8f71739efb544918a568c05c0ded
+SHA1-Digest: /uo438qx9TxvkZBZK5rcOR8CeTU=
+
+Name: assets/bin/Data/849e102db98453d43a32454b4b6c3d5f
+SHA1-Digest: SIwvAjcjHZ4YSbVL88jkhKmaW4Q=
+
+Name: res/layout/egame_sdk_fee_layout.xml
+SHA1-Digest: Xkb6sIp+YmW0dI8mhHDAW0v4GtQ=
+
+Name: assets/mmiap/image/vertical/splash_v.jpg
+SHA1-Digest: 02cQvd2MpTV0uhNn/W552E+BybA=
+
+Name: assets/bin/Data/b5105ed1118a0994c8921c5827f99f5b
+SHA1-Digest: BIKwPvzqkYCWAsTbkFMRcCKKP8g=
+
+Name: assets/bin/Data/bf6eb0d2a9881a64aa033a271c3d29f2
+SHA1-Digest: OJwxhKWPu+MP+gebgBbUxe/Uu1s=
+
+Name: lib/x86/libunity.so
+SHA1-Digest: UCCmmDKln9xC7H4qcY+QvGh/qkg=
+
+Name: assets/mmiap/03/infoline.png
+SHA1-Digest: RYUCPPwehYMWB3iUCJ9WRAX/dMQ=
+
+Name: assets/mmiap/03/loading.png
+SHA1-Digest: F/+VFVjbI3Rcwj/oEo94pUJqTBA=
+
+Name: assets/mmiap/image/vertical/icon_false.gif
+SHA1-Digest: QJUchWVIgEv3GjWyNk4Svz+i/Ms=
+
+Name: res/raw/opening_sound.mp3
+SHA1-Digest: THBh5nBFTKNGvNYMj0Q+1iHcySo=
+
+Name: assets/igaworks/res/img_star_full.png
+SHA1-Digest: wV3s2tzCTyGPK3d3rq/JpEPbwYc=
+
+Name: assets/igaworks/res/ic_back.png
+SHA1-Digest: M7Tzm0BTx2cIC0gcFoWOyMzBM+I=
+
+Name: assets/mmiap/02/btn_gray.9.png
+SHA1-Digest: AQEiFMfV8+mmvD/zyyaa88X2Dq0=
+
+Name: assets/bin/Data/6eec07016356b4345b112556355ffec2
+SHA1-Digest: vjr3IVgB0HT21i+aVp32QZv1TMI=
+
+Name: assets/bin/Data/277891c585a904ab1842e4ffb99bc22f
+SHA1-Digest: sTovuCnY+bep3ebAEGJgSwvdtLQ=
+
+Name: assets/ctestore/ctestore_success.png
+SHA1-Digest: /rh+p5fheqARukGg81G6Md+hhnw=
+
+Name: assets/mmiap/03/vertical/progressdialog.xml
+SHA1-Digest: IoYkgSSs64p7DJ4+Ebhh9KMlg5M=
+
+Name: assets/classez.jar
+SHA1-Digest: KSvvfRH1ppyHR9RQMX2rEXsLkc8=
+
+Name: assets/Config.xml
+SHA1-Digest: bQUtUPiOMkEOvJm5XWEeh/ot0ts=
+
+Name: assets/bin/Data/8dc84351e5055454884f79d677cb7ee5
+SHA1-Digest: PMDCgD+K//QCn2wCVVjELJeUUwc=
+
+Name: assets/bin/Data/a63cd0b6b07cd96408fa041e215cfccc
+SHA1-Digest: as5YzQgxkFM8VIuNBG+N1bR5dps=
+
+Name: assets/bin/Data/73c8127d157ac2240b10deb3efa6bd60
+SHA1-Digest: TEPUmTK1yNwXIgeu1v0zk1OO1O0=
+
+Name: assets/unicom_account/accountsdk_2_arrow_right_green.png
+SHA1-Digest: mCW7QxtaP3ShPOXmSM9httuPZLI=
+
+Name: res/drawable-hdpi-v4/gc_center_save.png
+SHA1-Digest: IyDXwj6VbhMO5VxDbmQwxzLAJrI=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_title_remind.png
+SHA1-Digest: KKsmb16KFTMBM3McQATMMdLsYO0=
+
+Name: assets/armeabi-v7a/libdecrypt.jar
+SHA1-Digest: LswQuOc1l9VL0Tt7IEZHfxvUCTk=
+
+Name: assets/bin/Data/9d021c69eb2c4d54584ca04dca74959b
+SHA1-Digest: Gj/ntWvKwqUhLwWrtd5vcyPV9H4=
+
+Name: assets/unicom_account/accountsdk_2_btn_modify_uinfo_press.png
+SHA1-Digest: fqc93rsEDawl4DXlok8utyCxasM=
+
+Name: assets/bin/Data/73fea5efa5a1448459162a7e71b9888b
+SHA1-Digest: mCjvDNGD8KAVZ7RmLiDecUaQCSA=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_invite_friend.png
+SHA1-Digest: jfM6bldOQ1OKzbrJve4W4Gbp7ZQ=
+
+Name: assets/libmegbpp_02.02.10_00.so
+SHA1-Digest: iVMWq9+qQDodfyphcP/BCOLvs/E=
+
+Name: assets/mmiap/image/vertical/button1_unicom_confirm.9.png
+SHA1-Digest: 8buX45zxXdHw3PqZuzAezImI2rI=
+
+Name: res/drawable-hdpi-v4/gc_notification_icon.png
+SHA1-Digest: +53B82q34N5hSHzbygerf690LLU=
+
+Name: assets/ctestore/ctestore_titlelog_large.png
+SHA1-Digest: t8S/zyUKuHF0/bkuXNnzvmY4ibI=
+
+Name: assets/bin/Data/6c54bdfe034034a8ea64af3f020a930b
+SHA1-Digest: 6SrxJQORTLwoo6GoSugPXgKoSo0=
+
+Name: assets/bin/Data/f5d19c17333c0489ba57f2d8d3bc042b
+SHA1-Digest: PAWKj2jVIfrMcWHC8IthiQrQ0RQ=
+
+Name: res/drawable-hdpi-v4/gc_gamehall.png
+SHA1-Digest: e2JK23o482kMRxMRARup2X3zHwc=
+
+Name: res/drawable-hdpi-v4/gc_share_sina.png
+SHA1-Digest: oZLDz/oeszo2UfL3idAMBfpLLBI=
+
+Name: assets/armeabi-v7a/libunicomsdk.jar
+SHA1-Digest: O3DdSc+N0E56sl17YjXN2RjTA0o=
+
+Name: assets/CMGC/GH.data
+SHA1-Digest: Vmacd+s7u4Z6Rw1iNJalVdk1qhs=
+
+Name: assets/bin/Data/c6ddd490f3edc4fc685684db1be06f23
+SHA1-Digest: cBQigU+EErPztBYXTGYuLHlWAkk=
+
+Name: assets/mmiap/03/infobg.9.png
+SHA1-Digest: FwQrOBt3bKF94Eg5Gg6rZYZNbkA=
+
+Name: assets/mmiap/image/vertical/editbg.9.png
+SHA1-Digest: 1m0+JuHqbuFodFKZfF8hAMr3DW8=
+
+Name: assets/bin/Data/Resources/unity_builtin_extra
+SHA1-Digest: C86sd2TXt/4+7NN28ltKRSrus88=
+
+Name: res/drawable-hdpi-v4/gc_gamepad_map_key.png
+SHA1-Digest: MuKbH4/3HPRonQcEYLL2EeRxQ0w=
+
+Name: assets/ctestore/ctestore_blog.png
+SHA1-Digest: yE69pG6E4NBk8vVu6p02+762qyg=
+
+Name: assets/bin/Data/83bd7441e851b53469fecf1adc374b71
+SHA1-Digest: N9VydNFdz4SBZoAfk0+dz73DN1A=
+
+Name: assets/bin/Data/84de14b1315835a44a13ca0fca483927
+SHA1-Digest: m6gq9x2HxKlAbrcDtL6D3zNcWeg=
+
+Name: assets/bin/Data/ba35b417e68b5ae4b81cdeea2adcc064
+SHA1-Digest: 7ORt/oYJU0hsVvmyUv7cr1BPz7w=
+
+Name: assets/bin/Data/7fc729668ba8865429c5f885bdef4bb2
+SHA1-Digest: qMBCl9HbCgq6DqwU/6whau9yj5w=
+
+Name: assets/ctestore/ctestore_strings.xml
+SHA1-Digest: SMhC5watCSt+Do3703ZFygtnzVc=
+
+Name: assets/bin/Data/5b4cc3cb13590484eb14f44e539f48b8
+SHA1-Digest: uCmkMkxQuHarx1R86HeIjV5PBpw=
+
+Name: assets/bin/Data/c99d8201565aea04c8ea3eab51005ac0
+SHA1-Digest: xiLUdJO2slx3QgiRbvEORBADK94=
+
+Name: res/drawable-hdpi-v4/egame_sdk_popup_orange_bg.9.png
+SHA1-Digest: RGjhQ1sW+F8NONU6SQ/CqFJfP+o=
+
+Name: res/drawable-hdpi-v4/gc_icon_shrink.png
+SHA1-Digest: tyulp1QK2DtXX4FG62Q0NkFm32o=
+
+Name: assets/unicom_account/accountsdk_2_icon_paytype_default.png
+SHA1-Digest: PXmnfQ0/RxsR7leyg/GJ/h9Jxho=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_item_add_friend.png
+SHA1-Digest: ut65ZmTaR2BzvrfNL1eLKZRu4NY=
+
+Name: assets/bin/Data/1f2ca738fccfcc64fb9d9f461bd1cd24
+SHA1-Digest: moLNcZq3xpQglwNyFMTg4WtkB3E=
+
+Name: assets/bin/Data/559301ead6ff0154485dfaa0cb45075f
+SHA1-Digest: xdICUjzp4D6dr3z8UVMI2FJUDGA=
+
+Name: res/drawable-hdpi-v4/gc_center_safely.png
+SHA1-Digest: WTbP4uJldJQE1lmcIuYTAV2RfVs=
+
+Name: res/drawable/egame_sdk_btn_close_selector.xml
+SHA1-Digest: ETk0/b0xgd6pjcRdu1dAOECqESg=
+
+Name: assets/bin/Data/sharedassets6.assets
+SHA1-Digest: 3w0VyuTjK+5y7CvT2CQXzDPNBz8=
+
+Name: assets/bin/Data/380103b916051dc4ca1e65f17fbe8b49
+SHA1-Digest: bAgo5xRcTmnh0EaDxGNoT8FGrPw=
+
+Name: assets/bin/Data/Managed/System.dll
+SHA1-Digest: zPkxPQoOZKZ3GPlzwwJ1iGWwFlQ=
+
+Name: assets/bin/Data/0a662f69cb5c51f448daf79e1962ee5c
+SHA1-Digest: JMF0i/4ndoKD/8Ee9Sx/EWLin00=
+
+Name: assets/igaworks/res/ic_bottom_lock.png
+SHA1-Digest: p6kAo//eVRygOP9MQ/86T1/9dlg=
+
+Name: res/drawable-hdpi-v4/gc_piccode.jpg
+SHA1-Digest: KeVM83RPxSkO1j/GzwaQpkYWsDA=
+
+Name: res/drawable-hdpi-v4/gc_sound_off.png
+SHA1-Digest: Sdy65qOJLw49VycnF3LopU+NPCs=
+
+Name: assets/bin/Data/sharedassets0.assets
+SHA1-Digest: PI23kTpKUMWLdLv8FFuVTKWQj9M=
+
+Name: res/drawable-xxxhdpi-v4/app_icon.png
+SHA1-Digest: dzyIAR76BbE74n40xsbhXOMDSDA=
+
+Name: res/layout/plugin_login.xml
+SHA1-Digest: NGqkhu+a3BCkZkQ211+oSs6O8n8=
+
+Name: assets/mmiap/02/bg.png
+SHA1-Digest: sm10r5xm5xgIXfeSVVwLtZUDo8A=
+
+Name: assets/arm64-v8a/libunicomSimplesdk.dat
+SHA1-Digest: +/VVkcMtmg66NPEbjyeHm7s4Hnc=
+
+Name: assets/bin/Data/sharedassets3.assets.split1
+SHA1-Digest: srpD5ZdWj0RHkj3QcjkY53bmZmU=
+
+Name: assets/bin/Data/sharedassets3.assets.split2
+SHA1-Digest: jsmJxgofm7MbONLGm1thuyUYw0E=
+
+Name: assets/bin/Data/0967810bf06e5694691135e847347616
+SHA1-Digest: BIIBF5D3A+Gg+pE6fKObEeNQlKo=
+
+Name: assets/bin/Data/sharedassets3.assets.split0
+SHA1-Digest: yF3cdWOZ9L/Uue0+nkaenOCG5Uk=
+
+Name: assets/bin/Data/sharedassets3.assets.split5
+SHA1-Digest: 0UtIDefkpVPW8Jun5s8ZUFgtH5E=
+
+Name: assets/bin/Data/sharedassets3.assets.split6
+SHA1-Digest: QdddkQf8xXM1n2pYsu4qKguRZ7A=
+
+Name: assets/bin/Data/sharedassets3.assets.split3
+SHA1-Digest: Nsrh71rST5/LrKj6/do9QyHLIq8=
+
+Name: lib/x86/libidentifyapp.so
+SHA1-Digest: hfAHknJs3kL5RuNtpbBap8fpZtw=
+
+Name: assets/bin/Data/sharedassets3.assets.split4
+SHA1-Digest: Hd8rDb/PnfQXKPoddv/za/KXmS8=
+
+Name: assets/bin/Data/0c45173c7efda43eaa203738b7db05c2
+SHA1-Digest: xjsc80cO2SvS87Lmr1fXN3kuXnc=
+
+Name: assets/bin/Data/sharedassets3.assets.split9
+SHA1-Digest: J3b2quUB0L10yjPE0zWEUEx++Bo=
+
+Name: assets/mmiap/01/btn_4.9.png
+SHA1-Digest: y5x+rbodH1/Yr8Pa0vYcqq8ig6E=
+
+Name: res/drawable-hdpi-v4/gc_share_weixinfriend.png
+SHA1-Digest: uREDWp1dPgGs4jG7cpagXPQBK1E=
+
+Name: assets/bin/Data/34d4ed757048dc4469fbfda57dff4c97
+SHA1-Digest: l2wxb04EqgXKHwkune31kNeUrCA=
+
+Name: assets/bin/Data/sharedassets3.assets.split7
+SHA1-Digest: qMIv0KFOQY563gmsS6/qpum4y7w=
+
+Name: assets/bin/Data/sharedassets3.assets.split8
+SHA1-Digest: 8sIrUW+zX+fm/yd5O7ey2txeyNU=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_rank.png
+SHA1-Digest: E2dY9yja57WEACCqTZShLJd7HJo=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_rank_icon.png
+SHA1-Digest: +JShi14Xbc+HeyIJDJvGgUzbwyA=
+
+Name: assets/premessable.txt
+SHA1-Digest: OJS7XlugNAc8Upy5+SnobABppOE=
+
+Name: assets/mmiap/image/vertical/line.png
+SHA1-Digest: JfevbgnxsUG+NrGALeC/D+Dqr5I=
+
+Name: res/drawable-hdpi-v4/qy_btn_confirm_on.9.png
+SHA1-Digest: FpKofaz2U/KKCwvA/mkcGZEUXbM=
+
+Name: assets/mmiap/03/horizontal/purchasedialog.xml
+SHA1-Digest: aGKVnU/JoXlzQP2FtobNHYL3GYA=
+
+Name: assets/mmiap/image/vertical/keyboard_bg.png
+SHA1-Digest: 3Mvk4x4VIjjbqnqwrit50fGt9pU=
+
+Name: assets/ctestore/ctesotore_titlebg1_small.png
+SHA1-Digest: Wpw4GhZ6swn1w1ppBnCqmPl+Ivc=
+
+Name: assets/bin/Data/24519c189a949e24098a75b0e9e22f8b
+SHA1-Digest: hZ5ZSHG13h02ad67n+hvRVWfAiY=
+
+Name: lib/x86/libegamepay.so
+SHA1-Digest: qA7QoE7jlz4wU4utDqgRiF/M6Ww=
+
+Name: assets/bin/Data/46e95be3d93a5624ab2b9b25b371cbbc
+SHA1-Digest: yokC9Dbz4PrfaFu5ETSX7n7fPGM=
+
+Name: res/drawable-hdpi-v4/gc_center_online_service.png
+SHA1-Digest: 33uCd3DvsYVic7UUxDRo3gNffA8=
+
+Name: lib/armeabi-v7a/libypiap.so
+SHA1-Digest: ocGcUVj2uIKi1eKymN7dfTLKHEA=
+
+Name: assets/bin/Data/Managed/mscorlib.dll
+SHA1-Digest: UN+dOVWnJdQOVhIZwOoh50a+ZyU=
+
+Name: assets/unicom_account/accountsdk_2_icon_paytype_5.png
+SHA1-Digest: NtKXpXMn1U6UN/XdVkPKKU21RXM=
+
+Name: assets/bin/Data/sharedassets1.assets.split0
+SHA1-Digest: Wjvx/urWMTbh7zDh3kbZ/2H5HzY=
+
+Name: assets/mmiap/02/horizontal/failresultdialog.xml
+SHA1-Digest: ayDu7F6FoVTxTv4QvzAxw9WdUo8=
+
+Name: assets/bin/Data/a979feddfb97447a792c1f5b9a9bbedd
+SHA1-Digest: 6h1O9mu9Xq562durVxBe8FgpxoE=
+
+Name: assets/bin/Data/sharedassets1.assets.split4
+SHA1-Digest: hGmxWD6xbMGUwWobYQEslWMd2WY=
+
+Name: assets/mmiap/image/vertical/icon_info.gif
+SHA1-Digest: fmI+/YbNZdIsN0WvSG+lm5zh7ig=
+
+Name: assets/bin/Data/sharedassets1.assets.split3
+SHA1-Digest: Pb3SowgKGelzL9Cdm1J9HBheIjA=
+
+Name: assets/bin/Data/7d7beae2399cecb4ca1d52da66e1461c
+SHA1-Digest: /654KD84GjlEYDvcN4H0pGwOu44=
+
+Name: assets/bin/Data/sharedassets1.assets.split2
+SHA1-Digest: +IHAwUApPuOsG0kGojCDBNhdR3Q=
+
+Name: assets/bin/Data/346a1b469161b48a9a6b9b53a010728b
+SHA1-Digest: AFAMveVwWmosI08DgCjPcvuKTYE=
+
+Name: assets/bin/Data/sharedassets1.assets.split1
+SHA1-Digest: 357dUnzV9ThRcBmIDr6vvvbBdCI=
+
+Name: res/drawable-hdpi-v4/gc_center_help.png
+SHA1-Digest: 7tN90O+slzYiK7uVrPEyj0eAagA=
+
+Name: assets/bin/Data/sharedassets1.assets.split8
+SHA1-Digest: lKi/GqgT/QAUOKMnskuhPHmS200=
+
+Name: assets/bin/Data/sharedassets1.assets.split7
+SHA1-Digest: HJb+4IDiMqnMFqJFA7fNeOqQ12E=
+
+Name: assets/bin/Data/sharedassets1.assets.split6
+SHA1-Digest: 4ylWHLcwsEAmdz5w6cEEAU+uvk0=
+
+Name: assets/bin/Data/sharedassets1.assets.split5
+SHA1-Digest: pv6IpRBgF+9kEsy3+IMyR0HZGqE=
+
+Name: assets/bin/Data/PlayerConnectionConfigFile
+SHA1-Digest: PKofbDZB0oR87VzjPfvUlerkr/E=
+
+Name: assets/bin/Data/sharedassets1.assets.split9
+SHA1-Digest: kjh12CE1N2xk6EDd6He+JgQaJe8=
+
+Name: assets/bin/Data/sharedassets2.assets.split3
+SHA1-Digest: wcIwpwXLX/GHLQ0ObsoxugHp/+A=
+
+Name: assets/bin/Data/sharedassets2.assets.split2
+SHA1-Digest: ShvUITvJv1sz7fOOfWxUhuhIlw0=
+
+Name: assets/mmiap/02/vertical/savingdialog.xml
+SHA1-Digest: HHygwitGJqw2SzsKuWE/elyBh98=
+
+Name: res/drawable-hdpi-v4/egame_sdk_popup_loading.png
+SHA1-Digest: hXjRKC1JAWsuEUOictFL9jrOg/Y=
+
+Name: assets/bin/Data/sharedassets2.assets.split1
+SHA1-Digest: MmRD9A+AE4mMp8nPcaPjYclD1+A=
+
+Name: assets/bin/Data/sharedassets2.assets.split0
+SHA1-Digest: 6duq+YPzguhro5lz9SoQnC3ABms=
+
+Name: assets/bin/Data/4e00257a401ab0f48a81348ebb3998ca
+SHA1-Digest: u6jRQQlZADx2sxdfGmYVCptaaQU=
+
+Name: assets/unipay_profile.dat
+SHA1-Digest: Pv8YW6HKopEqzzwY8ufOQwmpwDE=
+
+Name: lib/armeabi-v7a/libidentifyapp.so
+SHA1-Digest: DgLY7myLENOPeJuh96kGviesI2M=
+
+Name: assets/bin/Data/sharedassets2.assets.split9
+SHA1-Digest: Uo2ENYHQt4SmKMA0hmZgsjphUqU=
+
+Name: assets/bin/Data/sharedassets2.assets.split8
+SHA1-Digest: grh1cihKIlzr9CgkHQQf5EmIPMY=
+
+Name: assets/unicom_account/accountsdk_2_checkbox_set.png
+SHA1-Digest: YYLcLLIYVsrEhf2km1GFNPVwjWg=
+
+Name: assets/bin/Data/sharedassets2.assets.split7
+SHA1-Digest: qwtxEkrFllVPYdrWsrMjEjIDUOs=
+
+Name: assets/bin/Data/sharedassets2.assets.split6
+SHA1-Digest: nYVU30zb2lsCMIqXRMRFtVpMNo4=
+
+Name: assets/bin/Data/sharedassets2.assets.split5
+SHA1-Digest: JaoN4z0sK55zDRZOECKPrwgFknw=
+
+Name: assets/bin/Data/sharedassets2.assets.split4
+SHA1-Digest: TsDCtmsaQ7fe/8gMqhcAGFXE0GY=
+
+Name: assets/bin/Data/Managed/Assembly-CSharp.dll
+SHA1-Digest: aDsVc7smHMbHXEWAPoHxXOsgPL0=
+
+Name: assets/unicom_account/accountsdk_2_btn_blue_press.9.png
+SHA1-Digest: i+Z6ThQ7i9qz08RTVQBwOr7kCK0=
+
+Name: assets/egame/EGAME_104.jar
+SHA1-Digest: TofL7GWK0QGOFp8nmpDopNsFYus=
+
+Name: assets/unicom_account/accountsdk_2_uicom_logo.png
+SHA1-Digest: Ncq7N2Lb5tuRIIDbbxf7WNrubjU=
+
+Name: assets/bin/Data/7ab2e3c55f990ab4c9444f3837aa7afb
+SHA1-Digest: XNRSuWvM0zUU7zow+hEFGOuz/Us=
+
+Name: assets/x86/libunicomsdk.jar
+SHA1-Digest: OGPwKvJln/namlcOAd/oIcKxfDk=
+
+Name: assets/mmiap/image/vertical/button1_Confirm_Press.9.png
+SHA1-Digest: UzrvQws9fuS5mdrnlq5z3WKXU9c=
+
+Name: assets/bin/Data/b86560b71d9b6ab4fa4fd93b4568eea6
+SHA1-Digest: scZF3/CVIiy5pWCex1fayv1K17M=
+
+Name: assets/mmiap/image/vertical/logo2.png
+SHA1-Digest: UUnHt3nTSOA2LRJ/lorreraPaAw=
+
+Name: res/drawable-hdpi-v4/egame_sdk_popup_btn_close_pressed.png
+SHA1-Digest: FfHT+rZEE7tm/R6wO+HNzASeHwE=
+
+Name: assets/unicom_account/accountsdk_2_float_bg_expand.9.png
+SHA1-Digest: xGqUoj561j7P0m+9VDkoXoqvo5c=
+
+Name: lib/armeabi-v7a/libdserv.so
+SHA1-Digest: PWCLidJsxnBXysXE0r0P+qinczw=
+
+Name: assets/bin/Data/5688f830f2bcc4cd5b2417595d1bb8ee
+SHA1-Digest: eVCAkeLsiGDMJ7jBBGdfZ/WOdG8=
+
+Name: assets/bin/Data/9c790d777ea1a46f68cf32b28d34c2b1
+SHA1-Digest: J/s0MVJIKmZ2h+EBzSBPzR66WQI=
+
+Name: assets/unicom_account/accountsdk_2_icon_paytype_3.jpg
+SHA1-Digest: NqCogURLdu7qPdWMnT+7S7XrM9Q=
+
+Name: assets/bin/Data/Managed/Assembly-UnityScript-firstpass.dll.mdb
+SHA1-Digest: Y3NcMSHIHdsGpzoKYEt6oleCQV8=
+
+Name: assets/CMGC/cmcc_img/gc_pay_background.9.png
+SHA1-Digest: z3jbZukI5oMROJCI2FWLJpqb8RE=
+
+Name: assets/mmiap/02/icon_info.png
+SHA1-Digest: Tzxt0fKmD3jerOCKPnUUJCGeoC8=
+
+Name: assets/bin/Data/62081b2b7f838d849912103df9370500
+SHA1-Digest: vHJqfwIBPyyI8JcsAxwfM/1xa8c=
+
+Name: assets/mmiap/image/vertical/get_verificationcode.9.png
+SHA1-Digest: F93ixYNe+RkZVuToVd3p+g/AKUY=
+
+Name: res/drawable-hdpi-v4/egame_sdk_popup_title.9.png
+SHA1-Digest: gX8TadSOAASpDfu19ZO+9l6h6FU=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_gray_selector.xml
+SHA1-Digest: /BQ4gvyNKMferNGu+EpGtfpfLv4=
+
+Name: assets/mmiap/01/vertical/purchasedialog.xml
+SHA1-Digest: nSggnhqyjd7nagEt5GNONNWDnmE=
+
+Name: assets/unicom_account/accountsdk_2_setup.png
+SHA1-Digest: 1gGV3XIfu6dJ/mvWP6o5/wexB4I=
+
+Name: res/drawable-hdpi-v4/egame_sdk_icon_pay_more.png
+SHA1-Digest: TqtAkddANNzPVgaGp3gBdsZwQJk=
+
+Name: assets/mmiap/03/btn_gray.png
+SHA1-Digest: pCOjkYRBD2qBlz/QrV6EpxpNYNo=
+
+Name: assets/mmiap/image/vertical/btn_weiview_close.png
+SHA1-Digest: JCQ6vcsDTF4r9nflefe+TK4K0VA=
+
+Name: AndroidManifest.xml
+SHA1-Digest: LzWX3gLaWozO+6Nu7zu9q2dRB8I=
+
+Name: assets/bin/Data/Managed/UnityEngine.UI.dll
+SHA1-Digest: 9F5R6clfhCjie//IEYs8bp+T3x4=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_default_icon.png
+SHA1-Digest: mIU14PQJ8WgOb9VFpKehpnM8Hus=
+
+Name: lib/x86/libsmsprotocol.so
+SHA1-Digest: NSSmbhEZ1FktH5aLFvu7Xih9dsM=
+
+Name: res/drawable-hdpi-v4/gc_share_sms.png
+SHA1-Digest: P3VVN9UcG2QAYVgjUd5MhVAYVS8=
+
+Name: assets/mmiap/01/vertical/progressdialog.xml
+SHA1-Digest: 8oZzte+lGCWU1P9EsJic9E7F8WM=
+
+Name: assets/mmiap/03/bg2.png
+SHA1-Digest: FxglQyxK66Zuxcq3JKkVMxuqj0s=
+
+Name: assets/bin/Data/c72f2529f645a1640bb6e9f5f073d266
+SHA1-Digest: DsV1vJtK9uJ6e4N77G3AuNjEgIw=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_message_number_bg.png
+SHA1-Digest: ZZYXflPbv5g/nb7aPMMbCQNxdMA=
+
+Name: res/drawable-hdpi-v4/gc_gamepad_zoom_in.png
+SHA1-Digest: CzHQluWgBsi9Z0S47KDiFvmVb8I=
+
+Name: assets/bin/Data/Managed/Assembly-CSharp-firstpass.dll.mdb
+SHA1-Digest: lkMoiXVLa5MSC9SPBkE9vLddXMc=
+
+Name: assets/bin/Data/b084d2d52832455419af416847c4c56c
+SHA1-Digest: 77NfJeeZVuccW2wBH+Bh7DaE/jw=
+
+Name: assets/bin/Data/c23b28463746fb64f9c623b8daf89011
+SHA1-Digest: 9FM4hLCDAwdAXwxbwNQYpvFkZic=
+
+Name: assets/igaworks/res/ic_play.png
+SHA1-Digest: i1UEHcKGVgiZPgbVhfdcXrSGHSc=
+
+Name: assets/bin/Data/a58500c05b7f049cfbabe0f0ecab49bd
+SHA1-Digest: V4MUPrsKhMd4W7rC+Zd8EWivxTw=
+
+Name: assets/bin/Data/Managed/Assembly-UnityScript.dll
+SHA1-Digest: hFF+XtnM+Zf9q9yClobyUGcYQmQ=
+
+Name: res/drawable-hdpi-v4/gc_share_weixin_timeline.png
+SHA1-Digest: w+nDE0C8Yx9PyCnr/dfEx9Zmm+g=
+
+Name: assets/unicom_account/accountsdk_2_float_bg_expand3.9.png
+SHA1-Digest: HczhEsY3KJj/IStKfeylk8Ct6hc=
+
+Name: assets/egame/EGAME_104.dat
+SHA1-Digest: lZ0G2lmA81xqWpZwrBcMKfB9g24=
+
+Name: assets/bin/Data/294d451a613c64a33b1093666294cb8e
+SHA1-Digest: 04ukgRBcO88SiI26jMicLF/Peww=
+
+Name: assets/mmiap/02/horizontal/progressdialog.xml
+SHA1-Digest: tFcw5eKgDCCFlsUNX81+VyB2UyQ=
+
+Name: assets/ctestore/ctestore_success_large.png
+SHA1-Digest: 9pEDTWTetO0AJo6PuouyWDHgpgw=
+
+Name: assets/igaworks/res/ic_list.png
+SHA1-Digest: IbnyWJ3UoyqQ3dmJyrA3XO5Vfm0=
+
+Name: assets/bin/Data/b41f34f072091c24394deb461e206f98
+SHA1-Digest: gNTS3XAE5UnNQNcAUD51YCi6EuI=
+
+Name: assets/bin/Data/8dba9f91a4dbdc64b96d27ce35e18680
+SHA1-Digest: lvrXxpCzy1KM+8kRQD47oIGVtOU=
+
+Name: assets/unicom_account/accountsdk_2_checkbox_unset.png
+SHA1-Digest: Gl/qXLWvcS9eQtoqenmjHqgF3Eo=
+
+Name: assets/ctestore/ctestore_failed.png
+SHA1-Digest: Zd0HTTj6fyOnKpRg/H2E1j0M03M=
+
+Name: assets/ctestore/ctestore_blog_large.png
+SHA1-Digest: UGBdl1xG2iUyFGJwh8dMoEhfZJI=
+
+Name: assets/mmiap/02/vertical/progressdialog.xml
+SHA1-Digest: o8fkE/qxQD/skl/3UGu/WcphL9c=
+
+Name: assets/bin/Data/d84c939e4cc4a4ee3b6caa2b1cdf0fbc
+SHA1-Digest: DZlM6OGV8AkfzTnCv9a+PPugG2k=
+
+Name: assets/mmiap/image/vertical/pay_record.png
+SHA1-Digest: 6HL0/ooTzmoOi0KsLWBJVr2px5Y=
+
+Name: assets/mmiap/01/money_rmb.png
+SHA1-Digest: YNnIHSdWA9K7qbj38b2LHq3U8ns=
+
+Name: assets/bin/Data/708773ef5c3b34f5388a50914d34cab6
+SHA1-Digest: YnDRyfPPwvR9/uQM5mxGrIJT0xs=
+
+Name: assets/mmiap/01/icon_f.png
+SHA1-Digest: Y/MVsq4T3fTNc6qHrIDVxy39Rtg=
+
+Name: assets/bin/Data/1329654651af0b1499ba4e5a7ab97e1c
+SHA1-Digest: OPpECvpLfGcld+z8SKsygEoDtB4=
+
+Name: res/drawable-hdpi-v4/gc_gamepad_enter.png
+SHA1-Digest: Oc5Kyz6npHfNTfnr7IrmgEiy0V8=
+
+Name: assets/mmiap/03/title1_bg.png
+SHA1-Digest: Mk9uKdROHrMkoWDpgcd7Pm85gfU=
+
+Name: assets/unicom_account/accountsdk_2_float_bg_expand1.9.png
+SHA1-Digest: XDsomgRqF45RoNCFtADBqgWCCps=
+
+Name: assets/unicom_account/accountsdk_2_portrait_default.png
+SHA1-Digest: O460rYRjgIo8XOknUtyOWlgN6OI=
+
+Name: assets/bin/Data/77693213009c15d44a32bf8531a18407
+SHA1-Digest: Frk9GtUiAi3KI5/tP2qlqobJzRc=
+
+Name: res/drawable/qy_btn_confirm.xml
+SHA1-Digest: NCHuFYXEaL8dXjl9Bm0nyH0hnOE=
+
+Name: assets/mmiap/image/vertical/checkbox_uncheck.png
+SHA1-Digest: hpD/XsVQpms83lUsWmEeiG1Lllo=
+
+Name: res/drawable-hdpi-v4/gc_center_transaction_details.png
+SHA1-Digest: i84nDtmT7mjbORJDDV4pvOEeUHA=
+
+Name: assets/mmiap/02/horizontal/sucresultdialog.xml
+SHA1-Digest: A3nJwj/drBPuTknZgnUA3VhoJuU=
+
+Name: assets/bin/Data/9aae11c851fe7466c814dc6001510d11
+SHA1-Digest: CLodmwsf3KtJoxZWH14YdyMUAbo=
+
+Name: assets/bin/Data/3ad2ec4215a2c4dd68044a416df25cad
+SHA1-Digest: Wnwj6Q6O+v9T+QWq4BMMMGCbgm8=
+
+Name: assets/mmiap/02/vertical/purchasedialog.xml
+SHA1-Digest: QwT5adwtQTKe3l4Q7YUsHwalIFE=
+
+Name: assets/mmiap/image/vertical/editbg_a.9.png
+SHA1-Digest: QGXMb8LjWODylPkVZ1y373junbM=
+
+Name: assets/igaworks/res/defalt_img.png
+SHA1-Digest: 1aE9DZIkryCHfyi0WQN37KEoN7k=
+
+Name: assets/unicom_account/accountsdk_2_btn_switch_account_press.png
+SHA1-Digest: YW1N9SQvQVd5k+7UfK6Dk15tkxo=
+
+Name: res/drawable-hdpi-v4/gc_gamepad_y.png
+SHA1-Digest: 817oYASyVG6zMCNocPVIvvqtois=
+
+Name: assets/mmiap/03/horizontal/sucresultdialog.xml
+SHA1-Digest: 5gQVAMMaTF9Mkjntm9ay+tHL5Mg=
+
+Name: res/drawable-hdpi-v4/egame_sdk_popup_btn_close_normal.png
+SHA1-Digest: df7wt1WnvFkSFsU1pwaaQsNPGFE=
+
+Name: assets/bin/Data/3b098772e9c080a4e91ad58cdfd278e5
+SHA1-Digest: hAE0smuHNJ7QKGH41uCuAVkSNxU=
+
+Name: res/drawable-hdpi-v4/gc_gamepad_stick_l.png
+SHA1-Digest: Utwk6xzUowrx8JGUnMqzlyroTQg=
+
+Name: assets/igaworks/res/img_star_transparent.png
+SHA1-Digest: eIG4Xfej3RojKucM78bqxbIJ67M=
+
+Name: assets/bin/Data/467e1674e6964f44a9e9fbfaaa8fb558
+SHA1-Digest: sVwTfq2tfljsdDWMe+X7B5/jCK0=
+
+Name: assets/mmiap/02/horizontal/purchasedialog.xml
+SHA1-Digest: VRcfGLekYUNupc7Fus7Mt5HmsMA=
+
+Name: assets/bin/Data/f3c5f8059fddf604489cf261e328dcf5
+SHA1-Digest: hyyIo2LugomIU/gwxfNH2IYGp5U=
+
+Name: res/drawable-xhdpi-v4/app_icon.png
+SHA1-Digest: jWxlpauyA7TU2Rsnn9ValljxPL0=
+
+Name: assets/bin/Data/f451f3bad8583d74ea02362f7cb77c46
+SHA1-Digest: h9ltpmuTnwXxOyOZ6QiJJ/H39gs=
+
+Name: assets/unicom_account/accountsdk_2_bg_box.9.png
+SHA1-Digest: fgbVl0D3w+FLx+elLItMLBd3vDQ=
+
+Name: res/layout/game_item.xml
+SHA1-Digest: P44J2CgwWa8vzOH+kY+zMu+PsHc=
+
+Name: res/drawable-hdpi-v4/egame_sdk_icon_arrow_right.png
+SHA1-Digest: 0X6Pzn55JKKQWK8zx/g29EFDq3I=
+
+Name: assets/ctestore/ctestore_sure_large.png
+SHA1-Digest: Gb46ceLD78790PNXqBxan66d7IA=
+
+Name: assets/mmiap/02/icon_success.png
+SHA1-Digest: loG43GVYgeqRQiI63nV9iCASmVY=
+
+Name: res/drawable-hdpi-v4/gc_step_unfocus.png
+SHA1-Digest: dRhGfI5bTobse1FF9zIjenqmdvw=
+
+Name: res/drawable-hdpi-v4/egame_sdk_egame_logo.png
+SHA1-Digest: oZwxIucKBeOO7owy8B3cIP9h7+I=
+
+Name: res/drawable-hdpi-v4/egame_sdk_popup_btn_grey_normal.9.png
+SHA1-Digest: PTgp/4oAkJvxC5x16Qzgelm2SoM=
+
+Name: assets/CMGC/Android.Sdk.TouchPay_24012_C1FB8DC3AF439B836174AC93D
+ D671BB9.jar
+SHA1-Digest: UU5yl8W7QRREvAXNbZG+gvYZKmg=
+
+Name: assets/bin/Data/fa100a512698baa44af093dd63513604
+SHA1-Digest: EnBKCt3wT7sUou07uE+80gQS9lk=
+
+Name: assets/unicom_account/accountsdk_2_inputbox_focus.9.png
+SHA1-Digest: xGqUoj561j7P0m+9VDkoXoqvo5c=
+
+Name: assets/OpeningAnimation/g_rocker.png
+SHA1-Digest: YHuVWiO8yLXgukknJaF8GN7a+K4=
+
+Name: assets/bin/Data/cdedae8233ad44c6aac4dbbddfc6ca48
+SHA1-Digest: LTK42DkRbCPrMpRGezj1aa2du4o=
+
+Name: res/layout/activity_wologo.xml
+SHA1-Digest: K9ooHJqtEeHnWv1sHzoQyJ0pejY=
+
+Name: assets/bin/Data/0eb7c2cf6ec9c44a19afb5d1e9719e0a
+SHA1-Digest: 8vcBgBIWVQLo0k2mb98VAVeMA9A=
+
+Name: assets/mmiap/image/vertical/keyboard_button_delete.png
+SHA1-Digest: lBQG2fICgpQKnUWaoBv8e6tpXOI=
+
+Name: assets/mmiap/image/vertical/keyboard_button_hide.png
+SHA1-Digest: EvSCNXnU8uRq4EiTbNUb0TzJYBA=
+
+Name: assets/bin/Data/0e1a3f5261a7d584b98e2ede58a9f8fa
+SHA1-Digest: XMddtsBUM/c2wSm0PkRDNEZAzzg=
+
+Name: assets/unicom_account/accountsdk_2_float_bg_expand_lr.9.png
+SHA1-Digest: PqNvGT1L4h6eReQz94Xdvp9PAnY=
+
+Name: assets/unicom_account/accountsdk_2_btn_blue.9.png
+SHA1-Digest: ocKFEcwmtTKXiWUxTUa/ryS5Ts4=
+
+Name: assets/unicom_account/accountsdk_2_btn_green_press.9.png
+SHA1-Digest: 9N22JHjnyUtmvD/0JRFVxwrziJI=
+
+Name: assets/bin/Data/f391a2607fce5fa418697cb3b44d98f2
+SHA1-Digest: NJfozIfvhMJjpJ9JmRpa87m4nJQ=
+
+Name: assets/bin/Data/c7ceb70cabfdc384fa846b2916fee675
+SHA1-Digest: hyzYsvdR5XumpthXAZIoaEr+3Ms=
+
+Name: assets/igaworks/res/ic_close.png
+SHA1-Digest: DAEDldGqS+X4DG/vnAIyd6U0YmI=
+
+Name: assets/mmiap/01/horizontal/sucresultdialog.xml
+SHA1-Digest: swi71EVFj989RT2uUFlcq/quxq0=
+
+Name: assets/unicom_account/accountsdk_2_float_bg.png
+SHA1-Digest: igpjkjuQpn57ElDktRDOgg3S858=
+
+Name: assets/OpeningAnimation/g_rotate_left.png
+SHA1-Digest: ONW2mOkE+1wuDkrGOSJIe1fq9YA=
+
+Name: assets/mmiap/image/vertical/button1_telecom_confirm_press.9.png
+SHA1-Digest: GRrNDKM2HLY4muMoHppdTRiUySE=
+
+Name: assets/bin/Data/level1.split0
+SHA1-Digest: oXirshkJBWRTSiYWU1W9K/bAhL8=
+
+Name: assets/bin/Data/level1.split1
+SHA1-Digest: LfENDVG0OX66MHK2KkKg7HMuvEE=
+
+Name: assets/ctestore/ctestore_titlelog_small.png
+SHA1-Digest: Y7x3XLtjzV/wDyaasCpMUf8Qk2E=
+
+Name: res/drawable-hdpi-v4/egame_sdk_popup_parting.png
+SHA1-Digest: xc8hoAgoQmgTGiHzzNlZpFB53d0=
+
+Name: assets/bin/Data/Managed/Assembly-UnityScript.dll.mdb
+SHA1-Digest: FA+zVCJ4fd5bOWwIbSsem4PmZIU=
+
+Name: res/drawable-hdpi-v4/gc_center_about.png
+SHA1-Digest: f88xHd6QNG/yMZ73lBYlJLL4C58=
+
+Name: assets/unicom_account/accountsdk_2_btn_back.png
+SHA1-Digest: G3fBQoDnzdWDSoPQmRg9CXy29YU=
+
+Name: assets/bin/Data/34e11c253774fc04289f8dce16d562ce
+SHA1-Digest: lY8zK6z8+OnANowmFe0EFx06JWo=
+
+Name: assets/bin/Data/6ad54185fbde243018cce930cc0d404e
+SHA1-Digest: N24mHm7uvjf9mHiHsP0HJTG6ZjI=
+
+Name: assets/bin/Data/e9526c4ce89a4de4ab4aad129b2a909d
+SHA1-Digest: vEWLeN1w8R1tiAGvxeukltoif0w=
+
+Name: assets/unicom_account/accountsdk_2_setup_pressed.png
+SHA1-Digest: ovXGMmvGC1SRTe3G7K45s2dvEIM=
+
+Name: assets/mmiap/03/line.png
+SHA1-Digest: JfevbgnxsUG+NrGALeC/D+Dqr5I=
+
+Name: assets/armeabi/libdecrypt.jar
+SHA1-Digest: K3DZtzavi71iauLLqCOhgT+sJek=
+
+Name: lib/armeabi-v7a/libcmcc_haze.so
+SHA1-Digest: gDffCrUdokgoAsKmAZYm+NTtkrM=
+
+Name: res/drawable-hdpi-v4/gc_gamepad_x.png
+SHA1-Digest: qztwTk45s8KsvCqCbxkimGYJHKg=
+
+Name: assets/ctestore/ctesotore_titlebg1.png
+SHA1-Digest: yD8mT3N7TFaWVFjfptmVSHnpRvc=
+
+Name: assets/UnicomConsume/UnicomConsume.uwc
+SHA1-Digest: gURNq/UJJvnlVlEMz69hbT70D5s=
+
+Name: res/drawable-hdpi-v4/egame_sdk_pressed.9.png
+SHA1-Digest: KbXxellIJ7g4UnDHWGlKrv30bnc=
+
+Name: assets/bin/Data/7f206eef0c99910479b7f52e7d0a759d
+SHA1-Digest: HZW8vJWS8UVjzkcudXoxkTRtxB4=
+
+Name: assets/igaworks/res/ic_second.png
+SHA1-Digest: jZZmOHRhlQc1Toz3h3vZzUOI8nc=
+
+Name: assets/Sonnenblume/res.bin
+SHA1-Digest: drmQ7s/CBZLYjeGoWuopxMSuddY=
+
+Name: assets/bin/Data/Managed/HOTween.dll
+SHA1-Digest: CpnHT4g3iHOgzmAGD2ncrXSmh90=
+
+Name: assets/ConsumeCodeInfo.xml
+SHA1-Digest: lLZuhmgef6ikdOq8KlR46TGTvoI=
+
+Name: assets/mmiap/02/vertical/sucresultdialog.xml
+SHA1-Digest: wsfdb/8foKfpa64DfpIlGEQRpUQ=
+
+Name: res/drawable-hdpi-v4/gc_arrow_big.png
+SHA1-Digest: WujsSMHMaBKMh8pe2LNadSlwqAM=
+
+Name: assets/unicom_account/accountsdk_2_float_btn_recharge_pressed.pn
+ g
+SHA1-Digest: 0FgQb9PGXc3c6FeG6LXyYpc+GcA=
+
+Name: assets/mmiap/image/vertical/logo1.png
+SHA1-Digest: N+e8Mchbjb5hiFPP7/Ogjq6hDWA=
+
+Name: assets/mmiap/02/logo_02.png
+SHA1-Digest: 43MiLzzCv7rS4R9tq52btNlfH2w=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_list_divider_line.png
+SHA1-Digest: q19CUWUt1xb6655wkI7yVqujLfE=
+
+Name: assets/bin/Data/76797bb83ffae844b986db3927102d7b
+SHA1-Digest: gklT3v2JZbqnQ9pLZ7trhCNz6sQ=
+
+Name: assets/CMGC/cmcc_img/gc_piccode.jpg
+SHA1-Digest: KeVM83RPxSkO1j/GzwaQpkYWsDA=
+
+Name: assets/bin/Data/677ca7c0b0bdaed42a8cd6b06215952b
+SHA1-Digest: yAZ78M7qQ0wlbN6gwxa82c0Ri9k=
+
+Name: assets/unicom_account/accountsdk_2_btn_delete.png
+SHA1-Digest: aOIdnblE4Dvv2I5BEWOu7Kml9z8=
+
+Name: assets/bin/Data/69f24436c69b20744bffee8cc5b51ccc
+SHA1-Digest: iZ99zfkreyirbOCtRKH3HgBXVO0=
+
+Name: assets/classes.jar
+SHA1-Digest: me6Xyh8EtBda3Lm18q1QoP0Jmgk=
+
+Name: assets/mmiap/03/vertical/savingdialog.xml
+SHA1-Digest: tqA+C8uI/c43f99ngboJT/llhfs=
+
+Name: assets/unicom_account/accountsdk_2_btn_back_press.png
+SHA1-Digest: +E6sCSxU7m2+BfNvv4FYxCJHQpQ=
+
+Name: assets/mmiap/01/icon_success.png
+SHA1-Digest: sOe+Qt82WgUDTrKObG2VpVkJzoA=
+
+Name: assets/unicom_account/accountsdk_2_portrait_default_square.png
+SHA1-Digest: 1h2S8Y0eKOvCYTcRQt+8s/Ao+Sk=
+
+Name: res/drawable-hdpi-v4/gc_center_gameshare.png
+SHA1-Digest: 0ePplZuzjTrgRqhDkAcEqfrwsXc=
+
+Name: assets/mmiap/02/btn_gray_click.9.png
+SHA1-Digest: R9YV0rlndTVz3NZQkB6cg8ZRkBc=
+
+Name: assets/bin/Data/8732366d2c4694e6186d745bf29faddd
+SHA1-Digest: /42G4D2yj/Cc8wVQerr0Xi1n89o=
+
+Name: assets/bin/Data/Managed/LitJson.dll
+SHA1-Digest: A3R9dSpHcHdQU1i+KHTQXr6T7zw=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_invited_friend.png
+SHA1-Digest: ErZppyBa5EQrcLrEPUC7Af5azgY=
+
+Name: res/drawable-hdpi-v4/gc_step_focused.png
+SHA1-Digest: YoE5N/l9IdIli856zxpI0uNX+5k=
+
+Name: assets/mmiap/02/vertical/failresultdialog.xml
+SHA1-Digest: 5OeJjNpYLGZH2HRdnhucbUhrYYo=
+
+Name: assets/OpeningAnimation/g_logo_sp.png
+SHA1-Digest: L/rWLOEXeta62o/i5Q+bYVpB3GA=
+
+Name: assets/bin/Data/b68931c0ac68f1a4f9e56749b8293b57
+SHA1-Digest: jAsOiQxDpx187oxprkanFsG1HME=
+
+Name: assets/OpeningAnimation/g_yes.png
+SHA1-Digest: WsWVuD3wT6/2SNYEIi6WBr55v/o=
+
+Name: res/drawable-hdpi-v4/gc_exit_share.png
+SHA1-Digest: x5hnrDv+H8oxiOALMggDwuHkFmI=
+
+Name: assets/igaworks/res/ic_replay.png
+SHA1-Digest: 8r4tSCjrzErNUEQ6w7e24ItNEL4=
+
+Name: assets/bin/Data/29c8286fefdc05f40b32bab5538ba947
+SHA1-Digest: WfWu68SVhzFiC5zYkBvxf/q/lpQ=
+
+Name: res/drawable-hdpi-v4/gc_more_game.png
+SHA1-Digest: i14z3jVt+jKoeS4nXvAvxFwPpdY=
+
+Name: assets/ctestore/ctestore_failed_large.png
+SHA1-Digest: +tXP3e7VkMjxetbaK7erpmRADCg=
+
+Name: res/drawable/qy_btn_close.xml
+SHA1-Digest: Dj/UVUny3JkVimY2owvLoA2H8jk=
+
+Name: assets/unicom_account/accountsdk_2_icon_fail.png
+SHA1-Digest: p4xkyyUPqkoNMrUmScvALYsQHLg=
+
+Name: assets/x86/libdecrypt.jar
+SHA1-Digest: tLvSA68N9z4RDt/xtGZKJHliJxg=
+
+Name: assets/mmiap/03/horizontal/failresultdialog.xml
+SHA1-Digest: Sy7QfD6WW4VXmlpzKTGqvGzUaDM=
+
+Name: assets/unicom_account/accountsdk_2_bg_uinfo_landscape.jpg
+SHA1-Digest: 1eVIKYBLom4Mbn98I9n/m+VCtGk=
+
+Name: res/drawable-hdpi-v4/gc_share_qq.png
+SHA1-Digest: 7E4D8jreFqumboNhHdPLKZgklu0=
+
+Name: classes.dex
+SHA1-Digest: wTtrPlH0szdPNdXUcaqLvkom20c=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_contacts_icon.png
+SHA1-Digest: MRKBxWBhNx8WQ43/Zx+aNeGji7Q=
+
+Name: assets/igaworks/res/item_bg.png
+SHA1-Digest: DM/qZzGax66znDHs2W5ZmHWQC2w=
+
+Name: res/drawable-hdpi-v4/gc_gamepad_a.png
+SHA1-Digest: 08j3OdpTxmR+yjoMBLXAz1UltQA=
+
+Name: lib/armeabi-v7a/libsmsprotocol.so
+SHA1-Digest: NSSmbhEZ1FktH5aLFvu7Xih9dsM=
+
+Name: assets/bin/Data/Managed/Assembly-UnityScript-firstpass.dll
+SHA1-Digest: wJy5WwgORHR8CcroWVFFHUxEZp4=
+
+Name: assets/mmiap/image/vertical/top_button_back.png
+SHA1-Digest: V3dNbV6poCc3LJ4bf2p07bAJY5g=
+
+Name: assets/mmiap/image/vertical/button_back_Press.png
+SHA1-Digest: +nggjMaRqQpLGwgEGOo7R7DToGs=
+
+Name: assets/bin/Data/079c2f24ba4404547ae3f438919aa838
+SHA1-Digest: w43zNwWHTTO1ztaV5nnv4orQ3JA=
+
+Name: assets/unicom_account/accountsdk_2_icon_progress_1.png
+SHA1-Digest: 8epPFObI2LnC49s7o07UONLJ/z8=
+
+Name: assets/bin/Data/sharedassets2.assets.split28
+SHA1-Digest: Gfbss9I0cH1CGbofCHfCLeC3k+o=
+
+Name: assets/bin/Data/sharedassets2.assets.split29
+SHA1-Digest: ubepHeCu9sQhObFH1PVIdbJxLto=
+
+Name: assets/mmiap/03/icon_false.png
+SHA1-Digest: fDEolNO1n1Fw+DKhkGolEMT6BOE=
+
+Name: assets/bin/Data/7fd1b68dbe3f9fc4aa48009cecdd7e32
+SHA1-Digest: vVmE1z85oF6amweiRUdY/GORnYM=
+
+Name: assets/bin/Data/sharedassets2.assets.split26
+SHA1-Digest: bNgkOA8xTWIJUjHRVxkWNiXnico=
+
+Name: assets/bin/Data/sharedassets2.assets.split27
+SHA1-Digest: tddI6jLCn5SNZh2SVhHI/bpnW2w=
+
+Name: assets/bin/Data/level8
+SHA1-Digest: DsLFImNc/U76BiGGQBkTBtLH/tI=
+
+Name: assets/bin/Data/sharedassets2.assets.split24
+SHA1-Digest: QmrulgcdIkTR1+yu8Byiaed4JqE=
+
+Name: assets/bin/Data/level7
+SHA1-Digest: /5JbAzcwbHfq/x+x3H1AN70B4us=
+
+Name: assets/bin/Data/sharedassets2.assets.split25
+SHA1-Digest: amS9LruBz0zUMazInm9lxLnO1Uc=
+
+Name: assets/bin/Data/sharedassets2.assets.split22
+SHA1-Digest: X93JgLJCI2PCv3wQOci9Rc8HF5k=
+
+Name: assets/bin/Data/level9
+SHA1-Digest: wOaCuxmnrh4VthTOcmxszlu1mvw=
+
+Name: assets/bin/Data/sharedassets2.assets.split23
+SHA1-Digest: 2/iqPjWsCBrjRWbZD7ZCGr3pwCg=
+
+Name: assets/ctestore/ctestore_apconfig.xml
+SHA1-Digest: c3+CZZqgYj3m3E2UOMqCnqyecE0=
+
+Name: assets/bin/Data/level4
+SHA1-Digest: HPMpnw+fnB5HNoJt+2XAJcqHnAM=
+
+Name: assets/bin/Data/sharedassets2.assets.split20
+SHA1-Digest: ShUHbZ7FVOZ3e50iVJWKxe0n1Tk=
+
+Name: assets/bin/Data/level3
+SHA1-Digest: sgV+NbD6Y5qmOkLCq/qFbwFGk3E=
+
+Name: assets/bin/Data/sharedassets2.assets.split21
+SHA1-Digest: 9tVOVho1UrQnIOIFf9G85pOwwqs=
+
+Name: res/drawable-hdpi-v4/gc_recommend_flow_one.png
+SHA1-Digest: ODsburFDvpH4jYRF4gitl+VhH3k=
+
+Name: assets/bin/Data/level6
+SHA1-Digest: erv+Dyh8Oa/G6hRykAoNMCqy2l8=
+
+Name: assets/igaworks/res/ic_bottom_mail.png
+SHA1-Digest: OSnZZ33+VmUDYapipNo4JbAJLGg=
+
+Name: assets/bin/Data/level5
+SHA1-Digest: mJotibZ0gOVICDJXAQJgEh79aMc=
+
+Name: assets/unicom_account/accountsdk_2_bg_title.9.png
+SHA1-Digest: hyVuOHE6n9gd9TmFs+CnzHrkD8o=
+
+Name: assets/mmiap/03/horizontal/savingdialog.xml
+SHA1-Digest: tqA+C8uI/c43f99ngboJT/llhfs=
+
+Name: assets/unicom_account/accountsdk_2_bg_uinfo.jpg
+SHA1-Digest: yzELG2ZHlXH0nzHRFi3G8zwwKW8=
+
+Name: assets/bin/Data/sharedassets2.assets.split19
+SHA1-Digest: djhD62ngZ7G00s1V4mjasNHFV7E=
+
+Name: assets/bin/Data/Managed/UnityScript.Lang.dll
+SHA1-Digest: fE1w7gA0mtB0Zi9GnRcxBJ4E1wY=
+
+Name: assets/bin/Data/sharedassets2.assets.split17
+SHA1-Digest: kOiD+kWaTR37LZYZq3alirAvMEw=
+
+Name: assets/bin/Data/sharedassets2.assets.split18
+SHA1-Digest: YHK6wjqTpwFHJOlSYPyYYtdQtcE=
+
+Name: assets/bin/Data/sharedassets2.assets.split15
+SHA1-Digest: f+hjg0F0Wv1nGugTSfrJ7+kHqKQ=
+
+Name: assets/bin/Data/sharedassets2.assets.split16
+SHA1-Digest: lYGASl8D7YTRoBtU7s9alz/97kg=
+
+Name: res/drawable-hdpi-v4/gc_gamepad_zoom_out.png
+SHA1-Digest: pO6SkuUkqfAaF5ePNl0mnkCptIU=
+
+Name: assets/bin/Data/sharedassets2.assets.split13
+SHA1-Digest: 1GkOVYA/qfRj8Q11nrDs6erT1IY=
+
+Name: assets/bin/Data/sharedassets2.assets.split14
+SHA1-Digest: zPO892B5pCXD8jFxO1z3nlFCgMQ=
+
+Name: resources.arsc
+SHA1-Digest: w6x+dO179ti1xQz/kG+0fYcHPXM=
+
+Name: assets/bin/Data/sharedassets2.assets.split11
+SHA1-Digest: LMKXsDH8r1y7fnd5R6N+UIWeSNA=
+
+Name: assets/bin/Data/sharedassets2.assets.split12
+SHA1-Digest: 0FDjBO8GlWTcQXBiz+pIaU31jEs=
+
+Name: res/drawable/wo_logo.png
+SHA1-Digest: vpvs3yHtImJh+Q+IQzMKAv8PZi8=
+
+Name: assets/bin/Data/a92eb22b9494b4147b69203caec6713f
+SHA1-Digest: KP5hnt5bRQQ5OqoQptUHNZBjC08=
+
+Name: assets/bin/Data/sharedassets2.assets.split10
+SHA1-Digest: e4oTL67XgGjkJosVygeiKMHGXj4=
+
+Name: assets/unicom_account/accountsdk_2_pointbar.png
+SHA1-Digest: g5hrsdaJI1F1U/+uOXxkzq1k1ng=
+
+Name: assets/bin/Data/98a680ac6b32a6541923ce9dad4b27d2
+SHA1-Digest: ArtE5o8bdjl8X/zXvRzoQBqnnfk=
+
+Name: res/drawable-hdpi-v4/gc_title_exit.png
+SHA1-Digest: sXbNVIP6Fm9ZjT4XVr9jpIPnFKo=
+
+Name: lib/armeabi-v7a/libmain.so
+SHA1-Digest: N69cQ8SDIENXi7TByfIgqiTujY0=
+
+Name: assets/bin/Data/Managed/UnityEngine.dll
+SHA1-Digest: CPS5kYK+ILTRMQhTNImDk0QpClE=
+
+Name: assets/bin/Data/00663cce52d414911a1f682286e7b031
+SHA1-Digest: MxxGWyshX4Nazd3S8YiWwYZNXz8=
+
+Name: assets/mmiap/02/close_click.png
+SHA1-Digest: CTR5KnKg5iDdRa3gj3SW6jDcsh0=
+
+Name: res/drawable-hdpi-v4/gc_anim_title.png
+SHA1-Digest: iCxQwyxMjXDCariqTv+fmAfMa8Q=
+
+Name: assets/bin/Data/c6b25c94d6e09114284f452bf24c66bf
+SHA1-Digest: 7ZoLRePeNCN8s0WErCcHMkpHqBQ=
+
+Name: assets/unicom_account/accountsdk_2_inputbox.9.png
+SHA1-Digest: BYrkPYRr6LjCkfrgim7gO5e/gmA=
+
+Name: res/drawable/app_icon.png
+SHA1-Digest: iZ88Rb+r992Ol/qdPIDW1yQ3mac=
+
+Name: assets/mmiap/01/vertical/failresultdialog.xml
+SHA1-Digest: c2SrmD+fMFKUxPHnYCEbSw410PU=
+
+Name: assets/bin/Data/ae3fa1042e1f4b245970c609dd6952c4
+SHA1-Digest: OoKI5giJh1+5G4yFmNy9G8sDZOg=
+
+Name: assets/Charge.xml
+SHA1-Digest: IGDPaYysCBDMPlOo8FoMhBC955c=
+
+Name: assets/igaworks/res/ic_n.png
+SHA1-Digest: ZC7l1wZNYDZZDx37TACOj55Bh7k=
+
+Name: res/drawable-hdpi-v4/egame_sdk_popup_btn_green_normal.9.png
+SHA1-Digest: NDavMTfQ2XexZfte30qAGpyL8/c=
+
+Name: assets/unicom_account/accountsdk_2_wostore_logo.png
+SHA1-Digest: Wln+ri4K+PflI0cpK6Ks12aa0PY=
+
+Name: assets/bin/Data/e0b804aed682f4c27b9545a184709df3
+SHA1-Digest: EUyXTdSLONklQUyrcbwtgBUsIgY=
+
+Name: res/drawable-hdpi-v4/gc_center_recharge.png
+SHA1-Digest: pbqxtSr+a+KJXcw/28FxjYV5aEM=
+
+Name: assets/armeabi-v7a/libunicomSimplesdk.dat
+SHA1-Digest: l0vzYGfir61MM17G7DTKRf39V/8=
+
+Name: assets/mmiap/03/vertical/purchasedialog.xml
+SHA1-Digest: hIngym932oGclkttzbJJogxL9gc=
+
+Name: assets/bin/Data/sharedassets8.assets.split1
+SHA1-Digest: zD8p7/AtZ0o4rBaNcSuFtChyvlc=
+
+Name: assets/bin/Data/sharedassets8.assets.split0
+SHA1-Digest: b1lWqCo9CrsbMYbNHL/Gbtc1TCI=
+
+Name: assets/unicom_account/accountsdk_2_radio_checked.png
+SHA1-Digest: xXyYNOyKTkNlj9XVIjB4OoIFTxw=
+
+Name: assets/armeabi/libunicomSimplesdk.dat
+SHA1-Digest: R/sQXbMPRLE40lYBFyoQpNM1Ph4=
+
+Name: assets/ctestore/ctestore_fanhui_small.png
+SHA1-Digest: ZXl7y236iH/bGl+gNBtKoGpJ+sM=
+
+Name: res/drawable-hdpi-v4/gc_piccode_refresh.png
+SHA1-Digest: lDjYNypM8PqBMVhA5g/1kig6U5M=
+
+Name: assets/bin/Data/d9da6413098384381920442cfc4be7bc
+SHA1-Digest: 2If+ZOF1iKYP9K/6AmHay6dfIoI=
+
+Name: assets/unicom_account/accountsdk_2_icon_progress_2.png
+SHA1-Digest: A6qD0RwYcF0F9r15XRl0isIVq84=
+
+Name: res/drawable-hdpi-v4/gc_start_login.png
+SHA1-Digest: ERwpf8L6HU7gNydrdtlf8u98fR0=
+
+Name: res/drawable-hdpi-v4/gc_start_cmcc.png
+SHA1-Digest: 91Ly/MN95J9fvNUGd5iWho7UD+I=
+
+Name: assets/mmiap/image/vertical/button1_Confirm.9.png
+SHA1-Digest: 4R7Eld1CWay8DOJmOL2lNUDttNo=
+
+Name: assets/mmiap/01/btn_1.9.png
+SHA1-Digest: vjHlSMMtooIutMe0xDHbmxzF10U=
+
+Name: assets/bin/Data/splash.png
+SHA1-Digest: TzxGVZSJLnC1fk8VVk2v34MRIf8=
+
+Name: assets/bin/Data/b5420dc0c9f37594b9f5a78b88741a86
+SHA1-Digest: w1yi6mxjNRwQgDjukzjYZO+SmjM=
+
+Name: res/drawable-hdpi-v4/gc_gamepad_mouse_pointer.png
+SHA1-Digest: ltLleZG78DKgxORHya5l05PONlE=
+
+Name: assets/bin/Data/c40dd081d05759c4d8693cba1f752128
+SHA1-Digest: 8BPCmQ8kmT2/Jcs3pNlGL62kMPk=
+
+Name: res/drawable-hdpi-v4/gc_gamepad_b.png
+SHA1-Digest: Nnx2Fo0tsFOhf4cNdgGfX4VAUeg=
+
+Name: assets/bin/Data/9fe8c215a1d0a684a9bd6dc33dd26da6
+SHA1-Digest: PYZTlUVYOz/G4eHuDWXpfxDTZ3I=
+
+Name: lib/x86/libypiap.so
+SHA1-Digest: ocGcUVj2uIKi1eKymN7dfTLKHEA=
+
+Name: assets/unicom_account/accountsdk_2_btn_delete_pressed.png
+SHA1-Digest: /VS4LZIHb/AAs4V1D8ouTx5IB1U=
+
+Name: assets/ctestore/ctestore_close_large.png
+SHA1-Digest: 6Pb8NGB+S1+wWY0KUdvSH4SKb3M=
+
+Name: assets/bin/Data/Managed/System.Core.dll
+SHA1-Digest: Obx3E86+WJu0L0xs4iEIRpZbG7o=
+
+Name: res/drawable/picon.png
+SHA1-Digest: kBiuGDd0IIomB1qFpt30+rltfjI=
+
+Name: assets/bin/Data/Managed/mscorlib.dll.mdb
+SHA1-Digest: GFcwmR8sY3FVjtzY+vsMX7iyXXw=
+
+Name: assets/bin/Data/39de50afbc2972f428be679921be197c
+SHA1-Digest: YdCtMdc6jmgbsva4W4wv+AQrSyQ=
+
+Name: assets/mmiap/image/vertical/keyboard_button.png
+SHA1-Digest: CtkhOTa03WkL0Ra8zpjAIpBpBhg=
+
+Name: assets/bin/Data/c903f72d5bc7936488203e62c0dff918
+SHA1-Digest: MiiWU0gxBy00rewLX+QP2O4nhpo=
+
+Name: assets/ctestore/ctestore_success_small.png
+SHA1-Digest: rSC+5yYzMj/lD57knpdVc8L7e5w=
+
+Name: assets/bin/Data/Managed/UnityEngine.UI.dll.mdb
+SHA1-Digest: Dp1Z70PUrLvfTX7z8eR1MoHiXt0=
+
+Name: assets/bin/Data/level2
+SHA1-Digest: XboWw4BESJwbgFym6GMoiTF+4+s=
+
+Name: assets/ctestore/ctestore_close.png
+SHA1-Digest: /F0KVrdkvMyBffKxT8AkIMQgRNc=
+
+Name: assets/unicom_account/accountsdk_2_icon_success.png
+SHA1-Digest: a/sQWbQw+Ck8/8qOCu64g0MyJCI=
+
+Name: res/drawable-hdpi-v4/gc_recommend_flow_two.png
+SHA1-Digest: dEN3aaCX8GibCOej+32OJcda8Vc=
+
+Name: res/drawable-hdpi-v4/gc_icon_extend.png
+SHA1-Digest: xT6UUapsihVEMYSJ679Br1EO5gs=
+
+Name: assets/bin/Data/Managed/Mono.Security.dll
+SHA1-Digest: /TyvFPaQGqc9NTsE0oVrH3CSrd8=
+
+Name: assets/bin/Data/6dceb258287270549acc920ba4332518
+SHA1-Digest: eNxWSUmP981sJ+7EHl3mAPS8+sE=
+
+Name: assets/bin/Data/ddde315ef60f14c79873a44440353b2f
+SHA1-Digest: iHEyBLUlO33+GD71as+heLp8wTo=
+
+Name: res/layout/qy_pay_dialog.xml
+SHA1-Digest: PemCmSdEZu0o4rAonFkTXosFkYA=
+
+Name: assets/bin/Data/sharedassets2.assets.split35
+SHA1-Digest: AfzK1D4FsQysUO75GQLfcxtHi/0=
+
+Name: assets/bin/Data/sharedassets2.assets.split36
+SHA1-Digest: f52PWpx+n7Y3JVpEN/Job20UbRg=
+
+Name: assets/bin/Data/sharedassets2.assets.split33
+SHA1-Digest: C0FJOemVkonOmsnZdqO000BCO3w=
+
+Name: assets/bin/Data/sharedassets2.assets.split34
+SHA1-Digest: eQDHBGm5R8k68D8TXyehFTLIuQc=
+
+Name: res/drawable-hdpi-v4/gc_center_edit.png
+SHA1-Digest: WQtn6ekMWKBycDTEtOXpWHwQa7Y=
+
+Name: assets/bin/Data/sharedassets2.assets.split31
+SHA1-Digest: ipqHHziCRhISjLQgH2UoK4hIQgU=
+
+Name: assets/igaworks/res/ic_more.png
+SHA1-Digest: 3PHUgmvcilJ4t/P8yI9OajQkHX8=
+
+Name: assets/bin/Data/sharedassets2.assets.split32
+SHA1-Digest: eY9M3SroQzsbpc80UIpgYE6RlKw=
+
+Name: assets/bin/Data/sharedassets2.assets.split30
+SHA1-Digest: yE/l0o+G6nZRSMd7A9gvRSFnXMY=
+
+Name: assets/bin/Data/5b83218700c71da49b4279381d2f49e5
+SHA1-Digest: 5hWFRW0kQd7DnJLYileaN+ZPzFw=
+
+Name: assets/CMGC/ConfigExtend.xml
+SHA1-Digest: WSLuFXLDHOs3HAcNTBUFur46Uw0=
+
+Name: assets/bin/Data/47cedb9ca4094864fbc861cc5aec45a4
+SHA1-Digest: LFUAXJ7y1EM8heCvdIziw44Mw6c=
+
+Name: assets/bin/Data/05af33f9b96c4f04ba6d4f4619abd600
+SHA1-Digest: 2eFjkacCqc1WigRQtPli2Wx14oo=
+
+Name: assets/ctestore/ctestore_fanhui.png
+SHA1-Digest: ggSGiLYA/OljW+KIc+ByJHEOVnQ=
+
+Name: assets/bin/Data/19c1e70b004f22a478237e445db2e937
+SHA1-Digest: IgOKoj/8wSKytuBIF/gCaYOAfCU=
+
+Name: assets/mmiap/image/vertical/logo1_unicom.png
+SHA1-Digest: 4WmN5oOISdv2dw40HdxKg1ivBbM=
+
+Name: res/drawable-hdpi-v4/qy_btn_close_off.png
+SHA1-Digest: 7/cbEzxRB008tzuWr79e6RZO0u4=
+
+Name: res/drawable-hdpi-v4/gc_recommend_hall.png
+SHA1-Digest: rDewc1tzymFcsMjC7YXdPOTduIU=
+
+Name: res/drawable-hdpi-v4/gc_online_service_logo.png
+SHA1-Digest: E68GHaR/wb/KhmZPpbe/l1VQVXM=
+
+Name: res/drawable-hdpi-v4/egame_sdk_popup_btn_green_pressed.9.png
+SHA1-Digest: xlLcK4mTQsIrxJFurQJANsJcn14=
+
+Name: res/drawable-hdpi-v4/gc_contract_press.png
+SHA1-Digest: T4nijU0bhTlFRG8ckIwXcOYOt04=
+
+Name: assets/bin/Data/fed6463739188a34490feaf2e00a38da
+SHA1-Digest: ORvcfTSUwtOyFKApAtbqxcBIW5M=
+
+Name: assets/unicom_account/accountsdk_2_float_bg.9.png
+SHA1-Digest: z+k3gywwjAtl3mf3gwymmL5UkTM=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_waiting_verify.png
+SHA1-Digest: CqNrAFL+TMR83Ump9KqECsqAoJU=
+
+Name: lib/armeabi-v7a/libmegjb.so
+SHA1-Digest: YXGEz12GAa/yXR0uY7SSZP++vTo=
+
+Name: assets/unicom_account/accountsdk_2_icon_paytype_1.jpg
+SHA1-Digest: wxk9+4tHCopyevGalebz9oi5t+s=
+
+Name: assets/bin/Data/4823b65452483a34484ed9dcb5eb0b9b
+SHA1-Digest: oVhPSG4e9uGgztLeveMGVaZfo/g=
+
+Name: res/drawable/ui_ad.png
+SHA1-Digest: pJtHtIZrtktmpSb4Yn9ki289H9w=
+
+Name: assets/bin/Data/d845836020054cc49b7df11ff7e84212
+SHA1-Digest: HmFQSz3VH+n3qbTD/kH5JWwvu4Y=
+
+Name: assets/bin/Data/245e2f43457492e47a493ba141126f99
+SHA1-Digest: PATDM2wj5vCpK49lLV0XI2V9aIY=
+
+Name: assets/igaworks/res/logo_adpopcorn_video.png
+SHA1-Digest: nVRPJsCIhMie6YkSqpo0YClPaAs=
+
+Name: assets/mmiap/image/vertical/keyboard_button_hide_press.png
+SHA1-Digest: WAHk880AZV9IqRxg5mi/hvUmwPk=
+
+Name: assets/mmiap/03/icon_success.png
+SHA1-Digest: loG43GVYgeqRQiI63nV9iCASmVY=
+
+Name: res/drawable/btn_close.png
+SHA1-Digest: rOei16zwwoaAnR/eJJdwh8RBpp0=
+
+Name: assets/bin/Data/0a96bff2906e7a64e88158a135af42b3
+SHA1-Digest: QnWJsGR8CakBnDXhHYfw6h4WcbE=
+
+Name: assets/unicom_account/accountsdk_2_btn_grey.9.png
+SHA1-Digest: fi3ZKrIHHRTLpimKTEk2TU7XtVk=
+
+Name: assets/bin/Data/sharedassets7.assets.split0
+SHA1-Digest: eG6I2Gvfkkp0DvB+DAXuHT5f2mc=
+
+Name: res/layout/activity_dianxinlogo.xml
+SHA1-Digest: pb9rijGZHF4jmI4rsMW1R4Tqyqc=
+
+Name: assets/bin/Data/3eaf850bf4778aa428add7b0f39fecca
+SHA1-Digest: 64TXxP0ezJjfdzsZ9UVJGxsYxIs=
+
+Name: assets/bin/Data/sharedassets7.assets.split1
+SHA1-Digest: fCmb9eib9za08Gbcm/1e9dHxrvc=
+
+Name: assets/bin/Data/sharedassets7.assets.split2
+SHA1-Digest: j2gP05ROfdVlHxt20vcTAhfEcC8=
+
+Name: res/drawable/egame_sdk_btn_grey_selector.xml
+SHA1-Digest: WSFsqNtImcWLyCOucG3aTloMtu8=
+
+Name: assets/bin/Data/sharedassets7.assets.split3
+SHA1-Digest: TSiQcr0Kq725ghqzPkCU6agZ23o=
+
+Name: assets/mmiap/03/horizontal/progressdialog.xml
+SHA1-Digest: IoYkgSSs64p7DJ4+Ebhh9KMlg5M=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_portait_divider_line.png
+SHA1-Digest: Eaiimgq6/erj2ou/CD+VtzlQV7U=
+
+Name: assets/igaworks/res/adpopcorn_loading.png
+SHA1-Digest: 4eOPJ96C0KRSBX0nIKhQKVyQnWY=
+
+Name: res/drawable-hdpi-v4/egame_sdk_popup_white_bg.9.png
+SHA1-Digest: cgyyqi1GgbAvyu3CZebrg60/jEQ=
+
+Name: assets/unicom_account/accountsdk_2_btn_switch_account.png
+SHA1-Digest: 5PZEpArKMpvaobbY9MzFmCMEx/U=
+
+Name: assets/igaworks/res/ic_message.png
+SHA1-Digest: 1QpAAV4t4v+/j7GEeVl+Btdfusw=
+
+Name: assets/unicom_account/accountsdk_2_float_btn_point_pressed.png
+SHA1-Digest: GCvgI5vkhlhJRX8ydmhhGiZ6yKM=
+
+Name: assets/ind.dat
+SHA1-Digest: ZUtmvrqbqXggeh/CsHNtWUv8GDM=
+
+Name: lib/x86/libmono.so
+SHA1-Digest: F4kMCkug0sw+UoqAqHnc+aNFSX4=
+
+Name: res/drawable-hdpi-v4/egame_sdk_popup_import_box.9.png
+SHA1-Digest: ROT/LtXG9BV1MIHEFVhKXgM28rA=
+
+Name: assets/mmiap/image/vertical/checkbox_checked.png
+SHA1-Digest: tNxwrYwo2vZ8gDN2Ee8fIEbJoEI=
+
+Name: assets/ctestore/ctestore_failed_small.png
+SHA1-Digest: cSytD/DqPRtQMybWXs/z98vwloA=
+
+Name: res/layout/activity_migulogo.xml
+SHA1-Digest: KHGIZov0nSgGMruHsmdgK+K7a4A=
+
+Name: assets/mmiap/03/bg.png
+SHA1-Digest: sm10r5xm5xgIXfeSVVwLtZUDo8A=
+
+Name: assets/bin/Data/Managed/System.Xml.dll
+SHA1-Digest: 7C0okUjbd9+q12JK3I00aff6hH0=
+
+Name: assets/bin/Data/235beae1eaf0afe48833e1072de35e99
+SHA1-Digest: +HvEg9MGHGK3RbsRl67gB3rpKD4=
+
+Name: lib/x86/libcasdkjni.so
+SHA1-Digest: gUiLMJmDSgvFAg3vKzV7mcN6M7U=
+
+Name: res/drawable-hdpi-v4/gc_gamepad_lb.png
+SHA1-Digest: 5R1Vr/xU0wVExoRVj5bc9UoVNuE=
+
+Name: assets/bin/Data/6c503f387392e58428d9bb5454b7a911
+SHA1-Digest: ds9brEEknHb2FoQHxgYaQI951Tc=
+
+Name: assets/ctestore/ctestore_titlelog.png
+SHA1-Digest: 85nncEre9Tx27Jr9YeFZ767VWAk=
+
+Name: assets/bin/Data/Managed/System.Configuration.dll
+SHA1-Digest: +TLxb1D2+Ol8cc6Rasq9u4vzF+I=
+
+Name: assets/bin/Data/c14b8b2b8d5bea041b249d0558be3f38
+SHA1-Digest: 3FmbTQeInqlYlC6jbeY2nJLBy2Y=
+
+Name: assets/ctestore/ctestore_tstitle_large.png
+SHA1-Digest: Q9hb+FN1IvfHtq4LzhkhYYD5yJI=
+
+Name: assets/bin/Data/39a5691a013cbfa468b8a642cce428aa
+SHA1-Digest: ZS5nxC/ey9CkTjX6BdjGEWcq7GA=
+
+Name: assets/bin/Data/sharedassets5.assets.split2
+SHA1-Digest: LrukKgctf9nBN7ugh4buLTa1pds=
+
+Name: assets/bin/Data/sharedassets5.assets.split1
+SHA1-Digest: fLcMIGNpe7nr9WkpAVhdOpSxVLA=
+
+Name: res/drawable-hdpi-v4/gc_title_logo.png
+SHA1-Digest: Spp5bzEIAVSNBMJYKX5OAOYWDqs=
+
+Name: assets/bin/Data/b6b36b3e3ff37d546a2b805005edbd05
+SHA1-Digest: zmU+t72XFmcdMg7Uud4xoMVlfSc=
+
+Name: assets/bin/Data/sharedassets5.assets.split3
+SHA1-Digest: Vgxmo4y/WZSZEq+SJbqecOzl6uk=
+
+Name: res/drawable/ringtiger_logo.png
+SHA1-Digest: fYJ1kVKTInSIW9V68TbzYHhfrPA=
+
+Name: assets/bin/Data/sharedassets5.assets.split0
+SHA1-Digest: NACRA4x3QUpJb1Yur6CgeLo5m3s=
+
+Name: assets/bin/Data/d02fe28b7dec8c041b54cc9c912c978a
+SHA1-Digest: KZjWkuRpUOp3ULXlFclTmo7Ki4E=
+
+Name: assets/igaworks/res/ic_point.png
+SHA1-Digest: 3cuL7z645UU9Q6NgVGx6bVgbJnk=
+
+Name: assets/mmiap/image/vertical/yanzhengma_bg.png
+SHA1-Digest: +d6hwrsSpRwTOtmco42H1xw30lg=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: Nq8q3HeTluE5JNCBpVvNy3BXtJI=
+
+Name: assets/unicom_account/accountsdk_2_float_bg_lo.png
+SHA1-Digest: GJaKE4NzmpxHGdVdSp98kDAhrfo=
+
+Name: assets/unicom_account/accountsdk_2_float_btn_point.png
+SHA1-Digest: eu5MmuOXzoNOKM4L2N9BLbFU6mM=
+
+Name: assets/bin/Data/bba1603ca7fdf4e428e774b826a41743
+SHA1-Digest: M/iueSGyFqsm1wXbbnB2pl7BcQM=
+
+Name: lib/armeabi-v7a/libunity.so
+SHA1-Digest: V4UmJT6kgx6XLmbd8M5J7bHf5Oc=
+
+Name: assets/OpeningAnimation/g_logo_cmcc.png
+SHA1-Digest: evFQ4S5bYXHCB5ynhl2QhonHQRo=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_contacts_phone.png
+SHA1-Digest: 28ekZfYTy1f4Ci5gVvUb+c7ouCg=
+
+Name: assets/mmiap/02/line.png
+SHA1-Digest: JfevbgnxsUG+NrGALeC/D+Dqr5I=
+
+Name: res/drawable-xxhdpi-v4/app_icon.png
+SHA1-Digest: Fkpnt0genLx6sFtkGKiEdjFhVgA=
+
+Name: res/drawable-hdpi-v4/gc_default_icon.png
+SHA1-Digest: wStKpluF3kY9+EjGiZaZPW2Idck=
+
+Name: assets/x86/libunicomSimplesdk.dat
+SHA1-Digest: OtOqpPifxpO/9cDthHMXHdL8/bc=
+
+Name: assets/mmiap/03/btn_blue01_click.png
+SHA1-Digest: 13PqsJIfLFV8cf9WXdjU3eHLZiU=
+
+Name: assets/mmiap/03/btn_blue01.png
+SHA1-Digest: HFXT9a16RoBT7Ma/95aphl7tOEs=
+
+Name: assets/bin/Data/c37f7720842eb9b4d912d61898cbd03e
+SHA1-Digest: jon86AaTCzKd8zZGakCtbPuSTE8=
+
+Name: assets/bin/Data/210430fe858ff0544999810ac54a9a21
+SHA1-Digest: 51BqCYTU2k0nXnfL5smvZRL74AQ=
+
+Name: assets/bin/Data/e82563d43037ce14b8d33676725eb5ec
+SHA1-Digest: 6tYFrn5T6+S/dwSu2jUDUBJB+fk=
+
+Name: res/drawable-xxxhdpi-v4/picon.png
+SHA1-Digest: kBiuGDd0IIomB1qFpt30+rltfjI=
+
+Name: assets/bin/Data/d829b6a40ac28c347a883bc23c4bdb01
+SHA1-Digest: 60mCs0e+nWWPm/1MazUBNYZdpBo=
+
+Name: assets/mmiap/02/title1_bg.png
+SHA1-Digest: Mk9uKdROHrMkoWDpgcd7Pm85gfU=
+
+Name: assets/unicom_account/accountsdk_2_float_btn_account_pressed.png
+SHA1-Digest: NyttjYxReahjBRW4YiwhRU1e14g=
+
+Name: assets/bin/Data/Managed/P31RestKit.dll
+SHA1-Digest: 1iGBKdsTFcEgisNvqLtUfBI4r2g=
+
+Name: assets/unicom_account/accountsdk_2_float_logo.png
+SHA1-Digest: rhBEcKOXS15q0cHvMhQrejZTjJ8=
+
+Name: assets/bin/Data/b6f69c2b0ae591f4d9331992250f50de
+SHA1-Digest: s5FEmKlJjmXbeDHid9mjdiCKZWc=
+
+Name: assets/mmiap/image/vertical/logo1_TELECOM.png
+SHA1-Digest: WXpksfn2Yru6s6cg38Zk1FZ79wU=
+
+Name: assets/bin/Data/b81f782aee3eb4f06bf74005683291d0
+SHA1-Digest: tlSlTemETwWM66/PyW80iWZ9lBk=
+
+Name: assets/bin/Data/d9c832e5524784b1d8859c66b52f7583
+SHA1-Digest: u67L702ffNvXdo79CH8n6+Wc8NI=
+
+Name: lib/x86/libmegjb.so
+SHA1-Digest: YXGEz12GAa/yXR0uY7SSZP++vTo=
+
+Name: assets/bin/Data/settings.xml
+SHA1-Digest: U1BMgrYKrJMHex2Vn+RQdEmjGW4=
+
+Name: assets/bin/Data/802823d0236c9c549ba8f729bf6f2e75
+SHA1-Digest: PENVJNPggMP5kcpy136iB3FficM=
+
+Name: assets/bin/Data/37edc767f9cd12249a2f0aa4ea0058a3
+SHA1-Digest: fyO6NAEJDqgOzztlA8TyA/V98g0=
+
+Name: assets/bin/Data/97d70b45c723e4279aedc62892524a3a
+SHA1-Digest: w68YWJs1FfWWjmt9Bzvv3Eq5hPw=
+
+Name: assets/unicom_account/accountsdk_2_float_btn_recharge.png
+SHA1-Digest: FaPWY0Q/jx5Yooh9qtMtQy81Fws=
+
+Name: assets/mmiap/01/btn_2.9.png
+SHA1-Digest: EJNPjEIjgfqhyW5N53OS+hpHu1g=
+
+Name: assets/mmiap/01/horizontal/savingdialog.xml
+SHA1-Digest: 1gsLjRjsHZ5RgG6cBrIRu2ibZfU=
+
+Name: res/drawable-hdpi-v4/gc_window.png
+SHA1-Digest: GACSoHc8+f3bmn6J0NhZrAKcfRE=
+
+Name: assets/egame_ds.dat
+SHA1-Digest: pXWyjw5JMkanEfYUz5j6OL0vXl4=
+
+Name: assets/igaworks/res/ic_new.png
+SHA1-Digest: 5K8xSSbUBUS4l/2pj32xIJ6cUXk=
+
+Name: assets/bin/Data/416aa117def585840a920d86be163407
+SHA1-Digest: ovvNjc7h4SYT9B6RhOEDpSqEKPI=
+
+Name: assets/bin/Data/Managed/Assembly-CSharp-firstpass.dll
+SHA1-Digest: twiGUND9UY8rQ/XRKaN8G6lg8Yc=
+
+Name: res/drawable/egame_sdk_list_item_selector.xml
+SHA1-Digest: T/ITCqON07nrpMJlySXbaDL9q3g=
+
+Name: assets/bin/Data/78e49a380c062f74d914b166a241aa01
+SHA1-Digest: WLeShAK4dnnrlqAh0/zdDoAQwDU=
+
+Name: lib/armeabi-v7a/gdbserver
+SHA1-Digest: 34W0vvRQpR2fskANgCAPwXvdj04=
+
+Name: assets/bin/Data/mainData
+SHA1-Digest: Ae5NpHMXGNLDTuFqAjBsKJUmxws=
+
+Name: assets/unicom_account/accountsdk_2_icon_check.png
+SHA1-Digest: cRv2oyexfzUCx6nctU9m9d6SYZs=
+
+Name: res/drawable-hdpi-v4/gc_recommend_flow_third.png
+SHA1-Digest: psgoOq5Z0tR/NS0bbB9XMOnO0Co=
+
+Name: res/drawable-hdpi-v4/qy_pay_bg.9.png
+SHA1-Digest: TzKKhJPJ4IeWisdClKj+QBvbgRY=
+
+Name: assets/OpeningAnimation/g_rotate_right.png
+SHA1-Digest: y+Kq5xWMK/cN59YyLTOvJZKE+ts=
+
+Name: assets/bin/Data/48cb0413c1e138f4b8766ce90eecc5c4
+SHA1-Digest: Iq8F6EvK7n/VW4JUp3e0z69MbPs=
+
+Name: assets/mmiap/02/btn_orange_click.9.png
+SHA1-Digest: TGN1wFSCDqS8wRRhr69kcT1kBsY=
+
+Name: assets/bin/Data/a9bdf4f6e95de4ed083e3ea5443bd33a
+SHA1-Digest: xLcskmfkueASiumi+DeGCy2RCHw=
+
+Name: assets/mmiap/01/bg.png
+SHA1-Digest: sm10r5xm5xgIXfeSVVwLtZUDo8A=
+
+Name: assets/AndGame.Sdk.Lib_20121_A79D0053BE1B56EBDF86C897EB06450A.da
+ t
+SHA1-Digest: uG8gHztmxGYhC+VzMy/qIDiIiDM=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_normal.png
+SHA1-Digest: GzBZFGfmj79fC48qSgltWMnomLc=
+
+Name: assets/bin/Data/6bd4578c6cf2c5c42a53d8e09516622d
+SHA1-Digest: RqCEtQu5dPcYdfOK/5xa0rnv7WI=
+
+Name: res/drawable-hdpi-v4/gc_arrow_little.png
+SHA1-Digest: 4pGMp747bRpkgNfuG30kPXZWgj0=
+
+Name: assets/unicom_account/accountsdk_2_icon_vip_enable.png
+SHA1-Digest: ZOd+QzwDRFhUWNv6hIKkqTMQBGk=
+
+Name: assets/mmiap/image/vertical/get_verificationcode_press.9.png
+SHA1-Digest: w9wI7hWNoLR+B2e4eP4YkD27SlY=
+
+Name: res/drawable-hdpi-v4/gc_game_service_tel.png
+SHA1-Digest: 4AR3nvOBWXQ2Xd7IHNs/A/O3kWE=
+
+Name: lib/x86/gdbserver
+SHA1-Digest: 99PaCHhw6GU3Rar5CxbReBw1lgw=
+
+Name: assets/igaworks/res/ic_hot.png
+SHA1-Digest: 9bGshct+5jVU5GyAyeZsp6NokG8=
+
+Name: assets/bin/Data/Managed/System.Security.dll
+SHA1-Digest: TAEIVARh8WIN7Gyq4ExKRWuQ2R4=
+
+Name: assets/mmiap/image/vertical/infobg.9.png
+SHA1-Digest: FwQrOBt3bKF94Eg5Gg6rZYZNbkA=
+
+Name: assets/unicom_account/accountsdk_2_icon_vip_disable.png
+SHA1-Digest: 8ouVJwmexj7zJZr328Z8fUTmQy8=
+
+Name: assets/bin/Data/2679356a4656a7143b5bb4a7ebc68463
+SHA1-Digest: B6+7V+eFhAcSgo/hHMKZc/i3bRw=
+
+Name: assets/unicom_account/accountsdk_2_float_bg_expanded.png
+SHA1-Digest: O6uJ18SaF5/YMSavFa9diO8O8zQ=
+
+Name: assets/mmiap/01/vertical/sucresultdialog.xml
+SHA1-Digest: M9u/2tcTfDV1CKBnqJ0NoflI6mw=
+
+Name: assets/bin/Data/sharedassets9.assets
+SHA1-Digest: fMRTPKrLEx5EMvIdna2fVSvh8KU=
+
+Name: assets/bin/Data/65577e00432e118458b5ea2e2f38d51e
+SHA1-Digest: w+vJ+66y0Pps+f3T155BM1wnDjU=
+
+Name: assets/c_data_store.dat
+SHA1-Digest: hvjGxwKpCbqPR+CtsUiJZVLwknY=
+
+Name: assets/ctestore/ctestore_fanhui_large.png
+SHA1-Digest: jGoS88KDa25PWjeWujYgtp4BvbA=
+
+Name: assets/bin/Data/020c378f31c6d411a94147b035f2c29a
+SHA1-Digest: mHbahI3QjaFq6B9qKU+gOtj16Rg=
+
+Name: assets/bin/Data/415398468989bd146bccf770991a2f71
+SHA1-Digest: I2L2GOIh4Xhc+E3j3X5MEZT8wHY=
+
+Name: assets/bin/Data/7f31697f98dac7941ae1cc877a1d2195
+SHA1-Digest: knOtZhn7BugKCyUe9J8g+j0amMY=
+
+Name: assets/bin/Data/25e40fdcdb01ee14ca7cd5dc9f6e0de7
+SHA1-Digest: 1PP0bhi5bXBae8xS0hDx0AnmAaA=
+
+Name: assets/mmiap/03/vertical/failresultdialog.xml
+SHA1-Digest: Sy7QfD6WW4VXmlpzKTGqvGzUaDM=
+
+Name: assets/bin/Data/8032cd90c65d6f3449da4b18bb396103
+SHA1-Digest: dL5yeOQrv5Zuwqfgg2wo/ZPU42s=
+
+Name: assets/bin/Data/a217c84c62e267b4e8bc1da66495701c
+SHA1-Digest: Q7FJr/zAy/eLea+ckqmTtOjNOA0=
+
+Name: lib/armeabi-v7a/libmono.so
+SHA1-Digest: iZXfB6BwaJg026VhrhfqZKP1Mo4=
+
+Name: assets/mmiap/03/button_back_press.png
+SHA1-Digest: 3R+UDIPiJify94Ve0L73ARvMufM=
+
+Name: assets/unicom_account/accountsdk_2_btn_modify_uinfo.png
+SHA1-Digest: HR3+hEYbraeT4Xi8FQ4N/rxhE3I=
+
+Name: assets/bin/Data/7e2e97e7614b89c48b5cda1bd6e193bc
+SHA1-Digest: DMGgGKK+g0Lj66qVdMSLGhz5Cdc=
+
+Name: assets/bin/Data/b6414c93716b84d678dbad377b81540f
+SHA1-Digest: sz3NkHWywUQ5jvaYFqM+5/Ww+GE=
+
+Name: assets/OpeningAnimation/g_logo_cp.png
+SHA1-Digest: ENpSldOc/EP7Y5lRXO1Wt3rA/tk=
+
+Name: assets/ctestore/ctestore_neizbg.9.png
+SHA1-Digest: EKdrE84y7u+ek6loP5EQ8PMcjSc=
+
+Name: assets/SMSPayConfig.json
+SHA1-Digest: jjGkiJme5oKfpg9joSSdnsSkLcc=
+
+Name: assets/mmiap/image/vertical/right_arrow.png
+SHA1-Digest: JNGtCNh063JKm/ANWkaXBbkNoso=
+
+Name: assets/pay.data
+SHA1-Digest: YnlMbhB8XWvSSP0ciDpasC2i198=
+
+Name: assets/unicom_account/accountsdk_2_arrow_right.png
+SHA1-Digest: Jg4zfn2nMA9ziAtXJBnRW/K82u8=
+
+Name: assets/bin/Data/43adc8cdd84449f48916e06d3dacf0fb
+SHA1-Digest: wImhHTWb6Khv/yrkXUMRS0wo56I=
+
+Name: assets/bin/Data/aac806288ab2a4b54b79c49ff9b8b2e4
+SHA1-Digest: dxnDbBy73NfAkuX9y17Q8N/e5Wc=
+
+Name: assets/bin/Data/sharedassets4.assets
+SHA1-Digest: EDrWB6ixNUu79H0MSbMGUCyaMwQ=
+
+Name: assets/ctestore/ctestore_close_small.png
+SHA1-Digest: M5M7Mf4H5K5f8VcfNE80VgrtGTw=
+
+Name: assets/igaworks/res/ic_close_video.png
+SHA1-Digest: rq8CTdspfXEDhBy+xPZmcSVaWCo=
+
+Name: assets/bin/Data/8189e98a3160829408990d10dc318388
+SHA1-Digest: OX1dSxhtGoyKuBxMR6rQAfOslkY=
+
+Name: assets/igaworks/res/ic_share.png
+SHA1-Digest: xBxoHuvU6NZyYDW3kOtVKRVmsqI=
+
+Name: assets/bin/Data/Managed/TDGAAnalytics.dll
+SHA1-Digest: a4mypQXOI6FVVPl6c7rPT5uVV4M=
+
+Name: assets/mmiap/image/vertical/button1_unicom_confirm_press.9.png
+SHA1-Digest: eXMYHeu7APuLxzGFSKfTfcJ/QnI=
+
+Name: lib/x86/libdserv.so
+SHA1-Digest: PWCLidJsxnBXysXE0r0P+qinczw=
+
+Name: assets/mmiap/02/close.png
+SHA1-Digest: hZtE2s/kg8XRB5AUfpgrVUNTBnI=
+
+Name: assets/mmiap/02/horizontal/savingdialog.xml
+SHA1-Digest: 22loBftLvhGsE9ka14VkXMykY2E=
+
+Name: assets/mmiap/image/vertical/keyboard_button_press.png
+SHA1-Digest: A/LLFAt35jZldVmonRDl3iMsWcY=
+
+Name: assets/bin/Data/549abe8b2bcf941dd8fa9236fd5732bf
+SHA1-Digest: FmZTUCtlSGT+robchSXwZ+9Ngzs=
+
+Name: assets/bin/Data/247a4a35da9692246a8272b5f9dabb58
+SHA1-Digest: YpT/jGRQPE/iFKZP/rVnxv+VfAw=
+
+Name: res/drawable-hdpi-v4/gc_member_yellow.png
+SHA1-Digest: nVbA/Hu0EeBCTha5vKkhvzh7fQY=
+
+Name: res/drawable-hdpi-v4/gc_gamepad_rb.png
+SHA1-Digest: UVoHY3yI0cqDF2++R+rS0nur6a4=
+
+Name: assets/mmiap/01/logo1.png
+SHA1-Digest: ZTOcCOqg449YclvzglphWD1NSR8=
+
+Name: assets/bin/Data/ede14c3a74df67e4596b2cdd96c2485b
+SHA1-Digest: jQU6JD8psshveiRmzoq5bGeGdY4=
+
+Name: assets/bin/Data/unity default resources
+SHA1-Digest: JmfmSjVzwZRhbVeMmjKkTRDvbtg=
+
+Name: res/drawable-hdpi-v4/app_icon.png
+SHA1-Digest: jCk4BL5nMn38TikEXQk8n5wrux4=
+
+Name: assets/mmiap/image/vertical/icon_chifubao.png
+SHA1-Digest: VuJshThtrF4Rjw//Ctr5pIFx5jg=
+
+Name: assets/CMGC/cmcc_img/gc_logo_cmcc.png
+SHA1-Digest: 8GKzZ0uvlVVZRBYTEGcbLgTyg3A=
+
+Name: assets/unicom_account/accountsdk_2_icon_progress_3.png
+SHA1-Digest: 6MCeTdGWxY7fy0R08Vcz8DZgqMg=
+
+Name: assets/mmiap/image/vertical/title2_bg.png
+SHA1-Digest: at2u0fbDEzTAO0+wRjZwD7WAJJs=
+
+Name: assets/unicom_resource.dat
+SHA1-Digest: dksgEC0TBAxJWYXNK5AOQDA2zx8=
+
+Name: res/drawable-hdpi-v4/qy_btn_confirm_off.9.png
+SHA1-Digest: DhmGnA4o5ZETffGvKarTxHZhY/s=
+
+Name: assets/mmiap/01/close.png
+SHA1-Digest: yol2lGN3KrhCt5Ntnp/+4QF/VUg=
+
+Name: res/drawable-hdpi-v4/egame_sdk_icon_pay_alipay.png
+SHA1-Digest: 3AGejc5AXJSQYaKpseetUHS9Qic=
+
+Name: assets/unicom_account/accountsdk_2_float_bg_expand_rl.9.png
+SHA1-Digest: M2oAtphN6lx6G1f7cH7qmqTXAfA=
+
+Name: assets/bin/Data/60abe06c69c01404dbd522cb95362100
+SHA1-Digest: xVOo2mrCKL3thcshqo8bPrPl544=
+
+Name: res/drawable/egame_sdk_btn_green_selector.xml
+SHA1-Digest: xXdpdiKRZ7KsRgvmXoX34iGzGGQ=
+
+Name: assets/ctestore/ctestore_sure.png
+SHA1-Digest: Ri+N1agNVsir2BKdaH6vAaTAQ4A=
+
+Name: assets/mmpay.xml
+SHA1-Digest: gpOrnZOMPJ3RrNI3Bq42Z5Dlc6o=
+
+Name: res/drawable-hdpi-v4/qy_btn_close_on.png
+SHA1-Digest: 3M1AR1w/Eu4Q7LLalEv9ybpwE5k=
+
+Name: assets/UnicomConsume.uwc
+SHA1-Digest: X56Fm83nYG8/xSC0ADDT+uFOUh8=
+
+Name: assets/bin/Data/eee2c30ccef8f5148a6f55f0d60cc49e
+SHA1-Digest: QJ2HgQKN63Q/bf6G4b7YYKQB7aI=
+
+Name: assets/OpeningAnimation/g_rotate_mid.png
+SHA1-Digest: 7YOUkDk+auUhYfTTwaBDTa27tHU=
+
+Name: assets/bin/Data/b01d2a798fe4e4aaf8247654c81fc3b8
+SHA1-Digest: 5O+csIONUd/SaIqh8R43TLHxnV0=
+
+Name: res/drawable-hdpi-v4/egame_sdk_icon_pay_phone.png
+SHA1-Digest: deiz2kV++8kUhDgpPwKnK6dBzsw=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_search_friend_icon.png
+SHA1-Digest: rd7a0jKFG0rPteocn4ctIxrsi7I=
+
+Name: assets/feeInfo.dat
+SHA1-Digest: XePToyrYI6qCZD2CN8y56HNQ3OQ=
+
+Name: assets/mmiap/image/vertical/button1_disable.9.png
+SHA1-Digest: 8m0oD2MKpmu6C0rAH1pNmR6WjpM=
+
+Name: assets/bin/Data/1f195ddcf61148944a69b6e7fa69f680
+SHA1-Digest: VVANHCZye8xi5AsZ1FhU+lrenJw=
+
+Name: assets/bin/Data/84cc68bbe49f5412fbc97d9d3fe45239
+SHA1-Digest: L67G2M9bpZKiD1SUYKE/6AGtwzg=
+
+Name: res/drawable/dianxin_logo.png
+SHA1-Digest: KJoL54uHbP++rZSbP6e4W1L0BtE=
+
+Name: res/drawable-hdpi-v4/gc_sound_on.png
+SHA1-Digest: wC8RR8/Bc6R5Jo5V+wiVw5FjKwU=
+
+Name: res/drawable-hdpi-v4/gc_gamepad_stick_r.png
+SHA1-Digest: XDp+sjJ6xPF5aGdvBbG4XwcDe5E=
+
+Name: assets/OpeningAnimation/g_logo_cmgc.png
+SHA1-Digest: dw9C9vl5mMsBNLIha2NcSKmqVsk=
+
+Name: assets/mmiap/03/title2_bg.png
+SHA1-Digest: at2u0fbDEzTAO0+wRjZwD7WAJJs=
+
+Name: lib/x86/libanysdk.so
+SHA1-Digest: SZ45DXv88Tfr2wflQ6g/6dzwhQI=
+
+Name: assets/unicom_account/accountsdk_2_wostore_icon.png
+SHA1-Digest: QTI7Od23+Up+/hasGmsFa6182iM=
+
+Name: assets/bin/Data/d9044eda9e4f8c24abb387941b6cb9ca
+SHA1-Digest: ZLScGEoCuKXKnbn06riCPgpzEVc=
+
+Name: assets/ctestore/ctestore_blog_small.png
+SHA1-Digest: HRucuuF6H+g8g6RHG0TxFAidiYE=
+
+Name: assets/bin/Data/67e89e94ca1e01348bbecd6b14a4a13a
+SHA1-Digest: Fkfa3WyEBabfOtQSqoJt5a4SSEo=
+
+Name: assets/armeabi/libunicomsdk.jar
+SHA1-Digest: AimI/5KxAQlqIZbgibjuB9XWwm0=
+
+Name: assets/OpeningAnimation/g_no.png
+SHA1-Digest: d1iHOt5Tdst4bJ5l/Z+rfhmIaMU=
+
+Name: lib/armeabi-v7a/libegamepay.so
+SHA1-Digest: qA7QoE7jlz4wU4utDqgRiF/M6Ww=
+
+Name: assets/bin/Data/ff974de6f03ad6646a36a87adc412b12
+SHA1-Digest: gLtoK/fA/DRXeRZZhfqe9/byRkc=
+
+Name: assets/bin/Data/907f6f9d8594be64f883eb7840b48876
+SHA1-Digest: tvrKA91SGMorfuwPPxFrJQ00YBw=
+
+Name: assets/bin/Data/d5a0932727a5148aab2a56d91d1506c9
+SHA1-Digest: MWKZwOULWHA0L58f8nsDESuz0Vw=
+
+Name: assets/unicom_account/accountsdk_2_bg_white.9.png
+SHA1-Digest: +UHdUv+fN2txhnGMZDyKfFG157c=
+
+Name: assets/bin/Data/a026bbbc27805ec4d93eb226c3c5b79f
+SHA1-Digest: 9Fxb38YHDpsxcGEWpyDBp8bKjgk=
+
+Name: assets/mmiap/03/icon_info.png
+SHA1-Digest: Tzxt0fKmD3jerOCKPnUUJCGeoC8=
+
+Name: assets/bin/Data/206f54d04d8b5004ea5aa4e3118b5b7a
+SHA1-Digest: /RSvjNAWA8sZwK1+a4NnhB+JZ8Q=
+
+Name: assets/bin/Data/a29504a4908175f419f6842fcd8ef76d
+SHA1-Digest: XmT0O+BnTSakyMq6xtOTGcL1Z0g=
+
+Name: assets/bin/Data/d37389c61eae1934fb14d2337d7997ac
+SHA1-Digest: fRJUOhxJuF6ekPQD1ZTKDsOrLIY=
+
+Name: assets/mmiap/03/logo1.png
+SHA1-Digest: N+e8Mchbjb5hiFPP7/Ogjq6hDWA=
+
+Name: assets/bin/Data/c882ace3924a722408e99299d204e780
+SHA1-Digest: 9f2DFo1Oonb/WrFztsJ3i7MkWE0=
+
+Name: assets/ctestore/ctestore_tstitle_small.png
+SHA1-Digest: 0jFk2vFFqyaOhzflFZmh4x0SBqQ=
+
+Name: assets/bin/Data/4877b7b0540551044903e3d8b2bdf298
+SHA1-Digest: oiTkoSZgzS3Zon2asV6ZUZ5Gb0s=
+
+Name: assets/mmiap/03/vertical/sucresultdialog.xml
+SHA1-Digest: aLa/ucnC1noiV7fmBUXwOperTi4=
+
+Name: res/drawable-hdpi-v4/gc_start_logo.png
+SHA1-Digest: hc+xvkOmDdQ05l+wyhdmF+pa3HU=
+
+Name: res/drawable-hdpi-v4/egame_sdk_popup_btn_grey_pressed.9.png
+SHA1-Digest: gx8xr3CMZWf0Vac2g72Rqt4OTY8=
+
+Name: assets/mmiap/03/button1_confirm.9.png
+SHA1-Digest: 4R7Eld1CWay8DOJmOL2lNUDttNo=
+
+Name: assets/d_data_store.dat
+SHA1-Digest: GheqpPp3k8q/dvSK8/HMCBZYZes=
+
+Name: assets/mmiap/03/btn_gray_click.png
+SHA1-Digest: oynUUwfXfwXCFTgTcGZoHdJ5Ais=
+
+Name: assets/arm64-v8a/libunicomsdk.jar
+SHA1-Digest: TsSDmEUnuyxyc3oJ4HJ22Mozae4=
+
+Name: res/drawable-hdpi-v4/gc_user_center.png
+SHA1-Digest: iNNihr4IcIdnOkp6fWquaXd69IA=
+
+Name: assets/mmiap/02/logo1.png
+SHA1-Digest: N+e8Mchbjb5hiFPP7/Ogjq6hDWA=
+
+Name: assets/s_data_store.dat
+SHA1-Digest: kToUkK6Gb0vCRx6XVFZvpeiyYr8=
+
+Name: assets/mmiap/image/vertical/infoline.png
+SHA1-Digest: RYUCPPwehYMWB3iUCJ9WRAX/dMQ=
+
+Name: res/drawable-hdpi-v4/gc_center_look.png
+SHA1-Digest: bAohfULTxTxoS/aRm26MO1dknwA=
+
+Name: assets/bin/Data/b2393e6a77f78f4448193cd0db112b94
+SHA1-Digest: VHYC8Qm+2c0vkCXfiQkb0P2nrGs=
+
+Name: lib/armeabi-v7a/libcasdkjni.so
+SHA1-Digest: RSEl7jDhXVbHMb8d/5VAsJJJgtM=
+
+Name: res/drawable-hdpi-v4/gc_leaderboard_btn_selector.xml
+SHA1-Digest: +X5mQWo9yaGFOwv5w7ofZ64HAIQ=
+
+Name: assets/unicom_account/accountsdk_2_float_bg_expanded_lo.png
+SHA1-Digest: jLwRMWvPRHR5fKiJPUfXIz4Eq9U=
+
+Name: assets/unicom_account/accountsdk_2_radio.png
+SHA1-Digest: yUEyzZ6/0rD27k8dZa1OrtynWgg=
+
+Name: assets/mmiap/01/infoline.png
+SHA1-Digest: RYUCPPwehYMWB3iUCJ9WRAX/dMQ=
+
+Name: assets/ctestore/ctestore_tstitle.png
+SHA1-Digest: FzijSp4oHkakXvtRu9qUcPGVdds=
+
+Name: assets/arm64-v8a/libdecrypt.jar
+SHA1-Digest: XoA98BQlM4fcTi5w6ZK8jM++Pvo=
+
+Name: assets/mmiap/01/horizontal/progressdialog.xml
+SHA1-Digest: 8oZzte+lGCWU1P9EsJic9E7F8WM=
+
+Name: assets/unicom_account/accountsdk_2_btn_green.9.png
+SHA1-Digest: 6gEy0Z35Kifvr33C2iFJ5A8Ilqk=
+
+Name: assets/unicom_base/wostore_logo.png
+SHA1-Digest: EintUrOFJp8Nj2/E0+54PQc/kDU=
+
+Name: res/drawable-hdpi-v4/gc_drag_hide.png
+SHA1-Digest: ZCTP+oMEbpRZoXg3ShBEvZP2CPI=
+
+Name: assets/mmiap/01/horizontal/purchasedialog.xml
+SHA1-Digest: oVCd70nuhJ7KqFmf6hOxngFchXI=
+
+Name: assets/ctestore/ctestore_waizbg.9.png
+SHA1-Digest: EqkmvJbLK3jYfG0yqz07jtpGDbI=
+
+Name: assets/bin/Data/2ca5caca115919140946bdbd999fb03e
+SHA1-Digest: 9zQYvMeUCdy6Tv3eqUnFqEv5A3Y=
+
+Name: assets/mmiap/01/vertical/savingdialog.xml
+SHA1-Digest: 1gsLjRjsHZ5RgG6cBrIRu2ibZfU=
+
+Name: assets/bin/Data/4a902aa2ec2deaa469755f61aa3e8134
+SHA1-Digest: 0KBEhse64Oe8gRUoWYpplPbtdI0=
+

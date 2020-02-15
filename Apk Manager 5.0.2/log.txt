@@ -1,0 +1,110 @@
+-------------------------------------------------------------------------- 
+                     |2015-04-03 -- 16:48:14.15| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+-------------------------------------------------------------------------- 
+                     |2015-04-03 -- 16:49:13.39| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+Could Not Find C:\Publishing\RingTiger\SDK\Apk Manager 5.0.2\place-apk-here-for-modding\../place-apk-here-for-modding/signedBuffKnight.apk
+Could Not Find C:\Publishing\RingTiger\SDK\Apk Manager 5.0.2\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedBuffKnight.apk
+I: Baksmaling...
+I: Loading resource table...
+Exception in thread "main" brut.androlib.AndrolibException: Could not decode arsc file
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:55)
+	at brut.androlib.res.AndrolibResources.getResPackagesFromApk(AndrolibResources.java:315)
+	at brut.androlib.res.AndrolibResources.loadMainPkg(AndrolibResources.java:50)
+	at brut.androlib.res.AndrolibResources.getResTable(AndrolibResources.java:43)
+	at brut.androlib.Androlib.getResTable(Androlib.java:44)
+	at brut.androlib.ApkDecoder.getResTable(ApkDecoder.java:148)
+	at brut.androlib.ApkDecoder.decode(ApkDecoder.java:98)
+	at brut.apktool.Main.cmdDecode(Main.java:128)
+	at brut.apktool.Main.main(Main.java:65)
+Caused by: java.io.IOException: Expected: 0x001c0001, got: 0x00000000
+	at brut.util.ExtDataInput.skipCheckInt(ExtDataInput.java:48)
+	at brut.androlib.res.decoder.StringBlock.read(StringBlock.java:45)
+	at brut.androlib.res.decoder.ARSCDecoder.readPackage(ARSCDecoder.java:97)
+	at brut.androlib.res.decoder.ARSCDecoder.readTable(ARSCDecoder.java:82)
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:48)
+	... 8 more
+-------------------------------------------------------------------------- 
+|2015-04-03 -- 16:50:45.25| 
+-------------------------------------------------------------------------- 
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+Could Not Find C:\Publishing\RingTiger\SDK\Apk Manager 5.0.2\place-apk-here-for-modding\../place-apk-here-for-modding/signedBuffKnight.apk
+Could Not Find C:\Publishing\RingTiger\SDK\Apk Manager 5.0.2\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedBuffKnight.apk
+I: Baksmaling...
+I: Loading resource table...
+Exception in thread "main" brut.androlib.AndrolibException: Could not decode arsc file
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:55)
+	at brut.androlib.res.AndrolibResources.getResPackagesFromApk(AndrolibResources.java:315)
+	at brut.androlib.res.AndrolibResources.loadMainPkg(AndrolibResources.java:50)
+	at brut.androlib.res.AndrolibResources.getResTable(AndrolibResources.java:43)
+	at brut.androlib.Androlib.getResTable(Androlib.java:44)
+	at brut.androlib.ApkDecoder.getResTable(ApkDecoder.java:148)
+	at brut.androlib.ApkDecoder.decode(ApkDecoder.java:98)
+	at brut.apktool.Main.cmdDecode(Main.java:128)
+	at brut.apktool.Main.main(Main.java:65)
+Caused by: java.io.IOException: Expected: 0x001c0001, got: 0x00000000
+	at brut.util.ExtDataInput.skipCheckInt(ExtDataInput.java:48)
+	at brut.androlib.res.decoder.StringBlock.read(StringBlock.java:45)
+	at brut.androlib.res.decoder.ARSCDecoder.readPackage(ARSCDecoder.java:97)
+	at brut.androlib.res.decoder.ARSCDecoder.readTable(ARSCDecoder.java:82)
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:48)
+	... 8 more
+Could Not Find C:\Publishing\RingTiger\SDK\Apk Manager 5.0.2\place-apk-here-for-modding\../place-apk-here-for-modding/signedBuffKnight.apk
+Could Not Find C:\Publishing\RingTiger\SDK\Apk Manager 5.0.2\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedBuffKnight.apk
+I: Baksmaling...
+I: Loading resource table...
+Exception in thread "main" brut.androlib.AndrolibException: Could not decode arsc file
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:55)
+	at brut.androlib.res.AndrolibResources.getResPackagesFromApk(AndrolibResources.java:315)
+	at brut.androlib.res.AndrolibResources.loadMainPkg(AndrolibResources.java:50)
+	at brut.androlib.res.AndrolibResources.getResTable(AndrolibResources.java:43)
+	at brut.androlib.Androlib.getResTable(Androlib.java:44)
+	at brut.androlib.ApkDecoder.getResTable(ApkDecoder.java:148)
+	at brut.androlib.ApkDecoder.decode(ApkDecoder.java:98)
+	at brut.apktool.Main.cmdDecode(Main.java:128)
+	at brut.apktool.Main.main(Main.java:65)
+Caused by: java.io.IOException: Expected: 0x001c0001, got: 0x00000000
+	at brut.util.ExtDataInput.skipCheckInt(ExtDataInput.java:48)
+	at brut.androlib.res.decoder.StringBlock.read(StringBlock.java:45)
+	at brut.androlib.res.decoder.ARSCDecoder.readPackage(ARSCDecoder.java:97)
+	at brut.androlib.res.decoder.ARSCDecoder.readTable(ARSCDecoder.java:82)
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:48)
+	... 8 more
+Could Not Find C:\Publishing\RingTiger\SDK\Apk Manager 5.0.2\place-apk-here-for-modding\../place-apk-here-for-modding/signedBuffKnight.apk
+Could Not Find C:\Publishing\RingTiger\SDK\Apk Manager 5.0.2\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedBuffKnight.apk
+I: Baksmaling...
+I: Loading resource table...
+Exception in thread "main" brut.androlib.AndrolibException: Could not decode arsc file
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:55)
+	at brut.androlib.res.AndrolibResources.getResPackagesFromApk(AndrolibResources.java:315)
+	at brut.androlib.res.AndrolibResources.loadMainPkg(AndrolibResources.java:50)
+	at brut.androlib.res.AndrolibResources.getResTable(AndrolibResources.java:43)
+	at brut.androlib.Androlib.getResTable(Androlib.java:44)
+	at brut.androlib.ApkDecoder.getResTable(ApkDecoder.java:148)
+	at brut.androlib.ApkDecoder.decode(ApkDecoder.java:98)
+	at brut.apktool.Main.cmdDecode(Main.java:128)
+	at brut.apktool.Main.main(Main.java:65)
+Caused by: java.io.IOException: Expected: 0x001c0001, got: 0x00000000
+	at brut.util.ExtDataInput.skipCheckInt(ExtDataInput.java:48)
+	at brut.androlib.res.decoder.StringBlock.read(StringBlock.java:45)
+	at brut.androlib.res.decoder.ARSCDecoder.readPackage(ARSCDecoder.java:97)
+	at brut.androlib.res.decoder.ARSCDecoder.readTable(ARSCDecoder.java:82)
+	at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:48)
+	... 8 more
+java.io.FileNotFoundException: ..\place-apk-here-for-modding\unsignedBuffKnight.apk (Õß??‹Ù”Ú¶Ô“Ó‹Ÿ˛ÀÏ°£)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at com.android.signapk.SignApk.main(SignApk.java:437)
+Could Not Find C:\Publishing\RingTiger\SDK\Apk Manager 5.0.2\place-apk-here-for-modding\../place-apk-here-for-modding/unsignedBuffKnight.apk

@@ -1,0 +1,1 @@
+C:\android-sdk-windows\build-tools\20.0.0\aapt.exe a -v unsignedanysdklinkerdemo8.apk CopyrightDeclaration.xml mmiap.xml Version
