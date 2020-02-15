@@ -1,0 +1,18 @@
+# view AndroidManifest.xml #generated:51
+-keep class billingSDK.billingDemo.Telecom_CTE_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class cn.cmgame.billing.ui.GameOpenActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.estore.ui.CTEStoreSDKActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:8
+-keep class com.testgame.CmgameApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class com.testgame.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class mm.sms.purchasesdk.sms.SMSReceiver { <init>(...); }
+

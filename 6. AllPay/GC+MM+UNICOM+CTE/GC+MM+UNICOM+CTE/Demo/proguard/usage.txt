@@ -1,0 +1,86 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+billingSDK.billingDemo.SmsPayBase:
+    public abstract void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener)
+    public abstract void viewMoreGames(android.content.Context)
+    public abstract boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayCMCC_GC:
+    30:30:public static billingSDK.billingDemo.SmsPayCMCC_GC getInstance()
+    41:42:public void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener)
+    47:48:public void viewMoreGames(android.content.Context)
+    53:53:public boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayCMCC_MM:
+    38:38:public static billingSDK.billingDemo.SmsPayCMCC_MM getInstance()
+    56:57:public void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener)
+    62:62:public void viewMoreGames(android.content.Context)
+    66:66:public boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayFactory:
+    private static final int opMISMATCHES
+    private static final int opCMCC_GC
+    private static final int opUNICOM
+    private static final int opTELECOM
+    private static final int opCMCC_MM
+    186:191:public void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitGameListener)
+    195:198:public void viewMoreGames(android.content.Context)
+    202:205:public boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayFactory$SmsExitGameListener
+billingSDK.billingDemo.SmsPayFactory$SmsExitListener
+billingSDK.billingDemo.SmsPayFactory$SmsPayListener:
+    222:223:public void setSmsPurchaseListener(billingSDK.billingDemo.SmsPayFactory$SmsPurchaseListener)
+billingSDK.billingDemo.SmsPayTelecom_CTE:
+    49:49:public static billingSDK.billingDemo.SmsPayTelecom_CTE getInstance()
+    92:93:public void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener)
+    98:98:public void viewMoreGames(android.content.Context)
+    102:102:public boolean isMusicEnabled()
+billingSDK.billingDemo.SmsPayUnicom:
+    50:50:public static billingSDK.billingDemo.SmsPayUnicom getInstance()
+    81:82:public void exitGame(android.content.Context,billingSDK.billingDemo.SmsPayFactory$SmsExitListener)
+    87:87:public void viewMoreGames(android.content.Context)
+    91:91:public boolean isMusicEnabled()
+com.chinaMobile.MobileAgent:
+    public static final java.lang.String SDK_VERSION
+    public static final java.lang.String USER_STATUS_START
+    public static final java.lang.String USER_STATUS_ACTIVATE
+    public static final java.lang.String USER_STATUS_LOGIN
+    public static final java.lang.String USER_STATUS_REGIST
+    public static final java.lang.String USER_STATUS_CUSTOM
+    public MobileAgent()
+    public static void onPause(android.content.Context)
+    public static void onEvent(android.content.Context,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String,int)
+    public static void onEvent(android.content.Context,java.lang.String,int)
+    public static void listenUser(android.content.Context,java.lang.String,java.lang.String)
+    public static void listenCrash(android.content.Context)
+    public static void setAutoListenCrash(java.lang.Boolean)
+    private static java.lang.String createSessionBody(android.content.Context,java.lang.String,android.content.SharedPreferences)
+    protected static void sendFeedbackMessage(android.content.Context,java.lang.String,java.lang.String,java.lang.String)
+    private static boolean pushActLog(android.content.Context,java.lang.String,java.lang.String)
+    public static void updateOnlineConfig(android.content.Context)
+    public static void openFeedbackDialog(android.content.Context)
+    public static void setUpdateOnlineConfigListen(com.chinaMobile.MMOnlineConfigureListener)
+    static synthetic int access$0(android.content.Context,java.lang.String,org.json.JSONObject)
+com.chinaMobile.a
+com.chinaMobile.b
+com.chinaMobile.e
+com.chinaMobile.g:
+    public g()
+com.chinaMobile.i
+com.chinaMobile.j:
+    public j()
+com.chinaMobile.m:
+    public m()
+com.chinaMobile.n
+com.chinaMobile.o
+com.chinaMobile.p
+com.demo.smspay.BuildConfig
+com.demo.smspay.R
+com.demo.smspay.R$attr
+com.demo.smspay.R$color
+com.demo.smspay.R$dimen
+com.demo.smspay.R$drawable
+com.demo.smspay.R$id
+com.demo.smspay.R$layout
+com.demo.smspay.R$raw
+com.demo.smspay.R$string
+com.demo.smspay.R$style
